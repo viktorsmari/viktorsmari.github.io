@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Viktor Smari CV</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
 	</head>
@@ -34,20 +35,13 @@
 			<div class="row">
 
 				<div class="col-md-5 col-md-push-7">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<h2>Skills</h2>
-						</div>
-						<div class="panel-body">
-							<ul>
-								<li>HTML/CSS, SASS.</li>
-								<li>JavaScript; jQuery, AngularJS.</li>
-								<li>Git</li>
-								<li>Linux server setup & administration</li>
-								<li>Meteor, Wordpress, Symfony</li>
-							</ul>
-						</div>
-					</div>
+					<h2>Keywords:</h2>
+					<ul>
+						<li>HTML/CSS, SASS, Gulp, <s>Grunt</s>, Git</li>
+						<li>JavaScript; jQuery, AngularJS</li>
+						<li>Linux server setup & administration + networking</li>
+						<li>Meteor, Wordpress, Symfony, LAMP</li>
+					</ul>
 				</div>
 				<!--  End col-4 -->
 
@@ -56,6 +50,7 @@
 					<h4>2015 - Zupa Copenhagen - Web developer / System Administrator</h4>
 					<ul>
 						<li>Various HTML/CSS/JS projects. Responsible for server uptime, network infrastructure.</li>
+						<li>System backups</li>
 					</ul>
 					<h4>2014 - HTML24 Copenhagen - Web developer</h4>
 					<ul>
@@ -83,14 +78,14 @@
 					<h4>2011 - Freelance Audio Engineer</h4>
 					<p>Worked long hours (at least 12 hours per day) in the film industry on projects such as:</p>
 
-					<dl class="dl-horizontal">
-						<dt><a href="http://www.imdb.com/title/tt1860181/?ref_=fn_al_tt_6">Black's Game</a></dt>
-						<dd>Sound on location.</dd>
-						<dt>Pressa 2</dt>
-						<dd>Sound on location and post production.</dd>
-						<dt><a href="http://www.imdb.com/title/tt2354851/?ref_=fn_al_tt_1">Heimsendir</a></dt>
-						<dd>Responsible for backup of all digital media and preparation for editing.</dd>
-					</dl>
+					<div class="list-group">
+						<li class="list-group-item"><a href="http://www.imdb.com/title/tt1860181/?ref_=fn_al_tt_6">Black's Game</a> - Sound on location.</li>
+						<li class="list-group-item">Pressa 2 - Sound on location and post production.</li>
+						<li class="list-group-item"><a href="http://www.imdb.com/title/tt2354851/?ref_=fn_al_tt_1">Heimsendir</a> - Responsible for backup of all digital media and preparation for editing.</li>
+					</div>
+					
+					<br>
+					
 					<h4>2010 - Apple - Technician</h4>
 					<ul>
 						<li>Repairing laptops, desktops, some system administration, customer service etc.</li>
@@ -107,22 +102,26 @@
 			</ul>
 			<hr>
 			<h2>Interests & hobbies</h2>
-			<h4>Music & media</h4>
-			<ul>
-				<li>I have been playing the guitar in a <a href="https://www.facebook.com/depublic"> rock band called Depublic</a> since 2003.</li>
-				<li>I've recorded a few albums including my bands debut, <a href="https://www.youtube.com/playlist?list=PLqk4VryX8RVrl27dEd91rj1gl9fCWycNf">The Silence In Your Head</a>.</li>
-				<li>I like taking photos and making <a href="https://www.youtube.com/playlist?list=PLaxquseA83on1yrIPwW4m-F2g13ECG3l8">
-					timelapse</a> videos with my trusty Canon 550d or GoPro Hero2.</li>
-			</ul>
 
 			<h4>Computing</h4>
 			<ul>
 				<li>On my laptop I favor Ubuntu with the <a href="http://i3wm.org/">i3 window manager</a> and zsh shell with oh-my-zsh</li>
-				<li>For coding I mostly use Atom,vim and git</li>
+				<li>For coding I mostly use Atom, vim and git</li>
 				<li>I have a home server which monitors movement (Zoneminder) and most of my computers and network devices with SNMP and Cacti for graphing.</li>
 				<li>Raspberry Pi. Using one as XBMC media center, another as Munin monitoring server.</li>
-				<li>Arduino. Planning to use it to detect sunlight and water my indoor herb garden.
-					I've yet only managed to make it play the <a href="https://www.youtube.com/watch?v=rEUASjuaOWA">Darth Vader theme song</a> from Star Wars.</li>
+				<li>Arduino. Planning to use it to  
+					<a href="https://twitter.com/viktorsmar/status/632902684295696384">detect sunlight, temperature</a> and soil moisture and water my herb garden.
+					Here one of my Arduinos is playing the <a href="https://youtu.be/rEUASjuaOWA?t=43s">Darth Vader theme song</a> from Star Wars.
+				</li>
+				<li>For recording audio I used to use Pro Tools but now I am switching to 100% Freedeom Software and moving my workflow to <a href="http://ardour.org/">Ardour</a></li>
+				<li>I like to support Open Source software directly through <a href="https://www.bountysource.com/people/26380-viktorsmari">bountysource</a></li>
+			</ul>
+			<h4>Music & media</h4>
+			<ul>
+				<li>I have been playing guitar in a <a href="https://www.facebook.com/depublic"> rock band called Depublic</a> since 2003.</li>
+				<li>I've recorded a few albums including my bands debut, <a href="https://www.youtube.com/playlist?list=PLqk4VryX8RVrl27dEd91rj1gl9fCWycNf">The Silence In Your Head</a>.</li>
+				<li>I like taking photos and making <a href="https://www.youtube.com/playlist?list=PLaxquseA83on1yrIPwW4m-F2g13ECG3l8">
+					timelapse</a> videos with my trusty Canon 550d or GoPro Hero2, currently editing with <a href="https://kdenlive.org/">kdenlive</a></li>
 			</ul>
 
 			<h4>Personal</h4>
