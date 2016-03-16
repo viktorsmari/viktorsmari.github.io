@@ -18,10 +18,10 @@ permalink: /hobby/
 
 
 #### Music & media
-* See my recording setup here and some of my songs here.
 * I like to play guitar, keyboards and drums.
 * I've recorded a few albums including my bands debut, Depublic - [The Silence In Your Head.](https://www.youtube.com/playlist?list=PLqk4VryX8RVrl27dEd91rj1gl9fCWycNf)
 * I like taking photos and making [timelapse](https://www.youtube.com/playlist?list=PLaxquseA83on1yrIPwW4m-F2g13ECG3l8) videos with my trusty Canon 550d or GoPro Hero2, currently editing with [kdenlive](https://kdenlive.org/).
+* Here is an [overview]({% post_url 2016-03-15-music%}) of my recording setup.
 
 
 #### Personal
