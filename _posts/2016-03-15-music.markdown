@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Music setup"
+date:   2016-03-15 19:36:47 +0100
+categories: music
+---
+
+
+
+
+*I used to be a Pro Tools / Logic / Reason user but since 2014 I try to make all my music with Free Software.*
+
+
+#### Software
+* [Ardour](http://www.ardour.org/) - for recording instruments and mixing
+* [LMMS](https://www.lmms.io/) - For playing keyboards via MIDI
+* [Hydrogen](http://www.hydrogen-music.org/hcms/) - for creating drum patterns
+* Jack - connect all the things
+
+*Most of this software comes bundled with [Ubuntu Studio](https://ubuntustudio.org/)*
+
+#### Hardware
+
+* M-Box 2 - Bought this in 2005, works fine for mixing and quickly recording 2 channels
+* M-Audio keystation 49e
+* Korg PadKontrol MIDI Pad - for finger drumming
+* M-Audio ProFire 2424 - Connected to a PCI FireWire card with VIA chipset using FFADO drivers
+* Focusrite Octopre MK2 for extra 8 channels via ADAT
+* Yamaha HS-50M
+
+
+#### Gear
+
+* Profire 2626
+* Focusrite Octopre Mk2
+* Mbox2 / Digi002
+* iMac 3GHz Core2 Duo
+* Pro Tools 9, Logic, Reason
+* Yamaha HS-50M
+
+#### Mic:
+
+* 1x sE Z3300A
+* 2x sE 2a
+* 1x sE X1
+* 4x Sm57
+* 2x Sm58
+* 1x Beta52a
+* 1x Pg48
+* 1x Pg52
+* 1x Behringer B-2
+* 1x Röde NTG-3
+
+[Here](/songs.html) is some of my music

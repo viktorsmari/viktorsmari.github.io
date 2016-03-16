@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Raspberry Pi"
+date:   2016-03-15 19:36:47 +0100
+categories: raspberry munin
+---
+
+
+I have a few raspberry pies I use to make timelapse and monitor the environment along with my IT infrastructure.
+
+
+*Here is a graph of air pressure from Munin.*
+![Munin](/assets/munin.png "Munin graph")
+
+
+
+
+
+
+
+
+
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
