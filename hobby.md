@@ -34,4 +34,5 @@ permalink: /hobby/
 * D3.js
 * ~~Docker~~
 * ~~Ansible~~
+* ~~Meteor~~
 * ~~Angular~~
