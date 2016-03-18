@@ -6,10 +6,18 @@ permalink: /
 
 
 
+### Some of the technologies I have worked with:
+  * HTML / CSS, SASS
+  * 
 
 #### 2016 - DTU Copenhagen - Full stack web developer
-  * Working on [DTU findit](http://findit.dtu.dk/) search machine.
-  * Docker, Solr, Java, Rails, RabbitMQ
+
+  * Maintaining and adding features to the [DTU findit](http://findit.dtu.dk/) search machine (Ruby on Rails).
+  * Implementing Docker, hopefully using Docker Swarm in production soon.
+  
+Technologies used:
+
+  * Docker, Solr, Java, Ruby on Rails, RabbitMQ
 
 #### 2015 - Zupa Copenhagen - Web developer / System Administrator
   * Various HTML5/CSS/JS projects.

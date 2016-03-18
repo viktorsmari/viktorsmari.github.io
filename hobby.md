@@ -33,3 +33,5 @@ permalink: /hobby/
 #### My Todo list of technologies
 * D3.js
 * ~~Docker~~
+* ~~Ansible~~
+* ~~Angular~~
