@@ -11,7 +11,7 @@ I have a few Raspberry Pies I use to do the following:
 * Take pictures and create a timelapse 
 * Monitor the environment (humidity, temp) along with the usual (RAM, CPU)
 
-I use Ansible plays for setup and Munin to print display the values on a graph.
+I use Ansible plays for setup and Munin to display the values on a graph.
 
 *Here is a graph of air pressure from Munin.*
 ![Munin](/assets/munin.png "Munin graph")
