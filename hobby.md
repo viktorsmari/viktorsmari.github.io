@@ -5,13 +5,12 @@ permalink: /hobby/
 ---
 
 
-{{page.date}}
-
 #### Computing
 * OS: Ubuntu or debian
 * My productivity tools include:
   * [i3 Window manager](http://i3wm.org/)
   * vim, git, zsh shell with oh-my-zsh
+  * Ansible for configuration management
 * I use Raspberry Pi to take timelapse photos of my indoor herb garden, monitor my computers, temperature, air pressure and humidity. 
 * Arduino. Planning to use it to detect sunlight, temperature and soil moisture and water my herb garden. Here is one of my Arduinos playing the [Darth Vader theme song from Star Wars.](https://youtu.be/rEUASjuaOWA?t=43s)
 * I like to support Open Source software directly through [bountysource](https://www.bountysource.com/people/26380-viktorsmari).
