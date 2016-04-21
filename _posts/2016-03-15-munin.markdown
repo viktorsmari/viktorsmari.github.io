@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Raspberry Pi setup"
+date:   2016-03-15 19:36:47 +0100
+categories: raspberry munin
+---
+
+
+I have a few Raspberry Pies I use to do the following:
+
+* Take pictures and create a timelapse 
+* Monitor the environment (humidity, temp) along with the usual (RAM, CPU)
+
+I use Ansible plays for setup and Munin to display the values on a graph.
+
+*Here is a graph of air pressure from Munin.*
+![Munin](/assets/munin.png "Munin graph")
+
+
+<br>
+This Rasp is using DHT11 sensor to monitor humidity and temperature. The results are sent back using a munin-agent plugin I wrote.
+It also takes pictures triggered with a cronjob every 30 minutes.
+The images are then rsync-ed from a remote computer which creates a timelapse movie.
+
+<img src="/assets/rasphum.jpg" width="600" alt="Raspberry humidity">
+
+
+<br>
+*This was a Arduino test, detecting light and temperature and printing it out on a LCD display*
+
+![Pic](/assets/rasptemp.jpg  "Temperature")
+
+
+
