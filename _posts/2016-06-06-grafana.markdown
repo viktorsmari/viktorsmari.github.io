@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Grafana running on Raspberry Pi 1"
+date:   2016-03-15 19:36:47 +0100
+categories: Raspberry iot
+---
+
+
+Grafana runs *ok* on a Raspberry Pi 1 with 512 MB RAM.
+
+It is running a playlist, rotating every 2 mins.
+
+
+
+
+
+
+<img src="/assets/grafana.jpg" width="600" alt="Raspberry humidity">
+
+*On the picture, Grafana is displaying info about my laptop. Data was gathered by telegraf agent and posted into an InfluxDB which Grafana reads from.*
+
+
