@@ -14,6 +14,7 @@ permalink: /hobby/
 * I use Raspberry Pi to take timelapse photos of my indoor herb garden, monitor my computers, temperature, air pressure and humidity. 
 * Arduino. Planning to use it to detect sunlight, temperature and soil moisture and water my herb garden. Here is one of my Arduinos playing the [Darth Vader theme song from Star Wars.](https://youtu.be/rEUASjuaOWA?t=43s)
 * I like to support Open Source software directly through [bountysource](https://www.bountysource.com/people/26380-viktorsmari).
+* I also contribute code to some Open Source projects on github including the [Icelandic Pirate Party](https://github.com/piratar/wasa2il/)
 
 
 #### Music & media
@@ -25,7 +26,7 @@ permalink: /hobby/
 
 #### Personal
 * Non smoker. I try to eat healthy and go to the gym at least 3 times per week.
-* Cyclist. Use strava to track my rides.
+* I prefer [bicycling](/strava.html) for transportation.
 * Practiced football for around 20 years and dancing for about 2 years.
 
 
