@@ -5,12 +5,11 @@ permalink: /
 ---
 
 
-#### 2016 - DTU Copenhagen - Full stack web developer
+#### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
   * Maintaining and adding features to the [DTU findit](http://findit.dtu.dk/) search machine (Ruby on Rails).
   * Implementing Docker in development (and production)
-  * Splitting the Java monolith app to smaller services using RabbitMQ
-  * Technologies include: Docker, Solr, Java, Ruby on Rails, RabbitMQ
+  * Write Ansible plays to maintain services including nagios, Jenkins, Solr
 
 #### 2015 - Zupa Copenhagen - Web developer / System Administrator
   * Various HTML5/CSS/JS projects.
