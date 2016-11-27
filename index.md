@@ -6,8 +6,9 @@ permalink: /
 
 #### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
-  * Maintaining and adding features to the [DTU findit](http://findit.dtu.dk/) search machine (Ruby on Rails).
-  * Implementing Docker in development (and production)
+  * Maintaining and adding features to the [DTU findit](http://findit.dtu.dk/) search machine (Ruby on Rails, Bootstrap, Postgres, Solr).
+  * Implementing Docker in development and production.
+  * Moved from Jenkins to a Gitlab CI/CD pipeline.
   * Write Ansible plays to maintain services including nagios, Jenkins, Solr
 
 #### 2015 - Zupa Copenhagen - Web developer / System Administrator
