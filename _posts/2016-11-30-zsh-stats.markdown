@@ -32,4 +32,4 @@ Here are my top commands **on my home machine**:
     20	129  1.29013%   gco     (git checkout)
 
 
-**I added explanation in pare nthesis()*
+**I added explanation in parenthesis()*
