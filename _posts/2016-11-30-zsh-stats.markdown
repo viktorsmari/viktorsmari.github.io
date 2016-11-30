@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "My ZSH stats"
+date:   2016-10-12 19:36:47 +0100
+categories: zsh terminal
+---
+
+
+Oh My Zsh offers the command 'zsh_stats' which outputs which terminal commands you use the most.
+
+Here are my top commands **on my home machine**:
+
+     1	662  6.62066%   vi
+     2	645  6.45065%   docker
+     3	485  4.85049%   cd
+     4	469  4.69047%   sgrep
+     5	454  4.54045%   l
+     6	343  3.43034%   gst     (git status alias)
+     7	245  2.45025%   git
+     8	235  2.35024%   ssh
+     9	226  2.26023%   gp      (git push)
+    10	224  2.24022%   rails
+    11	223  2.23022%   sudo
+    12	212  2.12021%   ga      (git add)
+    13	204  2.0402%    ds      (docker service)
+    14	195  1.9502%    rm
+    15	194  1.94019%   z
+    16	181  1.81018%   curl
+    17	154  1.54015%   ls
+    18	147  1.47015%   gd      (git diff)
+    19	130  1.30013%   doco    (docker-compose)
+    20	129  1.29013%   gco     (git checkout)
+
+
+**I added explanation in pare nthesis()*
