@@ -11,7 +11,7 @@ permalink: /hobby/
   * [i3 Window manager](http://i3wm.org/)
   * vim, git, zsh shell with oh-my-zsh
   * Ansible for configuration management
-* I use Raspberry Pi to take timelapse photos of my indoor herb garden, monitor my computers, temperature, air pressure and humidity. 
+* I use Raspberry Pi to take timelapse photos of my [indoor herb garden](https://www.youtube.com/watch?v=3lpvy2-G25Q), monitor my computers, temperature, air pressure and humidity. 
 * Arduino. Planning to use it to detect sunlight, temperature and soil moisture and water my herb garden. Here is one of my Arduinos playing the [Darth Vader theme song from Star Wars.](https://youtu.be/rEUASjuaOWA?t=43s)
 
 #### Open source
