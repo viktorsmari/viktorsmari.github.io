@@ -51,4 +51,4 @@ categories: music
 * 1x Behringer B-2
 * 1x Röde NTG-3
 
-[Here](/songs.html) is some of my music
+[Here](/music) is some of my music
