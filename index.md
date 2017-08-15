@@ -4,7 +4,12 @@ title: CV
 permalink: /
 ---
 
-
+#### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
+  * Adding features and fixing bugs on Ruby on Rails + Angular stack
+  * System administration, adding SSL, Docker etc.
+  * Implement monitoring, Grafana, Influxdb.
+  * Create minimal frontends with Vue.js
+  
 #### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
   * Maintaining and adding features to the [DTU findit](http://findit.dtu.dk/) search machine (Ruby on Rails, Bootstrap, Postgres, Solr).
