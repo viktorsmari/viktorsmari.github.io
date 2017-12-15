@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "My ZSH stats 2017"
+date:   2017-12-15 19:36:47 +0100
+categories: zsh terminal
+---
+
+Here are my top 2017 commands **on my home machine**:
+
+     1	639  6.39064%   vi
+     2	565  5.65057%   curl
+     3	533  5.33053%   rgrep
+     4	531  5.31053%   sgrep
+     5	380  3.80038%   cd
+     6	348  3.48035%   grep
+     7	287  2.87029%   rm
+     8	228  2.28023%   sudo
+     9	228  2.28023%   git
+    10	224  2.24022%   ga
+    11	221  2.21022%   doco
+    12	219  2.19022%   ll
+    13	213  2.13021%   gco
+    14	190  1.90019%   rails
+    15	178  1.78018%   ssh
+    16	167  1.67017%   bundle
+    17	164  1.64016%   mv
+    18	153  1.53015%   hgrep
+    19	141  1.41014%   cp
+    20	138  1.38014%   z
