@@ -4,6 +4,11 @@ title: CV
 permalink: /
 ---
 
+#### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
+  * Adding features and fixing bugs on Ruby on Rails + Angular stack
+  * System administration, implement Ansible, SSL with letsencrypt, Dockerize services
+  * Implement [monitoring](https://grafana.smartcitizen.me), Grafana, Influxdb.
+  * Create minimal Vue.js [frontend for an embedded system](https://fablabbcn.github.io/smartcitizen-kit-20/esp/data/)
 
 #### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
@@ -30,9 +35,7 @@ permalink: /
 *Previous jobs include IT support, computer repairs and freelance audio engineering.*
 
 
-## Education 
+## Education
   * 2012 - 2015 - Reykjavik University - Bachelor of Computer Science.
   * 2007 - 2008 - SAE Institute - Diploma, Audio Engineering.
   * 2000 - 2005 - Reykjavik Technical College - Networking as a main course of study.
-
-
