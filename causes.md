@@ -26,7 +26,7 @@ Here are some causes I care about:
 * [German union fights for 28 work week](http://www.independent.co.uk/voices/four-day-working-week-german-union-28-hours-uk-fight-for-the-same-a7996261.html)
 
 #### Sustainable living
-**I try to:**
+I **try** to:
 
 * travel using my own energy
 * buy items without packaging. - Who needs a banana wrapped in plastic?
