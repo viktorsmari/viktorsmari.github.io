@@ -21,7 +21,6 @@ permalink: /
   * Various HTML5/CSS/JS projects.
   * Responsible for server uptime, network infrastructure, system backups
 
-
 #### 2014 - Advania (Iceland) - Linux System Administrator (Summer job / part time)
   * Administering and installing servers (Debian, CentOS).
   * Puppet provisioning, scripting, VMware.
@@ -33,7 +32,6 @@ permalink: /
   * Web programming, Unity3D, JavaScript and more.
 
 *Previous jobs include IT support, computer repairs and freelance audio engineering.*
-
 
 ## Education
   * 2012 - 2015 - Reykjavik University - Bachelor of Computer Science.
