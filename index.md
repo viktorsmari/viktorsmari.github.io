@@ -4,11 +4,17 @@ title: CV
 permalink: /
 ---
 
+
 #### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
   * Adding features and fixing bugs on Ruby on Rails + Angular stack
   * System administration, implement Ansible, SSL with letsencrypt, Dockerize services
   * Implement [monitoring](https://grafana.smartcitizen.me), Grafana, Influxdb.
   * Create minimal Vue.js [frontend for an embedded system](https://fablabbcn.github.io/smartcitizen-kit-20/esp/data/)
+
+#### 2017 - Repero.me (Side project)
+  * Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
+  * Will soon offer a paid subscription where premium users can send SMS and emails to their customers.
+  * Tech: Ruby on Rails
 
 #### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
@@ -19,17 +25,13 @@ permalink: /
 
 #### 2015 - Zupa Copenhagen - Web developer / System Administrator
   * Various HTML5/CSS/JS projects.
-  * Responsible for server uptime, network infrastructure, system backups
+  * Responsible for server uptime, network infrastructure, system backups.
 
 #### 2014 - Advania (Iceland) - Linux System Administrator (Summer job / part time)
   * Administering and installing servers (Debian, CentOS).
   * Puppet provisioning, scripting, VMware.
   * Install & manage Plesk, troubleshoot mail services.
   * Client technical support.
-
-#### 2013 - reKode Education - Instructor (Summer Job)
-  * Teaching children how to code and take apart computers.
-  * Web programming, Unity3D, JavaScript and more.
 
 *Previous jobs include IT support, computer repairs and freelance audio engineering.*
 
