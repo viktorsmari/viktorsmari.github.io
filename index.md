@@ -14,7 +14,9 @@ permalink: /
 #### 2017 - Repero.me (Side project)
   * Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
   * Will soon offer a paid subscription where premium users can send SMS and emails to their customers.
-  * Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting. Mailgun for emails. Plivo for SMS.
+  * Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting. Mailgun API for emails. Plivo API for SMS.
+  * Code Coverage ~72% reported by simplecov using minitest-rails + capybara-webkit. (No RSpec)
+  * (Not open source at the moment)
 
 #### 2016 - DTU Copenhagen - Full stack web developer / System Administrator
 
