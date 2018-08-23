@@ -8,7 +8,7 @@ permalink: /
 #### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
   * Adding features and fixing bugs on Ruby on Rails + Angular stack.
   * System administration, implemented Ansible, SSL with letsencrypt, Dockerized services.
-  * Implemented [monitoring](https://grafana.smartcitizen.me), Grafana, Influxdb. 
+  * Implemented [monitoring](https://grafana.fab.city), Grafana, Influxdb. 
   * Setup self hosted Sentry.io for error tracking.
   * Created a minimal Vue.js [frontend setup tool for embedded system](https://fablabbcn.github.io/smartcitizen-kit-20/esp/data/)
 
