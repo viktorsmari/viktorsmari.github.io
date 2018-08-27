@@ -1,4 +1,26 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+//@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+html, body {
+  font-size: 1em;
+  line-height: 1.65em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+footer{
+  background-color: #ccc;
+}
+
+.svg-icon{
+  width: 26px;
+  height: 16px;
+}
+
