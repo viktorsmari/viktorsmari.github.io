@@ -1,8 +1,10 @@
 ---
+title: Copenhagen housing prices
+date: 2016-10-12 18:36:47 Z
+categories:
+- Denmark
+- Copenhagen
 layout: post
-title:  "Copenhagen housing prices"
-date:   2016-10-12 19:36:47 +0100
-categories: Denmark Copenhagen
 ---
 
 I had a hard time finding a history of housing prices in Copenhagen.

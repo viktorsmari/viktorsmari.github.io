@@ -1,23 +1,22 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Viktor Smári
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: viktorsmari@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Viktor Smári Ágústuson, Computer Scientist.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://viktorsmari.github.io" # the base hostname & protocol for your site
+description: 'Viktor Smári Ágústuson, Computer Scientist.
+
+'
+baseurl: ''
+url: http://viktorsmari.github.io
 twitter_username: viktorsmar
-github_username:  viktorsmari
-linkedin_username:  viktorsmari
-youtube_username:  viktorsmarik
-
+github_username: viktorsmari
+linkedin_username: viktorsmari
+youtube_username: viktorsmarik
 future: true
-
-# Build settings
 markdown: kramdown

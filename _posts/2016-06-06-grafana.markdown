@@ -1,10 +1,11 @@
 ---
+title: Grafana running on Raspberry Pi 1
+date: 2016-06-06 14:15:15 Z
+categories:
+- Raspberry
+- iot
 layout: post
-title:  "Grafana running on Raspberry Pi 1"
-date:   2016-06-06 15:15:15 +0100
-categories: Raspberry iot
 ---
-
 
 Grafana runs *ok* on a Raspberry Pi 1 with 512 MB RAM.
 

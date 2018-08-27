@@ -1,10 +1,11 @@
 ---
+title: My ZSH stats 2016
+date: 2016-10-12 18:36:47 Z
+categories:
+- zsh
+- terminal
 layout: post
-title:  "My ZSH stats 2016"
-date:   2016-10-12 19:36:47 +0100
-categories: zsh terminal
 ---
-
 
 Oh My Zsh offers the command 'zsh_stats' which outputs which terminal commands you use the most.
 

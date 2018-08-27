@@ -1,9 +1,8 @@
 ---
-layout: page
 title: Hobby
-permalink: /hobby/
+permalink: "/hobby/"
+layout: page
 ---
-
 
 #### Computing
 * OS: Ubuntu or debian

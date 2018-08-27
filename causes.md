@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Causes
-permalink: /causes/
+permalink: "/causes/"
+layout: page
 ---
 
 Here are some causes I care about:

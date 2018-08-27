@@ -1,9 +1,8 @@
 ---
-layout: page
 title: CV
-permalink: /
+permalink: "/"
+layout: page
 ---
-
 
 #### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
   * Adding features and fixing bugs on Ruby on Rails + Angular stack.

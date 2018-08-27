@@ -1,10 +1,11 @@
 ---
+title: Adding signature to a PDF in Linux, Ubuntu
+date: 2018-08-23 17:36:47 Z
+categories:
+- linux
+- pdf
 layout: post
-title:  "Adding signature to a PDF in Linux, Ubuntu"
-date:   2018-8-23 18:36:47 +0100
-categories: linux pdf
 ---
-
 
 How to add your **signature** in Linux, Ubuntu, just like in Preview on MacOS?
 

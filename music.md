@@ -1,7 +1,7 @@
 ---
-layout: page
 title: My music
-permalink: /music/
+permalink: "/music/"
+layout: page
 ---
 
 #### Instrumental
