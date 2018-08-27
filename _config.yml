@@ -18,3 +18,5 @@ linkedin_username: viktorsmari
 youtube_username: viktorsmarik
 future: true
 markdown: kramdown
+
+theme: jekyll-theme-slate
