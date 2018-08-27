@@ -9,9 +9,7 @@ collections:
     title: Uploads
     output: true
 email: viktorsmari@gmail.com
-description: 'Viktor Smári Ágústuson, Computer Scientist.
-
-'
+description: 'Viktor Smári Ágústuson, Computer Scientist.'
 baseurl: ''
 url: http://viktorsmari.github.io
 twitter_username: viktorsmar
