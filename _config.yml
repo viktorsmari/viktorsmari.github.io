@@ -18,4 +18,8 @@ linkedin_username: viktorsmari
 youtube_username: viktorsmarik
 future: true
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 #theme: jekyll-theme-slate
