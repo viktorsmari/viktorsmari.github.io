@@ -19,6 +19,6 @@ youtube_username: viktorsmarik
 future: true
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
