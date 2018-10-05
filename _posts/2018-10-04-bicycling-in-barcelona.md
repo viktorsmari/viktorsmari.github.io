@@ -1,6 +1,6 @@
 ---
 title: Bicycling in Barcelona
-date: 2018-10-4 20:26:40 Z
+date: 2018-10-04 20:26:40 Z
 categories:
 - barcelona
 - bicycling
