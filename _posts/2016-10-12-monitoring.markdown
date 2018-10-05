@@ -12,6 +12,7 @@ I'm using a Raspberry Pi to post whenever it detects motion in my apartment. It 
 
 *This graph is Grafana running in a Docker container locally, fetching data from a remote influxdb.*
 
-![Munin](/assets/grafana_motion.png "Grafana motion")
+<img src="/assets/grafana_motion.png" alt="grafana" class="img-fluid" />
+
 
 

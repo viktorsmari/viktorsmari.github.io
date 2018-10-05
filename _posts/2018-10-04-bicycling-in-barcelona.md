@@ -9,7 +9,9 @@ layout: post
 
 Barcelona has done a great job adding Bicycle lanes around the city from 2015-2018, making the city more liveable and fun.
 
-![riders on bicing](/assets/2-girls-biking.png)
+<div class="text-center">
+  <img src="/assets/2-girls-biking.png" alt="bike" class="img-fluid" />
+</div>
 
 *2 riders side by side on Passeig de Pujades on Bicing bicycles*
 
@@ -45,14 +47,14 @@ Having lived in two of the best Bicycle cities in the world, Amsterdam and Copen
 #### 1. What is wrong with Bicycle paths in the middle?
 
 If I want to make a left turn here and need to wait for the light for 20sec, where should I wait?
-![](/assets/no-space.png)
+<img src="/assets/no-space.png" alt="bike" class="img-fluid" />
 
 What if there are 5 more people with me who also want to turn left? Where should they wait?
 
 
 Here is a car deciding to turn left, having to wait, and therefor **blocking** bicycles from **both** directions!
 
-![](/assets/bicyclist-annoyed.png)
+<img src="/assets/bicyclist-annoyed.png" alt="bike" class="img-fluid" />
 
 **Solution: Have the bicycle lane on the right side**
 
@@ -62,23 +64,23 @@ This is not a problem in Copenhagen.
 
 #### Cars blocking traffic
 Sometimes cars don't want to miss the next 'wave' of green light jamming the bicycle path.
-![](/assets/cars-blocking.png)
+<img src="/assets/cars-blocking.png" alt="bike" class="img-fluid" />
 
 Taxi stopping to let out passengers on the middle of a double bike path.
-![](/assets/taxi-woman.png)
+<img src="/assets/taxi-woman.png" alt="bike" class="img-fluid" />
 
 #### Trucks or vans unloading
 
 
-![](/assets/truck2-block.png)
+<img src="/assets/truck2-block.png" alt="bike" class="img-fluid mx-auto" />
 
-![](/assets/van-blocking.png)
+<img src="/assets/van-blocking.png" alt="bike" class="img-fluid mx-auto" />
 
-![](/assets/van2-blocking.png)
+<img src="/assets/van2-blocking.png" alt="bike" class="img-fluid mx-auto" />
 
 Here on the right side is a warehouse with big trucks often driving into the bicycle lane when backing up to the port.
 During that, they often hit the small separator barriers, breaking them, and creating danger for bicyclists.
-![](/assets/bikelane-broken-barrier.png)
+<img src="/assets/bikelane-broken-barrier.png" alt="bike" class="img-fluid" />
 
 All of these pictures were taken on the **same day**.
 
