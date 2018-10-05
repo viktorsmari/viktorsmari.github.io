@@ -1,6 +1,6 @@
 ---
 title: Bicycling in Barcelona
-date: 2018-10-04 20:26:40 Z
+date: 2018-10-4 20:26:40 Z
 categories:
 - barcelona
 - bicycling
@@ -31,7 +31,7 @@ From Barcelona's manifesto:
 Having lived in two of the best Bicycle cities in the world, Amsterdam and Copenhagen, here is my list of things that can be improved:
 
 1. **Stop** putting bicycles lanes in the **middle**, between car lanes! This is both unsafe and **unpractical**!
-   * Ideally put a one way bike line **always on the right side of the cars**. (Just like on Diputactio or Consell de Cent)
+   * Ideally put a one way bike line **always on the right side of the cars**. (Just like on Diputació or Consell de Cent)
    * This means that the car drivers are used to always look in the right mirror to see if there is a bicycle near.
    * In Barcelona, sometimes there are double bike lines, sometimes single ones, and sometimes on the right and sometimes on the left.
    * In [Copenhagen](https://en.wikipedia.org/wiki/Cycling_in_Copenhagen) they are almost always on the right.
