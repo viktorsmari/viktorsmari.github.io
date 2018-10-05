@@ -18,10 +18,13 @@ From Barcelona's manifesto:
 *"Barcelona City Council aims to provide 308 km of cycle lanes by 2018, which would mean an increase of 165% on the figure quoted in the 2015 Strategic Bicycle Measure (a network of 116 kilometres). This means that by 2018, 95% of the city's population would have a cycle lane within 300 metres of their home."*
 
 ### What is going well?
-1. A lot of paths are being added.
-2. Bicing is very very popular.
-3. Some bicycle paths are being made wider
-   * For example, a part of Diputació close to Passeig de Gracia has been made wider
+* A lot of new bike paths are being added.
+* Bicing is growing in popularity. This is a result of more available bike paths
+* Some existing bicycle paths are being made wider.
+   * For example, a part of Diputació close to Passeig de Gracia has been made wider.
+* The introduction of [Superilla](https://www.youtube.com/watch?v=ZORzsubQA_M), a 3x3 block with reduced car traffic.
+   * I bike through a Superilla in Poblenou everyday and that is the favorite part of my ride.
+   * The bicycle lanes could have a better marking, but in is an evolving project.
 
 ### What can be improved?
 
