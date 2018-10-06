@@ -13,6 +13,8 @@ I love:
 * Bicycling and exploring the city.
 * Being outside.
 
+I want to help making cities more liveable by improving bicycle infrastructure and adding more green spaces.
+
 I have written few blog [posts](/posts).
 
 I used to make [music](/music).
