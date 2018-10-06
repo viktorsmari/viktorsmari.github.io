@@ -4,6 +4,8 @@ permalink: "/music/"
 layout: page
 ---
 
+Here is some electronic music I have made:
+
 #### Instrumental
 
   * [Kong](/mp3/Kong.mp3)
@@ -23,3 +25,6 @@ layout: page
   * [Subway](/mp3/Subway.mp3)
   * [Skuldar](/mp3/Skuldar.mp3)
 
+
+
+My metalband Depublic also recorded an album in 2012 which is on youtube - [The Silence In Your Head.](https://www.youtube.com/playlist?list=PLqk4VryX8RVrl27dEd91rj1gl9fCWycNf)
