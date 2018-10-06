@@ -21,7 +21,7 @@ From Barcelona's manifesto:
 
 ### What is going well?
 * A lot of new bike paths are being added.
-* Bicing is growing in popularity. This is a result of more available bike paths
+* Bicing is growing in popularity. This is a result of more available bike paths.
 * Some existing bicycle paths are being made wider.
    * For example, a part of Diputació close to Passeig de Gracia has been made wider.
 * The introduction of [Superilla](https://www.youtube.com/watch?v=ZORzsubQA_M), a 3x3 block with reduced car traffic.
@@ -30,7 +30,7 @@ From Barcelona's manifesto:
 
 ### What can be improved?
 
-Having lived in two of the best Bicycle cities in the world, Amsterdam and Copenhagen, here is my list of things that can be improved:
+Having lived in two of the most bicycle friendly cities in the world, Amsterdam and Copenhagen, here is my list of things that can be improved:
 
 1. **Stop** putting bicycles lanes in the **middle**, between car lanes! This is both unsafe and **unpractical**!
    * Ideally put a one way bike line **always on the right side of the cars**. (Just like on Diputació or Consell de Cent)
@@ -40,8 +40,8 @@ Having lived in two of the best Bicycle cities in the world, Amsterdam and Copen
 2. Make the bicycle paths wider
    * Ideally make them wide enough for a cargo bike to pass another cargo bike
 3. Stop using the barriers between the bike lanes and raise the street instead (Copenhagen standard).
-   * This costs a lot of money compared to the barriers, and therefor a lower priority
-   * However this should be introduced in new streets / reforms.
+   * This costs a lot of money compared to the barriers (but less maintenence), and therefore a lower priority
+   * However this could be introduced in new streets / reforms.
 
 
 #### 1. What is wrong with Bicycle paths in the middle?
@@ -52,7 +52,7 @@ If I want to make a left turn here and need to wait for the light for 20sec, whe
 What if there are 5 more people with me who also want to turn left? Where should they wait?
 
 
-Here is a car deciding to turn left, having to wait, and therefor **blocking** bicycles from **both** directions!
+Here is a car deciding to turn left, having to wait, and **blocking** bicycles from **both** directions!
 
 <img src="/assets/bicyclist-annoyed.png" alt="bike" class="img-fluid" />
 
