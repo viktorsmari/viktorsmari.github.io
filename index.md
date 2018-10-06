@@ -13,12 +13,12 @@ I love:
 * Bicycling and exploring the city.
 * Being outside.
 
-I want to help making cities more liveable by improving bicycle infrastructure and adding more green spaces.
+I want to help make cities more liveable by improving bicycle infrastructure and adding more green spaces.
+
+Here are some [causes](/causes) I care about, and my [hobbies](/hobby).
 
 I have written few blog [posts](/posts).
 
 I used to make [music](/music).
 
-And I have some [hobbies](/hobby).
-
-And I have a [CV](/cv).
+Here is my [curriculum vitae](/cv).
