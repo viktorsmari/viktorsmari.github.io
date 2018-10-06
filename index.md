@@ -19,3 +19,5 @@ I have written few blog [posts](/posts).
 I used to make [music](/music)
 
 And I have some [hobbies](/hobby).
+
+And I have a [CV](/cv).
