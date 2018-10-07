@@ -26,7 +26,7 @@ From Barcelona's manifesto:
    * For example, a part of Diputació close to Passeig de Gracia has been made wider.
 * The introduction of [Superilla](https://www.youtube.com/watch?v=ZORzsubQA_M), a 3x3 block with reduced car traffic.
    * I bike through a Superilla in Poblenou everyday and that is the favorite part of my ride.
-   * The bicycle lanes could have a better marking, but in is an evolving project.
+   * The bicycle lanes could have a better marking, but it is an evolving project.
 
 ### What can be improved?
 
@@ -60,11 +60,22 @@ Here is a car deciding to turn left, having to wait, and **blocking** bicycles f
 
 This is clearly a design fail which could have been avoided if the bicycle lane whould be on the right side of the car traffic.
 
-This is not a problem in Copenhagen.
+
+## Examples
+
+Here is a youtube video of a single ride which all the examples below occured:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kh54TW2QBhY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Some of them are not related to infrastructure, but rather a lack of 'tradition' or culture, or lack of more bike riders.
+
+More riders on the bicycle lanes = more visibility and more safety and awareness by car drivers.
 
 #### Cars blocking traffic
+
 Sometimes cars don't want to miss the next 'wave' of green light jamming the bicycle path.
 <img src="/assets/cars-blocking.png" alt="bike" class="img-fluid" />
+**Solution**: Painting the bike lane red might help. But the cars did not move until they saw more bicycles approaching.
 
 Taxi stopping to let out passengers on the middle of a double bike path.
 <img src="/assets/taxi-woman.png" alt="bike" class="img-fluid" />
@@ -76,13 +87,14 @@ Taxi stopping to let out passengers on the middle of a double bike path.
 
 <img src="/assets/van-blocking.png" alt="bike" class="img-fluid mx-auto" />
 
+Pedestrian on an e-scooter stopping after the waiting line, and a van almost backing up into him.
 <img src="/assets/van2-blocking.png" alt="bike" class="img-fluid mx-auto" />
 
 Here on the right side is a warehouse with big trucks often driving into the bicycle lane when backing up to the port.
 During that, they often hit the small separator barriers, breaking them, and creating danger for bicyclists.
 <img src="/assets/bikelane-broken-barrier.png" alt="bike" class="img-fluid" />
 
-All of these pictures were taken on the **same day**.
+All of these pictures were taken on the [same ride](https://www.youtube.com/watch?v=Kh54TW2QBhY&feature=youtu.be).
 
 Useful info:
 * [Interactive map with Bicing stations](https://w33.bcn.cat/planolBCN/en/guia/act/bike-lane-K023,green-ring-road-K025,30-km/h-zones-K027,cycle-paths-K026,bike-lane-under-construction-K028,bicing-stations-K013,bycicle-parks-K021,car-parks-with-places-for-bycicles-K024/)
