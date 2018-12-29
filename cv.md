@@ -5,11 +5,12 @@ layout: page
 ---
 
 #### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
-  * Adding features and fixing bugs on Ruby on Rails + Angular stack.
+  * Maintaining Ruby on Rails [API](https://api.smartcitizen.me/) and website for [fablabs.io](https://fablabs.io/)
   * System administration, implemented Ansible, SSL with letsencrypt, Dockerized services.
-  * Implemented [monitoring](https://grafana.fab.city), Grafana, Influxdb. 
+  * Implemented [monitoring](https://grafana.fab.city), Grafana, Influxdb.
   * Setup self hosted Sentry.io for error tracking.
   * Created a minimal Vue.js [frontend setup tool for embedded system](https://fablabbcn.github.io/smartcitizen-kit-20/esp/data/)
+  * Created a [quiz](https://quiz.iscape.smartcitizen.me/) in React, and [prototyping](https://r.smartcitizen.me/) a new React app
 
 #### 2017 - Repero.me (Side project)
   * Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
