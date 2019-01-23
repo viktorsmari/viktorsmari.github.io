@@ -17,10 +17,10 @@ layout: post
 3. Add the encrypted key to git  
   `git add deploy_rsa.enc`
 
-4. Go to the repo settings/deploy keys and add it + check Allow write  
+4. Go to the repository settings/deploy keys page on Github and add a new Deploy Key. Add the output of the following command + check Allow write  
   `cat deploy_rsa.pub`
 
-5. Remove the actual key file  
+5. Remove the actual key file so it won't be commited to the repo by accident  
   `rm deploy_rsa deploy_rsa.pub`
 
 6. Create a `.travis-deploy.sh` script:

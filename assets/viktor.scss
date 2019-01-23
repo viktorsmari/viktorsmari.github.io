@@ -1,12 +1,8 @@
 ---
 ---
 
-//@import url('https://fonts.googleapis.com/css?family=Roboto');
-//@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 //@import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-
 
 html, body {
   font-size: 1em;
@@ -15,7 +11,7 @@ html, body {
   font-weight: 300;
 }
 footer{
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 .svg-icon{
@@ -24,4 +20,8 @@ footer{
 }
 strong{
   font-weight:900;
+}
+
+pre{
+  background: #262626;
 }

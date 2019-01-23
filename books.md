@@ -1,6 +1,6 @@
 ---
 title: Books
-permalink: "/books
+permalink: "/books"
 layout: page
 ---
 
