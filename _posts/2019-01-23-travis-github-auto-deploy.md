@@ -40,8 +40,11 @@ layout: post
   ./node_modules/.bin/gh-pages -d dist/ -b gh-pages -r git@github.com:${TRAVIS_REPO_SLUG}.git
   
   ```
+7. Make the script runnable
 
-7. Call the `.travis-deploy.sh` script in your `.travis.yml` file
+  `chmod +x .travis-deploy.sh`
+
+8. Call the `.travis-deploy.sh` script in your `.travis.yml` file
 
 ```bash
 deploy:
