@@ -46,11 +46,11 @@ layout: post
 
 8. Call the `.travis-deploy.sh` script in your `.travis.yml` file
 
-```bash
-deploy:
-- provider: script
-  skip_cleanup: true
-  script: "./.travis-deploy.sh"
-  on:
-    branch: master
-```
+  ```bash
+  deploy:
+  - provider: script
+    skip_cleanup: true
+    script: "./.travis-deploy.sh"
+    on:
+      branch: master
+  ```
