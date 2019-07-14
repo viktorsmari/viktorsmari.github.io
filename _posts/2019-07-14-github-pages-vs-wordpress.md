@@ -39,7 +39,7 @@ Most popular:
 
 
 ###### Installing a Wordpress site requires:
-1. A server with SSH access. (Digital Ocean, Linode etc).
+1. A private server with SSH access. (Digital Ocean, Linode etc). **Cost**: ~ 5 USD / month.
 2. Installing a Webserver (Apache / Nginx) and an SQL database (MySQL / MariaDB)
 
 ###### A Wordpress maintainer needs access to:
@@ -49,32 +49,41 @@ Most popular:
 
 ###### A Wordpress maintainer would need to **periodically** do the following:
 * Update ALL plugins the site is using. A single outdated plugin can be the cause of your website being **hacked**.
-* Update security updates on the server, MySQL, nginx etc.
+* Install security updates on the server, MySQL, nginx etc.
 * Make sure the SQL database is being **backed up** to a different server.
 * Make sure the uploaded files (images etc) are being **backed up** to a different server.
 * Re-install the server, if running Ubuntu LTS, **every 5 years**. Usually a new server is created and everything migrated to the new one. This takes hours.
 
 Who knows the username / password to that website we made 2 years ago?
 
-##### Github Pages maintainer / developer would need to:
+###### A Github Pages maintainer / developer would need to:
 * Be granted write access to the repository on Github.
 
 
-### Thoughts
-
-* Will your website be alive in 5 years? What about 10 years?
-
 ### Prior Wordpress experience
 
-I have worked on multiple Wordpress websites, and below is a list of some things I have encountered.
+Having worked on multiple Wordpress websites, I created a list of some things I have encountered through the years.
 
-* Someone installed plugin that was able to **edit** the CSS on the server. The code on the server is now different from the code on Github, that the new developer is working on. Which codesource is the **correct** one?
-* Someone installed plugin that did the same as another plugin, and those 2 plugins were fighting and nobody knew what was causing the weird issue.
+* Someone installed a plugin that was able to **edit** the theme files directly on the server. The code on the server is now different from the code on Github, that the new developer is working on. Which codesource is the **correct** one?
+* Someone installed a plugin that did the same as another plugin, and those 2 plugins were fighting and nobody knew what was causing the weird issue.
 * More people installed more plugins and the site got slower.
 * Some of those plugins were not being maintained and were **out of date** and a security risk.
 * One out of date plugin caused the website to be injected with hidden keywords like (BRAND NAME glasses / clothes), which in this case, did not break the website, but **lowered** it's search ranking.
 [Google penalizes hacked sites](https://developers.google.com/web/fundamentals/security/hacked/)
 * 3 years later, everyone got sick of the website and a new website had to be made from scratch, again, with Wordpress.
+
+
+### Thoughts
+
+Will your website still be online in 5 years? What about 10-20 years? With Github Pages there are no server fees nor updates needed.
+As long as Github (owned by Microsoft) is still running, chances are your site also will. If not, you can easily move it to Gitlab or Netlify by a simple `git push`
+
+When using a static page on Github, anyone can **clone** (or download) your repository and get **all** the data. No need to ask the maintainer for the SQL database dump.
+This means that anyone can backup the whole website easily.
+
+Who removed line nr 5 in that article and when? Who edited that word in that line? Can we put it back? - Yes. This is all possible when using **Git**.
+
+With static websites, we get all the benefits of [git version control](https://en.wikipedia.org/wiki/Git), applied to the **whole** website.
 
 
 ### Terminology
