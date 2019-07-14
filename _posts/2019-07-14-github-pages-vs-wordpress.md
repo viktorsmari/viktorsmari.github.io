@@ -7,7 +7,9 @@ title: Wordpress vs Github Pages
 
 **Github Pages** is a hosting solution, that only hosts **Static websites** which do not use an SQL database.
 
-**Static websites** are simply files in a folder (or Github repository).  
+**Static websites** are simply files in a folder (or Github repository).
+
+**Static websites** can use external services (instead of a WP plugin) by simply adding an `<iframe>` or `<script>` tags, just like embedding a Youtube video.
 
 ### Platforms to store Static websites
 * [Github Pages](https://pages.github.com/)
