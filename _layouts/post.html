@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row mt-5">
 
-  <article class="col-lg-8" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="col-lg-9" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="">
       <h1 class="" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="">
@@ -28,7 +28,7 @@ layout: default
     <a class="" href="{{ page.url | relative_url }}" hidden></a>
   </article>
 
-  <div class="col-lg-4 mx-auto">
+  <div class="col-lg-3 mx-auto">
     <h4 class="mt-5">Posts</h4>
     <ul>
       {% for post in site.posts %}
