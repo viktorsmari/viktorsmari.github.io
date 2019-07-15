@@ -3,7 +3,7 @@ layout: post
 title: Wordpress vs Github Pages
 ---
 
-**Wordpress** is a blog CMS that reads and saves data into an SQL database, making it a target for [SQL injection](https://en.wikipedia.org/wiki/SQL_injection).
+[Wordpress](https://en.wikipedia.org/wiki/WordPress) is a CMS (from 2003) that reads and saves data into an SQL database, making it a target for [SQL injection](https://en.wikipedia.org/wiki/SQL_injection).
 
 **Github Pages** is a hosting solution, that only hosts **Static websites** which do not use an SQL database.
 
@@ -83,9 +83,13 @@ As long as Github (owned by Microsoft) is still running, chances are your site a
 When using a static page on Github, anyone can **clone** (or download) your repository and get **all** the data. No need to ask the maintainer for the SQL database dump.
 This means that anyone can backup the whole website easily.
 
+With static websites, we get all the benefits of [git version control](https://en.wikipedia.org/wiki/Git), applied to the **whole** website.
+
 Who removed line nr 5 in that article and when? Who edited that word in that line? Can we put it back? - Yes. This is all possible when using **Git**.
 
-With static websites, we get all the benefits of [git version control](https://en.wikipedia.org/wiki/Git), applied to the **whole** website.
+A study revealed that 98% of WordPress blogs being run were exploitable because they were running outdated and unsupported versions of the software.
+
+Read more about [Wordpress Vulnerabilities](https://en.wikipedia.org/wiki/WordPress#Vulnerabilities)
 
 
 ### Terminology
