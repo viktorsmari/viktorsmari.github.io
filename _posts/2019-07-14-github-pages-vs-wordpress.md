@@ -16,6 +16,8 @@ title: Wordpress vs Github Pages
 * [Gitlab Pages](https://about.gitlab.com/product/pages/)
 * [Netlify](https://www.netlify.com/) [(See netlify / GH Pages comparison)](https://www.netlify.com/github-pages-vs-netlify/)
 * [Zeit](https://zeit.co/)
+* [Vapid](https://www.vapid.com/)
+
 
 
 ### Static Website Generators
