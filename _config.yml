@@ -18,6 +18,7 @@ linkedin_username: viktorsmari
 youtube_username: viktorsmarik
 future: true
 markdown: kramdown
+google_analytics: UA-51437669-1
 plugins:
 - jekyll-feed
 - jekyll-sitemap
