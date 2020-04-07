@@ -7,8 +7,11 @@ categories:
 layout: post
 ---
 
-How to add your **signature** in Linux, Ubuntu, just like in Preview on MacOS?
+How to annotate a PDF on Linux, Ubuntu?
 
+Do you want to add your **signature** in Linux, Ubuntu, just like in Preview on MacOS?
+
+You can do so easily with the Xournal tool, and Google Drawings.
 
 ### Create the signature as a SVG
 
