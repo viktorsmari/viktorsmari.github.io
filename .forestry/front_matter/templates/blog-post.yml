@@ -17,3 +17,5 @@ fields:
     schema:
       format: markdown
   label: Main text
+pages:
+- _posts/test-title.md
