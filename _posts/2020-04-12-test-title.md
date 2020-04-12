@@ -8,6 +8,8 @@ main_text: |-
   And another one:
 
   ![](/assets/munin.png)
+date: 2020-04-30 00:00:00 +0200
+categories: []
 
 ---
 What is happening
