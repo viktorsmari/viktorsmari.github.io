@@ -8,14 +8,19 @@ fields:
     required: true
   label: Title
   description: The main title shown in listings
-- name: main_text
-  type: textarea
-  default: ''
+- name: date
+  type: datetime
+  label: Date
+  description: Date of post
   config:
     required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Main text
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: Tag or categorize your post
 pages:
 - _posts/2020-04-12-test-title.md
