@@ -9,7 +9,9 @@ main_text: |-
 
   ![](/assets/munin.png)
 date: 2020-04-30 00:00:00 +0200
-categories: []
+categories:
+- prufa
+- " prufa2"
 
 ---
 What is happening
