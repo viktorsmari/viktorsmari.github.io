@@ -39,3 +39,5 @@ fields:
   default: []
   label: Categories
   description: Tag or categorize your post
+pages:
+- _posts/test-nr-2.md
