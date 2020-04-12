@@ -22,5 +22,3 @@ fields:
   default: []
   label: Categories
   description: Tag or categorize your post
-pages:
-- _posts/2020-04-12-test-title.md
