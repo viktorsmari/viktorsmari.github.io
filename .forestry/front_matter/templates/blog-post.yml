@@ -18,4 +18,4 @@ fields:
       format: markdown
   label: Main text
 pages:
-- _posts/test-title.md
+- _posts/2020-04-12-test-title.md
