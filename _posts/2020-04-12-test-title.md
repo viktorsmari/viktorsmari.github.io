@@ -10,3 +10,8 @@ main_text: |-
   ![](/assets/munin.png)
 
 ---
+What is happening
+
+This is another editor 
+
+![](/assets/selfie_bike_bw.jpg)
