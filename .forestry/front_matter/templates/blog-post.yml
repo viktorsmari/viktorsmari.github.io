@@ -40,4 +40,5 @@ fields:
   label: Categories
   description: Tag or categorize your post
 pages:
+- _posts/test-3.md
 - _posts/test-nr-2.md
