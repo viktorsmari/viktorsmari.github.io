@@ -17,6 +17,23 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: layout
+  type: select
+  default: default
+  config:
+    required: true
+    options:
+    - home
+    - page
+    - post
+    - default
+    source:
+      type: simple
+      section: jekyll-posts
+      file: 
+      path: 
+  label: Layout
+  description: Select which layout to use
 - name: categories
   type: tag_list
   default: []
