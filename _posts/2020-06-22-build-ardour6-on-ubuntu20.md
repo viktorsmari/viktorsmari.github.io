@@ -8,7 +8,7 @@ layout: post
 
 This is how you build Ardour 6 on Ubuntu 20.
 
-If you simply want to instally it, you can download it and pay as little as 1$ directly on the
+If you simply want to install it, you can download it and pay as little as 1$ directly on the
 [Ardour website](https://community.ardour.org/download){:target="_blank"}
 
 
