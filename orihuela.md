@@ -1,10 +1,32 @@
+My plan for this little blog post, is to show the need for more Bicycle lanes in Orihuela Costa.
+
+Why build more bicycle lanes?
+- So people on bikes / scooters can travel safely and more efficiently.
+- It is a **proven fact** that when bicycle lanes are built, more people start using the bike or scooters.
+   - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
+- Scooters / bikes to not belong on the street with cars, nor on the pavement with pedestrians.
+- Less cars, less traffic.
+- Less CO2 / noise.
+- More parking spaces for those who still use the car.
+
 ### Orihuela Costa
 
-Many foreigners live in Orihuela Costa.
+Many foreigners live in Orihuela Costa, either full time or part time.
 These are often people from northern Europe that are used to biking, and you can see people over 65 riding their bikes around the area.
 
 
-In the La Zenia shopping mall, we see this sign about the benefits of biking
+Population (2018)
+- Orihuela: **76.778**
+- Orihuela Costa: **20.005**
+
+Source: <a href="https://es.wikipedia.org/wiki/Orihuela_Costa" target="_blank">Wikipedia</a>
+
+
+All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 restrictions.
+
+### Pictures
+
+In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
 
 The road **Ctra. de Villamartín**, from La Zenia to Villamartin (in the North West) has a bridge over **AP7**.
@@ -22,6 +44,9 @@ We often see people walking here:
 <a target="_blank" href="https://www.google.com/maps/place/Calle+Clavo,+1-4,+03189+Orihuela,+Alicante/@37.9299735,-0.7434532,168m/data=!3m1!1e3!4m5!3m4!1s0xd6307d4804e38d3:0xcfdf2da8cb6498b4!8m2!3d37.9362153!4d-0.7486355?hl=en">
   <img src="/assets/orihuela/round.png" class="img-fluid" width="500" />
 </a>
+
+_Click the image above to open in Google Maps_
+
 <img src="/assets/orihuela/villamartin3.png" class="img-fluid" />
 
 Then the second roundabout to Calle Clavo
