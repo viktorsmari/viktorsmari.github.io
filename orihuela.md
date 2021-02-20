@@ -69,6 +69,7 @@ If you meet someone on the ramp, you have to wait your turn.
 All over the place you can find these painted bicycle signs on the street.
 
 <img src="/assets/orihuela/paint.png" class="img-fluid" />
+
 Are they useful?
 
 Do they provide security to bicyclists?
