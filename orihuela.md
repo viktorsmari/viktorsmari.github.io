@@ -2,9 +2,8 @@ My plan for this little blog post, is to show the need for more Bicycle lanes in
 
 Why build more bicycle lanes?
 - So people on bikes / scooters can travel safely and more efficiently.
-- It is a **proven fact** that when bicycle lanes are built, more people start using the bike or scooters.
+- It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
-- Scooters / bikes to not belong on the street with cars, nor on the pavement with pedestrians.
 - Less cars, less traffic.
 - Less CO2 / noise.
 - More parking spaces for those who still use the car.
@@ -15,19 +14,22 @@ Many foreigners live in Orihuela Costa, either full time or part time.
 These are often people from northern Europe that are used to biking, and you can see people over 65 riding their bikes around the area.
 
 
-Population (2018)
+<a href="https://es.wikipedia.org/wiki/Orihuela_Costa" target="_blank">Population 2018 (Wikipedia)</a>
 - Orihuela: **76.778**
 - Orihuela Costa: **20.005**
-
-Source: <a href="https://es.wikipedia.org/wiki/Orihuela_Costa" target="_blank">Wikipedia</a>
 
 
 All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 restrictions.
 
-### Pictures
-
 In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
+
+
+<a target="_blank" href="http://www.opencyclemap.org/">
+  <img src="/assets/orihuela/opencycle.png" class="img-fluid" width="500" />
+</a>
+
+Bike lanes on http://www.opencyclemap.org/
 
 The road **Ctra. de Villamartín**, from La Zenia to Villamartin (in the North West) has a bridge over **AP7**.
 
@@ -70,3 +72,7 @@ All over the place you can find these painted bicycle signs on the street.
 Are they useful?
 
 Do they provide security to bicyclists?
+
+Sources:
+- <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
+- <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
