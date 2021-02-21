@@ -5,7 +5,7 @@ Why build more bicycle lanes?
 - It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
 - Less cars, less traffic.
-- Less CO2 / noise.
+- Less air and noise pollution.
 - More parking spaces for those who still use the car.
 
 ### Orihuela Costa
@@ -19,7 +19,7 @@ These are often people from northern Europe that are used to biking, and you can
 - Orihuela Costa: **20.005**
 
 
-This is the current / planned bicycle lanes
+This is the current and planned bicycle lanes
 
 <a target="_blank" href="https://www.orihuelaturistica.es/orihuela/uploaded/Carril%20bici%20Orihuela%20costa.pdf">
   <img src="/assets/orihuela/planned.png" class="img-fluid" />
