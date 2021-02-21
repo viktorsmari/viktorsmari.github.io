@@ -19,17 +19,30 @@ These are often people from northern Europe that are used to biking, and you can
 - Orihuela Costa: **20.005**
 
 
-All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 restrictions.
+This is the current / planned bicycle lanes
+
+<a target="_blank" href="https://www.orihuelaturistica.es/orihuela/uploaded/Carril%20bici%20Orihuela%20costa.pdf">
+  <img src="/assets/orihuela/planned.png" class="img-fluid" />
+</a>
+
+
+<a target="_blank" href="http://www.opencyclemap.org/?zoom=14&lat=37.91824&lon=-0.72141&layers=B0000">
+  <img src="/assets/orihuela/opencycle.png" class="img-fluid" />
+</a>
+
+Bike lanes on http://www.opencyclemap.org/
+
+Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
+
+<br>
 
 In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
 
 
-<a target="_blank" href="http://www.opencyclemap.org/">
-  <img src="/assets/orihuela/opencycle.png" class="img-fluid" width="500" />
-</a>
+### Possible improvements
 
-Bike lanes on http://www.opencyclemap.org/
+All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 restrictions.
 
 The road **Ctra. de Villamartín**, from La Zenia to Villamartin (in the North West) has a bridge over **AP7**.
 
@@ -42,6 +55,9 @@ The bridge has a mixed bicycle / pedestrian lane which ends suddenly like this:
 We often see people walking here:
 
 <img src="/assets/orihuela/villamartin2.png" class="img-fluid" />
+
+
+According to the plan, there _should_ be a bicycle lane here.
 
 <a target="_blank" href="https://www.google.com/maps/place/Calle+Clavo,+1-4,+03189+Orihuela,+Alicante/@37.9299735,-0.7434532,168m/data=!3m1!1e3!4m5!3m4!1s0xd6307d4804e38d3:0xcfdf2da8cb6498b4!8m2!3d37.9362153!4d-0.7486355?hl=en">
   <img src="/assets/orihuela/round.png" class="img-fluid" width="500" />
