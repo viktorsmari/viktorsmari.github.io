@@ -33,8 +33,10 @@ If you simply want to install it, you can download it and pay as little as 1$ di
    libglibmm-2.4-dev libusb-1.0-0-dev libpangomm-1.4-dev libsamplerate0-dev \
    libcunit1-dev libcppunit-dev libudev-dev libserd-0-0 libcwiid-dev \
    libxwiimote-dev libwebsocketpp-dev libwebsockets-dev \
-   libsratom-0-0 liblrdf0 liblrdf0-dev
+   libsratom-0-0 liblrdf0 liblrdf0-dev libsuil-dev
    ```
+
+   I added the `libsuil-dev` package which will allow LV2 plugins to display their own custom GUI, instead of a generic one.
 
    Based on an answer of mine from [Ask Ubuntu](https://askubuntu.com/questions/1020879/building-ardour-5){:target="_blank"}
 
