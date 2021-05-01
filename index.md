@@ -4,7 +4,9 @@ permalink: "/"
 layout: page
 ---
 
-I am a Software Developer from Iceland, currently living in Barcelona and working at Fab Lab Barcelona.
+I am a Software Developer from Iceland, currently living in Spain and working at Fab Lab Barcelona.
+
+I am building [Repero.me](https://repero.me) - a software solution for repair shops.
 
 <img src="/assets/selfie_bike_bw.jpg" class="img-fluid" width="300"/>
 
