@@ -9,6 +9,7 @@ layout: page
 * Maintaining multiple Ruby on Rails apps.
   * [Smart Citizen API](https://api.smartcitizen.me/)
   * [fablabs.io](https://fablabs.io/)
+  * [make.works](https://make.works/) [GitHub](https://github.com/fablabbcn/makeworks)
 * System administration, implemented Ansible, SSL with letsencrypt, Dockerized services.
 * Implemented [monitoring](https://grafana.fab.city), using Grafana and Influxdb.
 * Setup self hosted Sentry.io for error tracking.
@@ -17,6 +18,7 @@ layout: page
 
 #### 2017 - Repero.me (Side project)
 
+* [repero.me](https://repero.me/)
 * Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
 * Offer a paid subscription where premium users can send SMS and emails to their customers.
 * Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting. Mailgun API for emails. Plivo API for SMS.
