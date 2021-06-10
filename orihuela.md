@@ -1,6 +1,8 @@
-My plan for this little blog post, is to show the need for more Bicycle lanes in Orihuela Costa.
+# Orihuela Costa bike lanes
 
-Why build more bicycle lanes?
+The plan for this blog post, is to show the **need** for more bike lanes in Orihuela Costa.
+
+Why build more bike lanes?
 - So people on bikes / scooters can travel safely and more efficiently.
 - It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
@@ -8,7 +10,8 @@ Why build more bicycle lanes?
 - Less air and noise pollution.
 - More parking spaces for those who still use the car.
 
-### Orihuela Costa
+In order for people to use bike lanes, the bike lanes need to be **faster and easier** to use.
+
 
 Many foreigners live in Orihuela Costa, either full time or part time.
 These are often people from northern Europe that are used to biking, and you can see people over 65 riding their bikes around the area.
@@ -26,13 +29,14 @@ This is the current and planned bicycle lanes
 </a>
 
 
+Bike lanes on http://www.opencyclemap.org/
+
+Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
+
 <a target="_blank" href="http://www.opencyclemap.org/?zoom=14&lat=37.91824&lon=-0.72141&layers=B0000">
   <img src="/assets/orihuela/opencycle.png" class="img-fluid" />
 </a>
 
-Bike lanes on http://www.opencyclemap.org/
-
-Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
 
 <br>
 
@@ -82,7 +86,7 @@ If you meet someone on the ramp, you have to wait your turn.
 
 <img src="/assets/orihuela/bridge-n332.png" class="img-fluid" />
 
-All over the place you can find these painted bicycle signs on the street.
+We can also find painted bicycle signs on the street.
 
 <img src="/assets/orihuela/paint.png" class="img-fluid" />
 
