@@ -40,6 +40,13 @@ Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
 
 <br>
 
+
+New bike lanes suggestions I am working on using Google Maps layers
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
+
+<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
+
 In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
 
