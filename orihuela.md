@@ -101,6 +101,10 @@ Are they useful?
 
 Do they provide security to bicyclists?
 
+For more pictures see:
+
+<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
+
 Sources:
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
 - <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
