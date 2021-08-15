@@ -4,7 +4,7 @@ permalink: "/"
 layout: page
 ---
 
-I am a Software Developer from Iceland, currently living in Spain
+I am a Software Developer from Iceland, currently living in Spain.
 
 I am building [Repero.me](https://repero.me) - a software solution for repair shops.
 

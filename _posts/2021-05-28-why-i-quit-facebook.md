@@ -33,7 +33,7 @@ Imagine someone knowing all of this:
 
 
 ## Alternatives
-For communications I switched to Signal messenger
+For communications I switched to Signal messenger.
 - [https://signal.org/](https://signal.org/)
 
 I am still on Twitter and reddit, but I don't use their apps, only their mobile websites.
@@ -51,8 +51,9 @@ These sites have a good list of reasons not to be **used by** Facebook
 
 ### Obstacles
 
-It was surprisingly easy to get my family and friends on Signal
-Signal has groups and is simple to use.
+It was surprisingly easy to get my family and friends on Signal.
+
+Signal has groups, video calls and is simple to use.
 
 Some people already use WhatsApp - but that is **also owned by Facebook!** So that was not an option for me.
 
