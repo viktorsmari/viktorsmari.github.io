@@ -1,6 +1,29 @@
-# Orihuela Costa bike lanes
+---
+title: Orihuela Costa bike lanes
+layout: page
+---
+
+### Orihuela Costa carril bici
 
 The plan for this blog post, is to show the **need** for more bike lanes in Orihuela Costa.
+
+New bike lanes suggestions I am working on using Google Maps layers:
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
+
+<a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh&ll=37.93211364094911%2C-0.7370027499999998&z=14">
+Open in a new window
+</a>
+
+<div class="card my-4" style="width:600px">
+<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
+<img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
+</a>
+<div class="card-body">
+<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Red de carril bici - Bike lane network</a>
+<p class="mt-4">Photo album of the current bicycle network in Orihuela Costa</p>
+</div>
+</div>
 
 Why build more bike lanes?
 - So people on bikes / scooters can travel safely and more efficiently.
@@ -40,12 +63,6 @@ Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
 
 <br>
 
-
-New bike lanes suggestions I am working on using Google Maps layers
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
-
-<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
 
 In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
