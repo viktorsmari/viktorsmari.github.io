@@ -16,26 +16,81 @@ Open in a new window
 </a>
 
 <div class="card my-4" style="width:600px">
-<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
-<img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
-</a>
-<div class="card-body">
-<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Red de carril bici - Bike lane network</a>
-<p class="mt-4">Photo album of the current bicycle network in Orihuela Costa</p>
-</div>
+  <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
+    <img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
+  </a>
+  <div class="card-body">
+    <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Red de carril bici - Bike lane network</a>
+    <p class="mt-4">Photo album of people using bikes and electric scooters in Orihuela Costa</p>
+  </div>
 </div>
 
 Why build more bike lanes?
 - So people on bikes / scooters can travel safely and more efficiently.
 - It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
+   - All these cities had an increase in bike usage, after bike lanes were built.
 - Less cars, less traffic.
 - Less air and noise pollution.
 - More parking spaces for those who still use the car.
 
 In order for people to use bike lanes, the bike lanes need to be **faster and easier** to use.
 
+#### Types of bike lanes
 
+
+<div class="card-group">
+<div class="card my-4" style="idth:200px">
+  <img src="/assets/orihuela/nobikelane.png" class="img-fluid" />
+  <div class="card-body">
+  <h5>
+    No bike lane
+  </h5>
+  <p class="card-text">
+    Dangerous. Cyclists don't have their own lane.
+  </p>
+  </div>
+</div>
+
+<div class="card my-4" style="wdth:200px">
+  <img src="/assets/orihuela/paintedlane.png" class="img-fluid" />
+  <div class="card-body">
+  <h5>
+    Painted bike lane
+  </h5>
+  <p class="card-text">
+    Cyclists have their own lane, next to a road. Drivers can drive or park on the lane.
+  </p>
+  </div>
+</div>
+
+<div class="card my-4" style="with:200px">
+  <img src="/assets/orihuela/segregatedbikelane.png" class="img-fluid" />
+  <div class="card-body">
+  <h5>
+    Segregated bike lane.
+  </h5>
+  <p class="card-text">
+    Cars cannot drive or park on the bike lane.
+  </p>
+  </div>
+</div>
+
+<div class="card my-4" style="widh:200px">
+  <img src="/assets/orihuela/bikelaneshade.png" class="img-fluid" />
+  <div class="card-body">
+  <h5>
+    Segregated bike lane in shade
+  </h5>
+  <p class="card-text">
+    Cars cannot drive or park on the bike lane.
+    Trees provide shade to cyclists, making the ride easier in the sun.
+  </p>
+  </div>
+</div>
+</div>
+
+#### Orihuela Costa statistics
 Many foreigners live in Orihuela Costa, either full time or part time.
 These are often people from northern Europe that are used to biking, and you can see people over 65 riding their bikes around the area.
 
@@ -114,14 +169,12 @@ We can also find painted bicycle signs on the street.
 
 <img src="/assets/orihuela/paint.png" class="img-fluid" />
 
-Are they useful?
-
 Do they provide security to bicyclists?
 
 For more pictures see:
 
 <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
 
-Sources:
+##### Sources:
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
 - <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
