@@ -40,54 +40,54 @@ In order for people to use bike lanes, the bike lanes need to be **faster and ea
 
 
 <div class="card-group">
-<div class="card my-4" style="idth:200px">
-  <img src="/assets/orihuela/nobikelane.png" class="img-fluid" />
-  <div class="card-body">
-  <h5>
-    No bike lane
-  </h5>
-  <p class="card-text">
-    Dangerous. Cyclists don't have their own lane.
-  </p>
+  <div class="card my-4" style="idth:200px">
+    <img src="/assets/orihuela/nobikelane.png" class="img-fluid" />
+    <div class="card-body">
+      <h5>
+        No bike lane
+      </h5>
+      <p class="card-text">
+        Dangerous. Cyclists don't have their own lane.
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="card my-4" style="wdth:200px">
-  <img src="/assets/orihuela/paintedlane.png" class="img-fluid" />
-  <div class="card-body">
-  <h5>
-    Painted bike lane
-  </h5>
-  <p class="card-text">
-    Cyclists have their own lane, next to a road. Drivers can drive or park on the lane.
-  </p>
+  <div class="card my-4" style="wdth:200px">
+    <img src="/assets/orihuela/paintedlane.png" class="img-fluid" />
+    <div class="card-body">
+      <h5>
+        Painted bike lane
+      </h5>
+      <p class="card-text">
+        Cyclists have their own lane, next to a road. Drivers can drive or park on the lane.
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="card my-4" style="with:200px">
-  <img src="/assets/orihuela/segregatedbikelane.png" class="img-fluid" />
-  <div class="card-body">
-  <h5>
-    Segregated bike lane.
-  </h5>
-  <p class="card-text">
-    Cars cannot drive or park on the bike lane.
-  </p>
+  <div class="card my-4" style="with:200px">
+    <img src="/assets/orihuela/segregatedbikelane.png" class="img-fluid" />
+    <div class="card-body">
+      <h5>
+        Segregated bike lane.
+      </h5>
+      <p class="card-text">
+        Cars cannot drive or park on the bike lane.
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="card my-4" style="widh:200px">
-  <img src="/assets/orihuela/bikelaneshade.png" class="img-fluid" />
-  <div class="card-body">
-  <h5>
-    Segregated bike lane in shade
-  </h5>
-  <p class="card-text">
-    Cars cannot drive or park on the bike lane.
-    Trees provide shade to cyclists, making the ride easier in the sun.
-  </p>
+  <div class="card my-4" style="widh:200px">
+    <img src="/assets/orihuela/bikelaneshade.png" class="img-fluid" />
+    <div class="card-body">
+      <h5>
+        Segregated bike lane in shade
+      </h5>
+      <p class="card-text">
+        Cars cannot drive or park on the bike lane.
+        Trees provide shade to cyclists, making the ride easier in the sun.
+      </p>
+    </div>
   </div>
-</div>
 </div>
 
 #### Orihuela Costa statistics
