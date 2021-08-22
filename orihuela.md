@@ -15,7 +15,7 @@ New bike lanes suggestions I am working on using Google Maps layers:
 Open in a new window
 </a>
 
-<div class="card my-4" style="width:600px">
+<div class="card my-4" style="max-width: 640px">
   <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
     <img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
   </a>
