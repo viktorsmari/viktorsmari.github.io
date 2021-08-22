@@ -26,13 +26,13 @@ Open in a new window
 </div>
 
 Why build more bike lanes?
-- So people on bikes / scooters can travel safely and more efficiently.
-- It is a **proven fact** that when bicycle lanes are built, more people start using them.
+- 🛴 So people on bikes / scooters can travel safely and more efficiently.
+- 🛣️ It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
    - All these cities had an increase in bike usage, after bike lanes were built.
-- Less cars, less traffic.
-- Less air and noise pollution.
-- More parking spaces for those who still use the car.
+- 🚲 Less cars, less traffic.
+- 🌳 Less air and noise pollution.
+- 🅿️ More parking spaces for those who still use the car.
 
 In order for people to use bike lanes, the bike lanes need to be **faster and easier** to use.
 
