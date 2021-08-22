@@ -9,13 +9,17 @@ The plan for this blog post, is to show the **need** for more bike lanes in Orih
 
 New bike lanes suggestions I am working on using Google Maps layers:
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
-
 <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh&ll=37.93211364094911%2C-0.7370027499999998&z=14">
-Open in a new window
+Open the map in a new window
 </a>
 
-<div class="card my-4" style="max-width: 640px">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
+
+<p class="mt-3">
+  I also collect photos in this album:
+</p>
+
+<div class="card my-4" style="max-width: 640px;">
   <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
     <img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
   </a>
@@ -99,8 +103,10 @@ These are often people from northern Europe that are used to biking, and you can
 - Orihuela: **76.778**
 - Orihuela Costa: **20.005**
 
+<img src="/assets/orihuela/ocnumbers.png" class="img-fluid" />
 
-This is the current and planned bicycle lanes
+#### Current bike lanes 2021
+This is the current and planned bicycle lanes according to orihuelaturistica.es
 
 <a target="_blank" href="https://www.orihuelaturistica.es/orihuela/uploaded/Carril%20bici%20Orihuela%20costa.pdf">
   <img src="/assets/orihuela/planned.png" class="img-fluid" />
@@ -171,10 +177,11 @@ We can also find painted bicycle signs on the street.
 
 Do they provide security to bicyclists?
 
-For more pictures see:
+For **more pictures** see:
 
 <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
 
 ##### Sources:
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
 - <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
+- <a target="_blank" href="http://www.orihuela.es/wp-content/uploads/2016/12/plan_movilidad_sostenible.pdf">Plan de Movilidad Urbana Sostenible de Orihuela (2016 PDF)</a>
