@@ -7,6 +7,19 @@ layout: page
 
 The plan for this blog post, is to show the **need** for more bike lanes in Orihuela Costa.
 
+This heat map is showing the most used bike routes of people using the Strava app.
+<img class="img-fluid" src="/assets/orihuela/strava1.png" alt="Carril bici en Orihuela Costa">
+
+<a target="_blank" href="https://www.strava.com/heatmap#14.76/-0.72628/37.93829/bluered/ride">
+Open Strava heat map in a new window
+</a>
+
+Strava is mostly used by people biking for fun or practicing for a competition.
+
+It is likely not used by people going to work on their bike or e-scooter, so some routes would be more visible if we could count them also.
+
+<br>
+
 New bike lanes suggestions I am working on using Google Maps layers:
 
 <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh&ll=37.93211364094911%2C-0.7370027499999998&z=14">
@@ -94,6 +107,10 @@ In order for people to use bike lanes, the bike lanes need to be **faster and ea
   </div>
 </div>
 
+Things to avoid when building bike lanes
+- 90 degree turns
+- Rough edges or curbs
+
 #### Orihuela Costa statistics
 Many foreigners live in Orihuela Costa, either full time or part time.
 These are often people from northern Europe that are used to biking, and you can see people over 65 riding their bikes around the area.
@@ -112,8 +129,7 @@ This is the current and planned bicycle lanes according to orihuelaturistica.es
   <img src="/assets/orihuela/planned.png" class="img-fluid" />
 </a>
 
-
-Bike lanes on http://www.opencyclemap.org/
+<br>
 
 Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
 
@@ -121,6 +137,8 @@ Notice how many bike lanes the neighboring city, **Pilar de la Horadada** has.
   <img src="/assets/orihuela/opencycle.png" class="img-fluid" />
 </a>
 
+Bike lanes on
+<a href="http://www.opencyclemap.org/" target="_blank">http://www.opencyclemap.org/</a>
 
 <br>
 
@@ -135,7 +153,7 @@ All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 re
 
 The road **Ctra. de Villamartín**, from La Zenia to Villamartin (in the North West) has a bridge over **AP7**.
 
-<img src="/assets/orihuela/bridge-ap7.png" class="img-fluid" />
+<img src="/assets/orihuela/bridge-ap7.png" class="img-fluid" alt="Orihuela Costa carril bici" />
 
 The bridge has a mixed bicycle / pedestrian lane which ends suddenly like this:
 
