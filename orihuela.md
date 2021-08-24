@@ -16,7 +16,7 @@ Open Strava heat map in a new window
 
 Strava is mostly used by people biking for fun or practicing for a competition.
 
-It is likely not used by people going to work on their bike or e-scooter, so some routes would be more visible if we could count them also.
+It is probably not used by many people going to work on their bike or e-scooter, so some routes might be missing.
 
 <br>
 
