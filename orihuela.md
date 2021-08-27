@@ -26,7 +26,9 @@ New bike lanes suggestions I am working on using Google Maps layers:
 Open the map in a new window
 </a>
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" width="640" height="480"></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh" height="480"></iframe>
+</div>
 
 <p class="mt-3">
   I also collect photos in this album:
@@ -43,7 +45,8 @@ Open the map in a new window
 </div>
 
 Why build more bike lanes?
-- 🛴 So people on bikes / scooters can travel safely and more efficiently.
+- 🛴 So people on bikes / scooters can travel **safely** and more efficiently.
+   - People are afraid to bike next to car traffic.
 - 🛣️ It is a **proven fact** that when bicycle lanes are built, more people start using them.
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
    - All these cities had an increase in bike usage, after bike lanes were built.
