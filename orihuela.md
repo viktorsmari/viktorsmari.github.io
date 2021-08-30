@@ -7,20 +7,26 @@ layout: page
 
 The plan for this blog post, is to show the **need** for more bike lanes in Orihuela Costa.
 
+*El plan para esta entrada de blog es mostrar la necesidad de más carriles bici en Orihuela Costa.*
+
 This heat map is showing the most used bike routes of people using the Strava app.
+
+*Este mapa de calor muestra las rutas en bicicleta más utilizadas por las personas que utilizan la aplicación Strava.*
+
 <img class="img-fluid" src="/assets/orihuela/strava1.png" alt="Carril bici en Orihuela Costa">
 
 <a target="_blank" href="https://www.strava.com/heatmap#14.76/-0.72628/37.93829/bluered/ride">
 Open Strava heat map in a new window
 </a>
 
-Strava is mostly used by people biking for fun or practicing for a competition.
-
-It is probably not used by many people going to work on their bike or e-scooter, so some routes might be missing.
+This map is showing the last 4000 trips from HOPP Scooters. 2021-08-30
+<img class="img-fluid" src="/assets/orihuela/hopp.png" alt="Carril bici en Orihuela Costa">
 
 <br>
 
 New bike lanes suggestions I am working on using Google Maps layers:
+
+*Nuevas sugerencias de carriles para bicicletas en las que estoy trabajando usando capas de Google Maps:*
 
 <a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1gfD2x3qBF_cIC6GDgHPWm5ZcJKOYYoeh&ll=37.93211364094911%2C-0.7370027499999998&z=14">
 Open the map in a new window
