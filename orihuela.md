@@ -119,6 +119,7 @@ In order for people to use bike lanes, the bike lanes need to be **faster and ea
 Things to avoid when building bike lanes
 - 90 degree turns
 - Rough edges or curbs
+- Putting bike lanes in the middle of the street
 
 #### Orihuela Costa statistics
 Many foreigners live in Orihuela Costa, either full time or part time.
