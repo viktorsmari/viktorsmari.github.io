@@ -18,6 +18,14 @@ If you simply want to install it, you can download it and pay as little as 1$ di
 
    `git clone https://github.com/ardour/ardour`
 
+   and cd into the directory
+
+   `cd ardour`
+
+   This will fetch the **LATEST** version of Ardour, which *might* be unstable.
+
+   You can list all versions (sorted) with: `git tag | sort -V` and select a specific version with: `git checkout 6.9`
+
 2. Install the dependencies
 
    ```shell
