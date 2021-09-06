@@ -5,6 +5,8 @@ layout: page
 
 ### Carril bici en La Zenia 
 
+Strava heatmap for La Zenia mall
+
 <img class="img-fluid" src="/assets/lazenia/strava-lazenia.png" alt="Carril bici en La Zenia">
 
 <img class="img-fluid" src="/assets/lazenia/g.png" alt="Carril bici en La Zenia">
