@@ -6,6 +6,14 @@ layout: page
 ### Carril bici en Villamartin 
 
 
+These streets of Villamartín receive the most bike traffic according to Strava:
+- Ctra. de Villamartín
+- Calle Richard Wagner
+- Calle Papaya
+- Calle Clavo, C. Azafrán, C. Pavo Real, C. Arco Iris
+
+<img src="/assets/orihuela/villamartinstrava.jpg" class="img-fluid" alt="Orihuela Costa Villamartín carril bici" />
+
 All the pictures below are taken in Jan-Feb 2021, during offseason + Covid-19 restrictions.
 
 The road **Ctra. de Villamartín**, from La Zenia to Villamartin (in the North West) has a bridge over **AP7**.

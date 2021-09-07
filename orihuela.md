@@ -9,6 +9,15 @@ The plan for this blog post, is to show the **need** for more bike lanes in Orih
 
 *El plan para esta entrada de blog es mostrar la necesidad de más carriles bici en Orihuela Costa.*
 
+Bike lane suggestions, sorted by neighbourhoods
+
+*Sugerencias de carriles para bicicletas, ordenadas por vecindarios*
+
+* [La Zenia](lazenia.md)
+* [Villamartin](villamartin.md)
+* [Punta Prima](puntaprima.md)
+
+
 This heat map is showing the most used bike routes of people using the Strava app.
 
 *Este mapa de calor muestra las rutas en bicicleta más utilizadas por las personas que utilizan la aplicación Strava.*
@@ -19,7 +28,7 @@ This heat map is showing the most used bike routes of people using the Strava ap
 Open Strava heat map in a new window
 </a>
 
-This map is showing the last 4000 trips from HOPP Scooters. 2021-08-30
+This map is showing the last 4000 trips from HOPP Scooters. *2021-08-30*
 <img class="img-fluid" src="/assets/orihuela/hopp.png" alt="Carril bici en Orihuela Costa">
 
 <br>
@@ -37,24 +46,6 @@ Open the map in a new window
 </div>
 
 <br>
-Bike lane suggestions, sorted by neighbourhoods
-
-*Sugerencias de carriles para bicicletas, ordenadas por vecindarios*
-
-* [La Zenia](lazenia.md)
-* [Villamartin](villamartin.md)
-
-<br>
-
-<div class="card my-4" style="max-width: 640px;">
-  <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
-    <img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
-  </a>
-  <div class="card-body">
-    <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Red de carril bici - Bike lane network</a>
-    <p class="mt-4">Photo album of people using bikes and electric scooters in Orihuela Costa</p>
-  </div>
-</div>
 
 Why build more bike lanes?
 - 🛴 So people on bikes / scooters can travel **safely** and more efficiently.
@@ -63,7 +54,7 @@ Why build more bike lanes?
    - Look at Valencia, Sevilla, Barcelona, Madrid, London, Copenhagen, Amsterdam etc.
    - All these cities had an increase in bike usage, after bike lanes were built.
 - 🚲 Less cars, less traffic.
-- 🌳 Less air and noise pollution.
+- 🌳 Less air (and noise) pollution.
 - 🅿️ More parking spaces for those who still use the car.
 
 In order for people to use bike lanes, the bike lanes need to be **faster and easier** to use.
@@ -163,15 +154,16 @@ In the La Zenia shopping mall, we see this sign about the benefits of biking.
 <img src="/assets/orihuela/benefits.png" class="img-fluid"/>
 
 
-
-The bridge over N332 can only fit 1 person.
-If you meet someone on the ramp, you have to wait your turn.
-
-<img src="/assets/orihuela/bridge-n332.png" class="img-fluid" />
-
 For **more pictures** see:
-
-<a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Photo album of people on bikes and e-scooters in Orihuela Costa</a>
+<div class="card my-4" style="max-width: 640px;">
+  <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">
+    <img class="card-img-top" src="/assets/bikes.png" alt="Bike lanes in Orihuela Costa">
+  </a>
+  <div class="card-body">
+    <a href="https://photos.app.goo.gl/HG58UKDLRJmYrqXt6" target="_blank">Red de carril bici - Bike lane network</a>
+    <p class="mt-4">Photo album of people using bikes and electric scooters in Orihuela Costa</p>
+  </div>
+</div>
 
 ##### Sources:
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>

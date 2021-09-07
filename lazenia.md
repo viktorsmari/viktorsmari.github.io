@@ -5,9 +5,17 @@ layout: page
 
 ### Carril bici en La Zenia 
 
-Strava heatmap for La Zenia mall
-
+Strava heatmap for La Zenia
 <img class="img-fluid" src="/assets/lazenia/strava-lazenia.png" alt="Carril bici en La Zenia">
+
+Según los datos, las calles más transitadas de La Zenia son
+
+  - Ctra. de Villamartín
+  - Calle Jade, C. Pintor Ribera, C. Parana
+  - Calle Clavo, C. Azafrán, C. Pavo Real, C. Arco Iris
+  - C. Pomelo, Av. de California
+  - C Nicolás de Bussi, C. Pablo Picasso
+
 
 <img class="img-fluid" src="/assets/lazenia/g.png" alt="Carril bici en La Zenia">
 
@@ -15,30 +23,55 @@ Strava heatmap for La Zenia mall
 
 <img class="img-fluid" src="/assets/lazenia/i.png" alt="Carril bici en La Zenia">
 
+La Zenia rotonda
 <img class="img-fluid" src="/assets/lazenia/j.png" alt="Carril bici en La Zenia">
 
 
+
+### Ayuntamiento De Orihuela Costa
+
 <img class="img-fluid" src="/assets/lazenia/ay.png" alt="Carril bici en La Zenia">
 
+C. Pablo Picasso
 <img class="img-fluid" src="/assets/lazenia/b.png" alt="Carril bici en La Zenia">
 
+<br>
 
 ### Av. de California
 
+C. Pomelo
 <img class="img-fluid" src="/assets/lazenia/e.png" alt="Carril bici en La Zenia">
 
+Av. de California
 <img class="img-fluid" src="/assets/lazenia/f.png" alt="Carril bici en La Zenia">
 
 <img class="img-fluid" src="/assets/lazenia/c.png" alt="Carril bici en La Zenia">
 
 <img class="img-fluid" src="/assets/lazenia/d.png" alt="Carril bici en La Zenia">
 
-
+<br>
 
 ### C. Lapislázuli y C. Unamuno
 
+Mucha gente va aquí en bicicleta.
+
+¿Es posible conectar estas dos calles?
+
 <img class="img-fluid" src="/assets/lazenia/k.png" alt="Carril bici en La Zenia">
+
+<br>
 
 ### Acera C.Cuerda y La Zenia
 
-<img class="img-fluid" src="/assets/lazenia/lawalk.png" alt="Carril bici en La Zenia">
+Mucha gente camina por aquí.
+
+¿Es posible crear una acera y carril bici aquí?
+
+<img class="img-fluid" src="/assets/lazenia/lawalk.png" alt="Acera en La Zenia">
+
+<img class="img-fluid" src="/assets/lazenia/walk1.jpg" alt="Acera en La Zenia">
+<img class="img-fluid" src="/assets/lazenia/walk2.jpg" alt="Acera en La Zenia">
+<img class="img-fluid" src="/assets/lazenia/walk3.jpg" alt="Acera en La Zenia">
+<img class="img-fluid" src="/assets/lazenia/walk4.jpg" alt="Acera en La Zenia">
+<img class="img-fluid" src="/assets/lazenia/walk5.jpg" alt="Acera en La Zenia">
+<img class="img-fluid" src="/assets/lazenia/walk6.jpg" alt="Acera en La Zenia">
