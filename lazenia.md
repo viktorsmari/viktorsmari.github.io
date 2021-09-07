@@ -6,13 +6,13 @@ layout: page
 ### Carril bici en La Zenia 
 
 Strava heatmap for La Zenia
+
 <img class="img-fluid" src="/assets/lazenia/strava-lazenia.png" alt="Carril bici en La Zenia">
 
 Según los datos, las calles más transitadas de La Zenia son
 
   - Ctra. de Villamartín
   - Calle Jade, C. Pintor Ribera, C. Parana
-  - Calle Clavo, C. Azafrán, C. Pavo Real, C. Arco Iris
   - C. Pomelo, Av. de California
   - C Nicolás de Bussi, C. Pablo Picasso
 
@@ -24,8 +24,8 @@ Según los datos, las calles más transitadas de La Zenia son
 <img class="img-fluid" src="/assets/lazenia/i.png" alt="Carril bici en La Zenia">
 
 La Zenia rotonda
-<img class="img-fluid" src="/assets/lazenia/j.png" alt="Carril bici en La Zenia">
 
+<img class="img-fluid" src="/assets/lazenia/j.png" alt="Carril bici en La Zenia">
 
 
 ### Ayuntamiento De Orihuela Costa
@@ -33,17 +33,21 @@ La Zenia rotonda
 <img class="img-fluid" src="/assets/lazenia/ay.png" alt="Carril bici en La Zenia">
 
 C. Pablo Picasso
+
 <img class="img-fluid" src="/assets/lazenia/b.png" alt="Carril bici en La Zenia">
 
 <br>
 
 ### Av. de California
 
-C. Pomelo
+
 <img class="img-fluid" src="/assets/lazenia/e.png" alt="Carril bici en La Zenia">
 
-Av. de California
+C. Pomelo
+
 <img class="img-fluid" src="/assets/lazenia/f.png" alt="Carril bici en La Zenia">
+
+Av. de California
 
 <img class="img-fluid" src="/assets/lazenia/c.png" alt="Carril bici en La Zenia">
 
