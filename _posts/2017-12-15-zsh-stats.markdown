@@ -7,6 +7,11 @@ categories:
 layout: post
 ---
 
+If you use Oh My Zsh, you can see your top 20 most used commands by running the command:
+
+`zsh_stats`
+
+
 Here are my top 2017 commands **on my home machine**:
 
      1	639  6.39064%   vi
@@ -29,3 +34,33 @@ Here are my top 2017 commands **on my home machine**:
     18	153  1.53015%   hgrep
     19	141  1.41014%   cp
     20	138  1.38014%   z
+
+
+Here are my top *2021* commands:
+
+     1	433  4.3106%   vi
+     2	393  3.91239%  curl
+     3	372  3.70333%  rgrep
+     4	284  2.82728%  ll
+     5	279  2.7775%   git
+     6	272  2.70781%  sudo
+     7	272  2.70781%  rails
+     8	268  2.66799%  heroku
+     9	263  2.61822%  cd
+    10	262  2.60826%  rm
+    11	261  2.59831%  gst
+    12	249  2.47885%  v
+    13	249  2.47885%  gc
+    14	241  2.3992%   r
+    15	236  2.34943%  z
+    16	207  2.06073%  gap
+    17	203  2.02091%  fg
+    18	180  1.79194%  gco
+    19	179  1.78198%  gp
+    20	175  1.74216%  ssh
+
+
+I added an alias `v` to also open vim, which explains the drop in using `vi`
+
+It also looks like I don't use Docker as much on my localhost.
+That is why `doco` is not on this years top list
