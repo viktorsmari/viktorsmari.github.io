@@ -25,16 +25,19 @@ C. Salvador Dali
 
 <img class="img-fluid" src="/assets/lazenia/i.png" alt="Carril bici en La Zenia">
 
+Antes, sin carril bici:
+
 <img class="img-fluid" src="/assets/lazenia/lazenia_antes.png" alt="Carril bici en La Zenia">
 
-<a target="_blank" href="https://streetmix.net/cyclingorihuel1/1/la-zenia-boulevard-2021">StreetMix antes, sin Carril Bici</a>
+<a target="_blank" href="https://streetmix.net/cyclingorihuel1/1/la-zenia-boulevard-2021">StreetMix</a>
 
+C. Salvador Dali después, con carril bici:
 <img class="img-fluid" src="/assets/lazenia/lazenia_despues.jpg" alt="Carril bici en La Zenia">
 
-<a target="_blank" href="https://streetmix.net/cyclingorihuel1/2/la-zenia-boulevard-carril-bici">StreetMix después, con Carril Bici</a>
+<a target="_blank" href="https://streetmix.net/cyclingorihuel1/2/la-zenia-boulevard-carril-bici">StreetMix</a>
 
 
-La Zenia rotonda
+##### La Zenia rotonda
 
 Necesitamos encontrar una manera de conectar el carril bici actual con el nuevo.
 
