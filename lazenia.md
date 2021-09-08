@@ -21,14 +21,30 @@ Según los datos, las calles más transitadas de La Zenia son
 
 <img class="img-fluid" src="/assets/lazenia/h.png" alt="Carril bici en La Zenia">
 
+C. Salvador Dali
+
 <img class="img-fluid" src="/assets/lazenia/i.png" alt="Carril bici en La Zenia">
+
+<img class="img-fluid" src="/assets/lazenia/lazenia_antes.png" alt="Carril bici en La Zenia">
+
+<a target="_blank" href="https://streetmix.net/cyclingorihuel1/1/la-zenia-boulevard-2021">StreetMix antes, sin Carril Bici</a>
+
+<img class="img-fluid" src="/assets/lazenia/lazenia_despues.jpg" alt="Carril bici en La Zenia">
+
+<a target="_blank" href="https://streetmix.net/cyclingorihuel1/2/la-zenia-boulevard-carril-bici">StreetMix después, con Carril Bici</a>
+
 
 La Zenia rotonda
 
+Necesitamos encontrar una manera de conectar el carril bici actual con el nuevo.
+
 <img class="img-fluid" src="/assets/lazenia/j.png" alt="Carril bici en La Zenia">
 
-
 ### Ayuntamiento De Orihuela Costa
+
+Junto al ayuntamiento hay una calle muy transitada para bicicletas.
+
+Van para acá para ir a la playa y por la N-332.
 
 <img class="img-fluid" src="/assets/lazenia/ay.png" alt="Carril bici en La Zenia">
 
