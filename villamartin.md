@@ -5,7 +5,6 @@ layout: page
 
 ### Carril bici en Villamartin 
 
-
 These streets of Villamartín receive the most bike traffic according to Strava:
 - Ctra. de Villamartín
 - Calle Richard Wagner
@@ -46,11 +45,12 @@ Then the second roundabout to Calle Clavo
 Calle Clavo
 
 <img src="/assets/orihuela/clavo1.png" class="img-fluid" />
+
 <img src="/assets/orihuela/clavo2.png" class="img-fluid" />
 
 
 We can also find painted bicycle signs on the street.
 
+<img src="/assets/orihuela/paint.png" class="img-fluid" />
 
 Los Dolses
-<img src="/assets/orihuela/paint.png" class="img-fluid" />
