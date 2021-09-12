@@ -67,6 +67,8 @@ C. Pablo Picasso
 
 Rotonda Pl. Antonio Vicea
 
+<img class="img-fluid" src="/assets/lazenia/rotonda_ay.jpg" alt="Carril bici en La Zenia">
+
 <br>
 
 ### Av. de California
