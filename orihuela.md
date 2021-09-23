@@ -166,6 +166,7 @@ For **more pictures** see:
 </div>
 
 ##### Sources:
+- <a target="_blank" href="https://alicanteplaza.es/benidorm-aspira-a-convertirse-en-la-segunda-de-la-comunitat-en-kilometros-de-carril-bici">Benidorm aspira a convertirse en la segunda de la Comunitat en kilómetros de carril bici</a>
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
 - <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
 - <a target="_blank" href="http://www.orihuela.es/wp-content/uploads/2016/12/plan_movilidad_sostenible.pdf">Plan de Movilidad Urbana Sostenible de Orihuela (2016 PDF)</a>
