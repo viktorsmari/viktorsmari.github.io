@@ -170,3 +170,4 @@ For **more pictures** see:
 - <a target="_blank" href="http://www.onyour.bike/2018/04/valencia-cycle-ring-road-registers-20.html">Valencia Cycle Ring Road registers 20% increase in users (2018)</a>
 - <a target="_blank" href="https://www.theguardian.com/cities/2015/jan/28/seville-cycling-capital-southern-europe-bike-lanes">Cycling has increased 11-fold in Seville in the space of a few years</a>
 - <a target="_blank" href="http://www.orihuela.es/wp-content/uploads/2016/12/plan_movilidad_sostenible.pdf">Plan de Movilidad Urbana Sostenible de Orihuela (2016 PDF)</a>
+- <a target="_blank" href="http://www.orihuela.es/wp-content/uploads/2015/10/Acta-Provisional-Alumnos-T.E.-Red-Carriles-Bici-2015a.pdf">Orihuela Costa Carril Bici 2015 - Union Europa</a>
