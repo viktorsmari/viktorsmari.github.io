@@ -4,7 +4,7 @@ permalink: "/cv"
 layout: page
 ---
 
-#### 2020 - Youwind - Full stack web developer
+#### 2021 - Youwind - Full stack web developer
 
 * Ruby on Rails SaaS to help estimate costs of building an offshore windfarm
 
@@ -22,7 +22,7 @@ layout: page
 
 #### 2017 - Repero.me (Side project)
 
-* [repero.me](https://repero.me/)
+* [repero.me](https://repero.me/) - a repair ticketing software for repair shops.
 * Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
 * Offer a paid subscription where premium users can send SMS and emails to their customers.
 * Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting. Mailgun API for emails. Plivo API for SMS.
