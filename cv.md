@@ -4,6 +4,10 @@ permalink: "/cv"
 layout: page
 ---
 
+#### 2020 - Youwind - Full stack web developer
+
+* Ruby on Rails SaaS to help estimate costs of building an offshore windfarm
+
 #### 2017 - FabLab Barcelona - Full stack web developer / System Administrator
 
 * Maintaining multiple Ruby on Rails apps.

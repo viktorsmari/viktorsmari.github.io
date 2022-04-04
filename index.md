@@ -6,7 +6,7 @@ layout: page
 
 I am a Software Developer from Iceland, currently living in Spain.
 
-I am building [Repero.me](https://repero.me) - a software solution for repair shops.
+I am building [Repero.me](https://repero.me) - a ticketing system for repair shops.
 
 <img src="/assets/selfie_bike_bw.jpg" class="img-fluid" width="300"/>
 
