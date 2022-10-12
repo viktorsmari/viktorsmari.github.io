@@ -23,12 +23,12 @@ Here are some causes I care about:
 #### Shorter working week
 * We have not in our lifetime seen so much progress in efficiency (Internet, Robots, AI, Machine Learning), still the work week has not changed in many years (depending on country).
 * 1971 - Iceland, law on a 40 hour work week was set, and still stands today.
-* [German union fights for 28 work week](http://www.independent.co.uk/voices/four-day-working-week-german-union-28-hours-uk-fight-for-the-same-a7996261.html)
+* [German union fights for 28 hour work week](http://www.independent.co.uk/voices/four-day-working-week-german-union-28-hours-uk-fight-for-the-same-a7996261.html)
 
 #### Sustainable living
 I **try** to:
 
-* travel using my own energy
+* travel using my own energy (walking or cycling)
 * buy items without packaging. - Who needs a banana wrapped in plastic?
 * buy items created closeby, not on the other side of the world
 * reduce meat consumption
