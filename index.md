@@ -25,4 +25,4 @@ I have written few blog [posts](/posts).
 
 I used to make [music](/music).
 
-Here is my [curriculum vitae](/cv).
+Here is my [Curriculum Vitae](/cv).
