@@ -10,7 +10,7 @@ I am building [Repero.me](https://repero.me) - a ticketing system for repair sho
 
 <img src="/assets/selfie_bike_bw.jpg" class="img-fluid" width="300"/>
 
-I love:
+I enjoy:
 * Open Source (software, data, lyrics etc).
 * Bicycling and exploring the city.
 * Being outside.
