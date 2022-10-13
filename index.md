@@ -17,7 +17,7 @@ I love:
 
 I want to help make cities more liveable by improving bicycle infrastructure and adding more green spaces.
 
-Now I am focusing on [Orihuela Costa bike lanes](/orihuela) - Mejorar [Orihuela Costa carril bici](orihuela)
+Now I am focusing on [Orihuela Costa bike lanes](/orihuela) - Mejorar [Orihuela Costa carril bici](orihuela).
 
 Here are some [causes](/causes) I care about, and my [hobbies](/hobby).
 
