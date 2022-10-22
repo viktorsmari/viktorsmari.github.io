@@ -13,9 +13,9 @@ Bike lane suggestions, sorted by neighbourhoods
 
 *Sugerencias de carriles para bicicletas, ordenadas por vecindarios*
 
-* [La Zenia](lazenia.md)
-* [Villamartin](villamartin.md)
-* [Punta Prima](puntaprima.md)
+* [La Zenia](lazenia)
+* [Villamartin](villamartin)
+* [Punta Prima](puntaprima)
 
 
 This heat map is showing the most used bike routes of people using the Strava app.
