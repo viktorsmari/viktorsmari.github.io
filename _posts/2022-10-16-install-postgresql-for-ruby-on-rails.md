@@ -18,9 +18,13 @@ On **Ubuntu 22** this is how I install and setup PostgreSQL on a newly installed
 
     `sudo -u postgres psql`
 
-3. In the `psql` shell, give your Ubuntu user the rights to create databases:
+3. In the `psql` shell, create or alter a user with the rights to create databases. Make sure the username matches your Ubuntu username:
 
-    `alter user viktor with superuser;`
+    `create user viktor with superuser;
+
+    OR if the `psql` already user exists:
+
+    `alter user viktor with superuser;
 
 You can verify if your use has **superuser** privileges with this command:
 
