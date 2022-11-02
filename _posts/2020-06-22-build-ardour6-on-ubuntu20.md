@@ -50,7 +50,7 @@ If you simply want to install it, you can download it and pay as little as 1$ di
 
    Based on an answer of mine from [Ask Ubuntu](https://askubuntu.com/questions/1020879/building-ardour-5){:target="_blank"}
 
-3. Build Ardour 6
+3. Build Ardour
 
    ```shell
    ./waf configure
