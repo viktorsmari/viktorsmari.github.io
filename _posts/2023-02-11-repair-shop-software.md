@@ -15,7 +15,7 @@ I re-wrote the system using the **Ruby on Rails** web framework.
 
 Our first version in 2017 did a few basic things, it could
 - Create customers
-- Create bicycles
+- Create products
 - Create tickets
 
 We needed a name for it, and went with [Repero](https://repero.me){:target="_blank"}
@@ -25,6 +25,7 @@ Then we started adding more features like:
 - Sending SMS from the system
 - Make PDF invoices
 - Upload photos of your repair
+- Inventory management
 - Allow your clients to view the status of their repair using a link
 
 Then we made sure that the system works for all kinds of repair shops. Now we have customers that repair for example:
