@@ -38,6 +38,12 @@ _Click the image above to open in Google Maps_
 
 <img src="/assets/orihuela/villamartin3.png" class="img-fluid" />
 
+Here we need a bike lane and a sidewalk.
+
+<i>Aquí necesitamos un carril bici y una acera.<i>
+
+<img src="/assets/orihuela/villamartin_trees.jpg" class="img-fluid" alt="Missing bike lane on Ctra de Villamartin" />
+
 Then the second roundabout to Calle Clavo
 
 <img src="/assets/orihuela/villamartin4.png" class="img-fluid" />
