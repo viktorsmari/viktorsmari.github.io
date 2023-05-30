@@ -14,7 +14,8 @@ Según los datos, las calles más transitadas de La Zenia son:
   - Ctra. de Villamartín
   - Calle Jade, C. Pintor Ribera, C. Parana
   - C. Pomelo, Av. de California
-  - C Nicolás de Bussi, C. Pablo Picasso
+  - [C Nicolás de Bussi](nicolasdebussi)
+  - C. Pablo Picasso
 
 **Acciones:**
 - Pintar carriles para bicicletas **junto** a la acera.
