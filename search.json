@@ -1,0 +1,124 @@
+[
+  
+    {
+      "title"    : "I created software for Repair Shops",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2023/02/11/repair-shop-software.html",
+      "date"     : "2023-02-11 15:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Installing PostgreSQL on Ubuntu 22 to use with Ruby on Rails",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2022/10/16/install-postgresql-for-ruby-on-rails.html",
+      "date"     : "2022-10-16 15:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Why I quit facebook",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2021/05/28/why-i-quit-facebook.html",
+      "date"     : "2021-05-28 15:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "How to build Ardour 6 on Ubuntu 20",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2020/06/22/build-ardour6-on-ubuntu20.html",
+      "date"     : "2020-06-22 15:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Creating a free website on GitHub pages",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2020/03/03/create-a-free-website-on-github.html",
+      "date"     : "2020-03-03 18:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Wordpress vs Github Pages",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/2019/07/14/github-pages-vs-wordpress.html",
+      "date"     : "2019-07-14 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Auto deploy commits from Travis to Github pages",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/linux/2019/01/23/travis-github-auto-deploy.html",
+      "date"     : "2019-01-23 11:35:17 +0000"
+    } ,
+  
+    {
+      "title"    : "Bicycling in Barcelona",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/barcelona/bicycling/2018/10/04/bicycling-in-barcelona.html",
+      "date"     : "2018-10-04 20:26:40 +0000"
+    } ,
+  
+    {
+      "title"    : "Adding signature to a PDF in Linux, Ubuntu",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/linux/pdf/2018/08/23/annotate-pdf-linux.html",
+      "date"     : "2018-08-23 17:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "My ZSH stats 2017",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/zsh/terminal/2017/12/15/zsh-stats.html",
+      "date"     : "2017-12-15 18:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "My ZSH stats 2016",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/zsh/terminal/2016/10/12/zsh-stats.html",
+      "date"     : "2016-10-12 18:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Raspberry Pi motion detection",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/raspberry/grafana/2016/10/12/monitoring.html",
+      "date"     : "2016-10-12 18:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Copenhagen housing prices",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/denmark/copenhagen/2016/10/12/apartment-price.html",
+      "date"     : "2016-10-12 18:36:47 +0000"
+    } ,
+  
+    {
+      "title"    : "Grafana running on Raspberry Pi 1",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/raspberry/iot/2016/06/06/grafana.html",
+      "date"     : "2016-06-06 14:15:15 +0000"
+    } ,
+  
+    {
+      "title"    : "Raspberry Pi setup",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/raspberry/munin/2016/03/15/munin.html",
+      "date"     : "2016-03-15 18:36:47 +0000"
+    } 
+  
+]
+
