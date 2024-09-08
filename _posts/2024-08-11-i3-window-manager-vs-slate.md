@@ -1,10 +1,10 @@
 ---
-title: i3 Window Manager vs Slate
+title: i3 Window Manager vs Sway
 date: 2024-8-11 15:36:47 Z
 layout: post
 ---
 
-i3 window manager vs Slate on Ubuntu 24.04
+i3 window manager vs Sway on Ubuntu 24.04
 
 I have been using Ubuntu since 2013 and the i3 window manager since 2014.
 
@@ -14,7 +14,7 @@ Finally I was using a window manager that was not in my way. I felt like I was m
 
 I like to update and try new things to see if they help with productivity or make things easier or simpler.
 
-I tried Slate because it is using Wayland and should be faster and better replacement for i3.
+I tried Sway because it is using Wayland and should be faster and better replacement for i3.
 
 
 ## Good parts:
@@ -51,8 +51,8 @@ I tried using OBS, but I did not get it working to record the screen with Waylan
 I could not add the 'Screen Capture (XSHM)'
 
 ## Conclusion
-I used Slate for 2-3 months and then I went back to i3.
-Slate works fine, but Wayland is not ready for me yet, as of 2024
+I used Sway for 2-3 months and then I went back to i3.
+Sway works fine, but Wayland is not ready for me yet, as of 2024
 
-I personally did not notice that Slate was faster i3 on my computer, but I needed the screen sharing and recording to work properly, so I went back to i3, for now.
+I personally did not notice that Sway was faster i3 on my computer, but I needed the screen sharing and recording to work properly, so I went back to i3, for now.
 
