@@ -20,12 +20,12 @@ layout: page
 * Created a minimal Vue.js [frontend setup tool for embedded system](https://fablabbcn.github.io/smartcitizen-kit-20/esp/data/)
 * Created a [quiz](https://quiz.iscape.smartcitizen.me/) in React, and [prototyping](https://dashboard.smartcitizen.me/) a new React app
 
-#### 2017 - Repero.me (Side project)
+#### 2017 - Repero.me
 
-* [repero.me](https://repero.me/) - a repair ticketing software for repair shops.
-* Created my own SaaS, where (bicycle) repair shops can save their data in the cloud for free.
+* [repero.me](https://repero.me/ - a repair ticketing software for repair shops)
+* Created my own SaaS, where (all kinds of) repair shops can save their data in the cloud for free.
 * Offer a paid subscription where premium users can send SMS and emails to their customers.
-* Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting. Mailgun API for emails. Plivo API for SMS.
+* Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting.
 * Code Coverage ~80% reported by simplecov using minitest-rails + capybara-webkit. (No RSpec)
 * (Not open source at the moment)
 
