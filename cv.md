@@ -22,7 +22,7 @@ layout: page
 
 #### 2017 - Repero.me
 
-* [repero.me](https://repero.me/ - a repair ticketing software for repair shops)
+* [repero.me - repair ticketing software for repair shops](https://repero.me/)
 * Created my own SaaS, where (all kinds of) repair shops can save their data in the cloud for free.
 * Offer a paid subscription where premium users can send SMS and emails to their customers.
 * Tech Stack: Ruby on Rails, Postgres, Sidekiq, Redis. Sentry.io for error reporting.
