@@ -21,21 +21,27 @@ layout: page
 
 
 #### Music & media
-* I like to play guitar, keyboards and drums.
+* I like to play guitar, keyboards and drums. I own an electric drumkit.
 * I've recorded a few albums including my bands debut, Depublic - [The Silence In Your Head.](https://www.youtube.com/playlist?list=PLqk4VryX8RVrl27dEd91rj1gl9fCWycNf)
 * I like taking photos and making [timelapse](https://www.youtube.com/playlist?list=PLaxquseA83on1yrIPwW4m-F2g13ECG3l8) videos with my Canon 550d running [Magic Lantern](https://magiclantern.fm/) or GoPro Hero2, end edit with [kdenlive](https://kdenlive.org/).
 * Here is an [overview](/gear) of my music recording setup.
 
 
 #### Personal
-* Non smoker. I try to eat healthy and go to the gym around 3 times per week.
+* Non smoker. Stopped drinking alcohol around 2016 because hangovers made me depressed.
+* I try to eat healthy and go to the gym around 3 times per week. Sometimes I use the 5x5 stronglifts app for motivation.
 * I prefer [bicycling](/strava.html) for transportation.
 * Practiced football for around 20 years and dancing for about 2 years.
+* In 2022 I started playing Padel when living in Orihuela Costa, Spain and played 3x per week
 
 
 #### My Todo list of technologies
 * D3.js
+* ~~React~~
 * ~~Docker~~
 * ~~Ansible~~
 * ~~Meteor~~
 * ~~Angular~~
+* ~~Wordpress~~
+
+After trying a bunch of frameworks and JS libraries, I am happy with using Ruby on Rails, StimulusJS, Docker.
