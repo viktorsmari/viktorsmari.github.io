@@ -14,6 +14,7 @@ I enjoy:
 * Open Source (software, data, lyrics etc).
 * Bicycling and exploring the city.
 * Being outside.
+* Playing padel or beach volleyball.
 
 I want to help make cities more liveable by improving bicycle infrastructure and adding more green spaces.
 
