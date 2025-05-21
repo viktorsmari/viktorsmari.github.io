@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "viktor.css",
+	"sources": [
+		"viktor.scss"
+	],
+	"sourcesContent": [
+		"//@import url('https://fonts.googleapis.com/css?family=Lato');\n\nhtml, body {\n  font-size: 1em;\n  line-height: 1.65em;\n}\n\nfooter{\n  background-color: #eee;\n}\n\nimg{\n  max-width: 100%;\n  height: auto;\n}\n\nh1,h2,h3,h4,h5,h6{\n  margin-top: 30px;\n}\n\nli{\n  margin-top: 4px;\n}\n\n.svg-icon{\n  width: 26px;\n  height: 16px;\n}\n\npre{\n  background: #262626;\n}\n\n.cse .gsc-control-cse, .gsc-control-cse{\n  padding: 0px 20px 0px 0px !important;\n}\n\nblockquote {\n  padding: 0 1em;\n  color: #6a737d;\n  border-left: .25em solid #dfe2e5;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,IAAI,EAAE,IAAI,CAAC,EACT,SAAS,EAAE,GAAG,EACd,WAAW,EAAE,MAAM,GACpB;;AAED,AAAA,MAAM,CAAA,EACJ,gBAAgB,EAAE,IAAI,GACvB;;AAED,AAAA,GAAG,CAAA,EACD,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,IAAI,GACb;;AAED,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,CAAA,EACf,UAAU,EAAE,IAAI,GACjB;;AAED,AAAA,EAAE,CAAA,EACA,UAAU,EAAE,GAAG,GAChB;;AAED,AAAA,SAAS,CAAA,EACP,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACb;;AAED,AAAA,GAAG,CAAA,EACD,UAAU,EAAE,OAAO,GACpB;;AAED,AAAA,IAAI,CAAC,gBAAgB,EAAE,gBAAgB,CAAA,EACrC,OAAO,EAAE,2BAA2B,GACrC;;AAED,AAAA,UAAU,CAAC,EACT,OAAO,EAAE,KAAK,EACd,KAAK,EAAE,OAAO,EACd,WAAW,EAAE,mBAAmB,GACjC"
+}
