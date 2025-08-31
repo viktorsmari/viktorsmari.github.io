@@ -1,0 +1,19 @@
+html, body { font-size: 1em; line-height: 1.65em; }
+
+footer { background-color: #eee; }
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3, h4, h5, h6 { margin-top: 30px; }
+
+li { margin-top: 4px; }
+
+.svg-icon { width: 26px; height: 16px; }
+
+pre { background: #262626; }
+
+.cse .gsc-control-cse, .gsc-control-cse { padding: 0px 20px 0px 0px !important; }
+
+blockquote { padding: 0 1em; color: #6a737d; border-left: .25em solid #dfe2e5; }
+
+/*# sourceMappingURL=viktor.css.map */

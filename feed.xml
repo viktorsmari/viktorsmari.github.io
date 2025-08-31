@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viktor Smári Ágústuson</title>
+    <description>Viktor Smári Ágústuson, Computer Scientist.</description>
+    <link>http://viktorsmari.github.io/</link>
+    <atom:link href="http://viktorsmari.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 31 Aug 2025 16:13:12 +0000</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2025 16:13:12 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>i3 Window Manager vs Sway</title>
+        <description>&lt;p&gt;i3 window manager vs Sway on Ubuntu 24.04&lt;/p&gt;
+
+&lt;p&gt;I have been using Ubuntu since 2013 and the i3 window manager since 2014.&lt;/p&gt;
+
+&lt;p&gt;When I tried i3 for the first time it felt like “home”.
+I had tried a bunch of different Ubuntu desktops like Kubuntu, Lubuntu, Xubuntu and more.
+Finally I was using a window manager that was not in my way. I felt like I was more productive and faster getting my thoughts out.&lt;/p&gt;
+
+&lt;p&gt;I like to update and try new things to see if they help with productivity or make things easier or simpler.&lt;/p&gt;
+
+&lt;p&gt;I tried Sway because it is using Wayland and should be faster and better replacement for i3.&lt;/p&gt;
+
+&lt;h2 id=&quot;good-parts&quot;&gt;Good parts:&lt;/h2&gt;
+
+&lt;p&gt;The configuration for monitors can now live in the config and is quite simple.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;output HDMI-A-2 pos 0 0 res 1920x1080
+output HDMI-A-1 pos 1920 0 res 2560x1440
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;My keyboard config is also simple&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;input &quot;type:keyboard&quot; {
+  xkb_options &quot;caps:escape,grp:alt_shift_toggle&quot;
+  xkb_layout &quot;us,is&quot;
+  repeat_rate 30
+  repeat_delay 250
+  xkb_numlock enabled
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then I had to find alternative programs for taking screenshots.
+I used grim, grimshot, slurp and wl-copy which worked really well.&lt;/p&gt;
+
+&lt;h2 id=&quot;problems&quot;&gt;Problems&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I could not share the &lt;strong&gt;whole&lt;/strong&gt; screen, only one application window.
+This made it tricky because I often share a browser window and a terminal, side by side.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I could not record the screen easily. I spent some time on researching this but had constant issues.
+I tried using OBS, but I did not get it working to record the screen with Wayland.
+I could not add the ‘Screen Capture (XSHM)’&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I used Sway for 2-3 months and then I went back to i3.
+Sway works fine, but Wayland is not ready for me yet, as of 2024&lt;/p&gt;
+
+&lt;p&gt;I personally did not notice that Sway was faster i3 on my computer, but I needed the screen sharing and recording to work properly, so I went back to i3, for now.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 11 Aug 2024 15:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2024/08/11/i3-window-manager-vs-slate.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2024/08/11/i3-window-manager-vs-slate.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>I created software for Repair Shops</title>
+        <description>&lt;p&gt;In 2017 I started working on &lt;a href=&quot;https://repero.me&quot; target=&quot;_blank&quot;&gt;software for repair shops&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A family member was running a repair shop, both selling and repairing bicycles and scooters and needed a
+system to manage all of the repair tickets.&lt;/p&gt;
+
+&lt;p&gt;The first version was written in 2012 by a friend using &lt;strong&gt;PHP and MySQL&lt;/strong&gt; but after my degree in computer science,
+I re-wrote the system using the &lt;strong&gt;Ruby on Rails&lt;/strong&gt; web framework.&lt;/p&gt;
+
+&lt;p&gt;Our first version in 2017 did a few basic things, it could&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create customers&lt;/li&gt;
+  &lt;li&gt;Create products&lt;/li&gt;
+  &lt;li&gt;Create tickets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We needed a name for it, and went with &lt;a href=&quot;https://repero.me&quot; target=&quot;_blank&quot;&gt;Repero&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then we started adding more features like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sending emails from the system&lt;/li&gt;
+  &lt;li&gt;Sending SMS from the system&lt;/li&gt;
+  &lt;li&gt;Make PDF invoices&lt;/li&gt;
+  &lt;li&gt;Upload photos of your repair&lt;/li&gt;
+  &lt;li&gt;Inventory management&lt;/li&gt;
+  &lt;li&gt;Allow your clients to view the status of their repair using a link&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then we made sure that the system works for all kinds of repair shops. Now we have customers that repair for example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Computers and phones&lt;/li&gt;
+  &lt;li&gt;Cars&lt;/li&gt;
+  &lt;li&gt;Watches &amp;amp; jewelry&lt;/li&gt;
+  &lt;li&gt;&amp;amp; more..&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We have a list of some of the features here:
+&lt;a href=&quot;https://repero.me/features&quot; target=&quot;_blank&quot;&gt;repero.me features&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We also have some advanced features like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Send Webhooks to another system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We work closely with our customers and receive great feedback on what to add next to the system.
+Some ideas include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clock in / clock out system&lt;/li&gt;
+  &lt;li&gt;Better statistics on how many repairs each worker completes&lt;/li&gt;
+  &lt;li&gt;How much time each repair spends in a given status / state&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you run a repair shop and need software, you can sign up for free here:
+&lt;a href=&quot;https://repero.me/users/sign_up&quot; target=&quot;_blank&quot;&gt;repero.me/users/sign_up&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have a free plan that you can use &lt;strong&gt;forever&lt;/strong&gt; and you don’t need a credit card.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Feb 2023 15:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2023/02/11/repair-shop-software.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2023/02/11/repair-shop-software.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing PostgreSQL on Ubuntu 22 to use with Ruby on Rails</title>
+        <description>&lt;p&gt;I use Ubuntu for developing Ruby on Rails apps, and usually use &lt;strong&gt;PostgreSQL&lt;/strong&gt; for the database.&lt;/p&gt;
+
+&lt;p&gt;On &lt;strong&gt;Ubuntu 22&lt;/strong&gt; this is how I install and setup PostgreSQL on a newly installed machine.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Install PostgreSQL&lt;/strong&gt; on the machine, and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;psql&lt;/code&gt; client:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install postgresql-14 postgresql-client&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open the PostgreSQL shell as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgres&lt;/code&gt; user:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo -u postgres psql&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;psql&lt;/code&gt; shell, create or alter a user with the rights to create databases. Make sure the username matches your Ubuntu username:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create user viktor with superuser;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;OR if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;psql&lt;/code&gt; already user exists:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alter user viktor with superuser;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can verify if your use has &lt;strong&gt;superuser&lt;/strong&gt; privileges with this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\du&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And then exit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;psql&lt;/code&gt; shell by typing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exit&lt;/code&gt; or CTRL+D&lt;/p&gt;
+
+&lt;p&gt;With these settings there should be no need to edit any PostgreSQL config files.&lt;/p&gt;
+
+&lt;p&gt;In a new Ruby on Rails project, you should be able to create databases for example using:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rails db:setup&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The solution above &lt;em&gt;should&lt;/em&gt; prevent errors like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PG:ConnectionBad:&lt;/code&gt; connection to server on socket “/var/run/postgresql/.s.PGSQL.5432” failed: No such file or directory. Is the server running locally and accepting connections on that socket?&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ActiveRecord::NoDatabaseError:&lt;/code&gt; connection to server on socket “/var/run/postgresql/.s.PGSQL.5432” failed: FATAL: role does not exist&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ActiveRecord::NoDatabaseError:&lt;/code&gt; connection to server on socket “/var/run/postgresql/.s.PGSQL.5432” failed: FATAL: database does not exist&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Oct 2022 15:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2022/10/16/install-postgresql-for-ruby-on-rails.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2022/10/16/install-postgresql-for-ruby-on-rails.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why I quit facebook</title>
+        <description>&lt;p&gt;In &lt;strong&gt;August 2019&lt;/strong&gt; I deleted my Facebook account.&lt;/p&gt;
+
+&lt;p&gt;At the time, the process took 30 days.
+When you decide to delete your account, you have 30 days to undo the deletion.
+If you login again within the 30 days, you will undo the deletion.
+Maybe their process has changed since then.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-i-left-facebook&quot;&gt;Why I left facebook&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Facebook was becoming a time thief.&lt;/li&gt;
+  &lt;li&gt;When I got bored I had the habit of hitting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL+t, f, ENTER&lt;/code&gt; and within 1 second I was on Facebook.&lt;/li&gt;
+  &lt;li&gt;I started logging out which helped a bit, but I still had the craving to check my ‘likes’ and notifications.&lt;/li&gt;
+  &lt;li&gt;I was scrolling random stuff, watching other people live their (fake) lives, instead of focusing on my own life.&lt;/li&gt;
+  &lt;li&gt;Facebook was involved in numerous data scandals&lt;/li&gt;
+  &lt;li&gt;Do I really want a private company being able to read and store all my conversations?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Would you allow a person from a private company to listen and record all your conversations with your friends and family?
+Probably not, but that is what we are doing.&lt;/p&gt;
+
+&lt;h3 id=&quot;facebook-monitors-everything&quot;&gt;Facebook monitors &lt;em&gt;everything&lt;/em&gt;.&lt;/h3&gt;
+
+&lt;p&gt;Imagine someone knowing all of this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How often and how long do you looked at that picture of your ex lover&lt;/li&gt;
+  &lt;li&gt;When is your next period, when are you tired, hungry, horny etc.&lt;/li&gt;
+  &lt;li&gt;How long you stayed at that location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;alternatives&quot;&gt;Alternatives&lt;/h2&gt;
+&lt;p&gt;For communications I switched to Signal messenger.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://signal.org/&quot;&gt;https://signal.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am still on Twitter and reddit, but I don’t use their apps, only their mobile websites.&lt;/p&gt;
+
+&lt;p&gt;I am still using some Google services, but I have started to switch to other services such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ProtonMail for mail&lt;/li&gt;
+  &lt;li&gt;https://duckduckgo.com/ as a default search engine&lt;/li&gt;
+  &lt;li&gt;Firefox browser&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brave.com/&quot;&gt;Brave browser&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These sites have a good list of reasons not to be &lt;strong&gt;used by&lt;/strong&gt; Facebook&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stallman.org/facebook.html&quot;&gt;https://stallman.org/facebook.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/AntiFacebook/&quot;&gt;https://www.reddit.com/r/AntiFacebook/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;obstacles&quot;&gt;Obstacles&lt;/h3&gt;
+
+&lt;p&gt;It was surprisingly easy to get my family and friends on Signal.&lt;/p&gt;
+
+&lt;p&gt;Signal has groups, video calls and is simple to use.&lt;/p&gt;
+
+&lt;p&gt;Some people already use WhatsApp - but that is &lt;strong&gt;also owned by Facebook!&lt;/strong&gt; So that was not an option for me.&lt;/p&gt;
+
+&lt;p&gt;Telegram might be an option for some, but it is also owned by a German company, started by two Russian brothers.&lt;/p&gt;
+
+&lt;p&gt;Signal is owned by a non profit foundation.
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Signal_(software)&quot;&gt;https://en.wikipedia.org/wiki/Signal_(software)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wikihow.com/Quit-Facebook&quot;&gt;https://www.wikihow.com/Quit-Facebook&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 May 2021 15:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2021/05/28/why-i-quit-facebook.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2021/05/28/why-i-quit-facebook.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to build Ardour 6 on Ubuntu 20</title>
+        <description>&lt;h1 id=&quot;build-ardour-6-on-ubuntu-2004&quot;&gt;Build Ardour 6 on Ubuntu 20.04&lt;/h1&gt;
+
+&lt;p&gt;This is how you build Ardour 6 on Ubuntu 20.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: This also works for Ardour 7 on Ubuntu 22.10&lt;/p&gt;
+
+&lt;p&gt;If you simply want to install it, you can download it and pay as little as 1$ directly on the
+&lt;a href=&quot;https://community.ardour.org/download&quot; target=&quot;_blank&quot;&gt;Ardour website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-by-step-instructions&quot;&gt;Step by step instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone the repo&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone https://github.com/ardour/ardour&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;and cd into the directory&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ardour&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;This will fetch the &lt;strong&gt;LATEST&lt;/strong&gt; version of Ardour, which &lt;em&gt;might&lt;/em&gt; be unstable.&lt;/p&gt;
+
+    &lt;p&gt;You can list all versions (sorted) with: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git tag | sort -V&lt;/code&gt; and select a specific version with: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout 6.9&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install the dependencies&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libboost-all-dev gcc g++ pkg-config libasound2-dev libgtk2.0-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libsndfile1-dev libcurl4-nss-dev libarchive-dev liblo-dev libtag1-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+vamp-plugin-sdk librubberband-dev libfftw3-dev libaubio-dev libxml2-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+lv2-dev libserd-dev libsord-dev libsratom-dev liblilv-dev libgtkmm-2.4-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libglibmm-2.4-dev libusb-1.0-0-dev libpangomm-1.4-dev libsamplerate0-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libcunit1-dev libcppunit-dev libudev-dev libserd-0-0 libcwiid-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libxwiimote-dev libwebsocketpp-dev libwebsockets-dev &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+libsratom-0-0 liblrdf0 liblrdf0-dev libsuil-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;I added the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libsuil-dev&lt;/code&gt; package which will allow LV2 plugins to display their own custom GUI, instead of a generic one.&lt;/p&gt;
+
+    &lt;p&gt;Based on an answer of mine from &lt;a href=&quot;https://askubuntu.com/questions/1020879/building-ardour-5&quot; target=&quot;_blank&quot;&gt;Ask Ubuntu&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build Ardour&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./waf configure
+./waf
+./waf &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;And you are done!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For more detail see:&lt;br /&gt;
+&lt;a href=&quot;http://ardour.org/building_linux.html&quot; target=&quot;_blank&quot;&gt;http://ardour.org/building_linux.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;build-the-ardour-version-your-package-manager-supports&quot;&gt;Build the Ardour version your package manager supports&lt;/h1&gt;
+
+&lt;p&gt;If for some reason you want to build the version that your package manager has, which will probably not be the newest version,
+there is a quick way to install the dependencies for that.&lt;/p&gt;
+
+&lt;p&gt;You can check which version your package manager has:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-cache policy ardour
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In my case that is 5.12:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Candidate: 1:5.12.0-3ubuntu4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;By using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt build-dep&lt;/code&gt; command, we can install all the packages required to build the package locally.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;build-dep causes apt-get to install/remove packages in an attempt to satisfy the build dependencies for a source package.
+By default the dependencies are satisfied to build the package natively.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt build-dep ardour
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then do the same &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;./waf&lt;/code&gt; commands as listed above.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Jun 2020 15:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2020/06/22/build-ardour6-on-ubuntu20.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2020/06/22/build-ardour6-on-ubuntu20.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Creating a free website on GitHub pages</title>
+        <description>&lt;h1 id=&quot;creating-a-free-website-on-github&quot;&gt;Creating a free website on GitHub&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Log in to GitHub https://github.com/login&lt;/li&gt;
+  &lt;li&gt;Create a &lt;strong&gt;new repository&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Click the top-right &lt;strong&gt;+&lt;/strong&gt; (plus) button&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/FY8FPXc.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Or go to https://github.com/new&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Name the repository whatever you want, like
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;mywebsite&lt;/strong&gt; or &lt;strong&gt;testing&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a file (or upload one you have)
+    &lt;ul&gt;
+      &lt;li&gt;Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;creating a new file&lt;/code&gt; link:&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/RyLqenC.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Name the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add something to the file (like ‘Hello’)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/go2AUk0.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Click the green button &lt;strong&gt;Commit&lt;/strong&gt; to Save the file (at the bottom)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/vZoNnpT.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now we have created a file with some content in a repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;enabling-github-pages&quot;&gt;Enabling GitHub pages&lt;/h2&gt;
+&lt;p&gt;Next we need to tell GitHub we want this repository to be a website!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click the &lt;strong&gt;Settings&lt;/strong&gt; tab for your repository
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/6zir2kQ.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Scroll down until you find the &lt;strong&gt;GitHub settings&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Enable GitHub pages by clicking the &lt;strong&gt;None&lt;/strong&gt; dropdown and selecting &lt;strong&gt;master branch&lt;/strong&gt; (first option)
+       * &lt;img src=&quot;https://i.imgur.com/bpeZFTX.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;GitHub will now enable your page.&lt;/li&gt;
+  &lt;li&gt;Scroll down again so you can see the link to your website
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;https://i.imgur.com/xLbwfY1.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Thats it! 
+&lt;strong&gt;Congratulations&lt;/strong&gt; on your very own website!&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps-optional&quot;&gt;Next steps (optional)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Learn HTML
+    &lt;ul&gt;
+      &lt;li&gt;https://www.w3schools.com/html/&lt;/li&gt;
+      &lt;li&gt;https://www.codecademy.com/learn/learn-html&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Learn CSS
+    &lt;ul&gt;
+      &lt;li&gt;https://www.w3schools.com/css/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Learn JavaScript&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;using-a-custom-domain-advanced&quot;&gt;Using a custom domain (advanced)&lt;/h2&gt;
+
+&lt;p&gt;In the GitHub &lt;strong&gt;Settings&lt;/strong&gt; you can also add your &lt;strong&gt;own domain&lt;/strong&gt; like mydomain.com&lt;/p&gt;
+
+&lt;p&gt;You need to have:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Bought a domain!&lt;/li&gt;
+  &lt;li&gt;Pointed the DNS records to GitHub pages
+    &lt;ul&gt;
+      &lt;li&gt;https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site&lt;/li&gt;
+      &lt;li&gt;On the website you bought your domain:&lt;/li&gt;
+      &lt;li&gt;Create an A record pointing to any of these IPs:
+        &lt;ul&gt;
+          &lt;li&gt;185.199.108.153&lt;/li&gt;
+          &lt;li&gt;185.199.109.153&lt;/li&gt;
+          &lt;li&gt;185.199.110.153&lt;/li&gt;
+          &lt;li&gt;185.199.111.153&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 03 Mar 2020 18:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2020/03/03/create-a-free-website-on-github.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2020/03/03/create-a-free-website-on-github.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wordpress vs Github Pages</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/WordPress&quot;&gt;Wordpress&lt;/a&gt; is a CMS (from 2003) that reads and saves data into an SQL database, making it a target for &lt;a href=&quot;https://en.wikipedia.org/wiki/SQL_injection&quot;&gt;SQL injection&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github Pages&lt;/strong&gt; is a hosting solution, that only hosts &lt;strong&gt;Static websites&lt;/strong&gt; which do not use an SQL database.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Static websites&lt;/strong&gt; are simply files in a folder (or Github repository).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Static websites&lt;/strong&gt; can use external services (instead of a WP plugin) by simply adding an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tags, just like embedding a Youtube video.&lt;/p&gt;
+
+&lt;h3 id=&quot;platforms-to-store-static-websites&quot;&gt;Platforms to store Static websites&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://about.gitlab.com/product/pages/&quot;&gt;Gitlab Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; &lt;a href=&quot;https://www.netlify.com/github-pages-vs-netlify/&quot;&gt;(See netlify / GH Pages comparison)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zeit.co/&quot;&gt;Zeit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;static-website-generators&quot;&gt;Static Website Generators&lt;/h3&gt;
+&lt;p&gt;Most popular:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; - &lt;em&gt;Transform your plain text into static websites and blogs.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Hugo&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitBook&lt;/li&gt;
+  &lt;li&gt;VuePress&lt;/li&gt;
+  &lt;li&gt;See the &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;longer list here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;content-management-systems-cms-for-static-websites&quot;&gt;Content Management Systems (CMS) for Static websites&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forestriy.io&quot;&gt;Forestry.io&lt;/a&gt; - &lt;em&gt;A static CMS that commits.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudcannon.com/&quot;&gt;CloudCannon&lt;/a&gt; - &lt;em&gt;The Cloud CMS for Jekyll.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.siteleaf.com/&quot;&gt;Siteleaf&lt;/a&gt; - &lt;em&gt;A friendly CMS for your static site&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vapid.com/&quot;&gt;Vapid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;technical-dept&quot;&gt;Technical dept&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_debt&quot;&gt;Technical debt&lt;/a&gt; (also known as design debt or code debt) is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;installing-a-wordpress-site-requires&quot;&gt;Installing a Wordpress site requires:&lt;/h6&gt;
+&lt;ol&gt;
+  &lt;li&gt;A private server with SSH access. (Digital Ocean, Linode etc). &lt;strong&gt;Cost&lt;/strong&gt;: ~ 5 USD / month.&lt;/li&gt;
+  &lt;li&gt;Installing a Webserver (Apache / Nginx) and an SQL database (MySQL / MariaDB)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;a-wordpress-maintainer-needs-access-to&quot;&gt;A Wordpress maintainer needs access to:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;The server via SSH (username / password)&lt;/li&gt;
+  &lt;li&gt;The Wordpress backend &lt;a href=&quot;&quot;&gt;example.com/wp-admin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SQL database on the server (username / password / database_name) via MySQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;a-wordpress-maintainer-would-need-to-periodically-do-the-following&quot;&gt;A Wordpress maintainer would need to &lt;strong&gt;periodically&lt;/strong&gt; do the following:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update ALL plugins the site is using. A single outdated plugin can be the cause of your website being &lt;strong&gt;hacked&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Install security updates on the server, MySQL, nginx etc.&lt;/li&gt;
+  &lt;li&gt;Make sure the SQL database is being &lt;strong&gt;backed up&lt;/strong&gt; to a different server.&lt;/li&gt;
+  &lt;li&gt;Make sure the uploaded files (images etc) are being &lt;strong&gt;backed up&lt;/strong&gt; to a different server.&lt;/li&gt;
+  &lt;li&gt;Re-install the server, if running Ubuntu LTS, &lt;strong&gt;every 5 years&lt;/strong&gt;. Usually a new server is created and everything migrated to the new one. This takes hours.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Who knows the username / password to that website we made 2 years ago?&lt;/p&gt;
+
+&lt;h6 id=&quot;a-github-pages-maintainer--developer-would-need-to&quot;&gt;A Github Pages maintainer / developer would need to:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Be granted write access to the repository on Github.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prior-wordpress-experience&quot;&gt;Prior Wordpress experience&lt;/h3&gt;
+
+&lt;p&gt;Having worked on multiple Wordpress websites, I created a list of some things I have encountered through the years.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Someone installed a plugin that was able to &lt;strong&gt;edit&lt;/strong&gt; the theme files directly on the server. The code on the server is now different from the code on Github, that the new developer is working on. Which codesource is the &lt;strong&gt;correct&lt;/strong&gt; one?&lt;/li&gt;
+  &lt;li&gt;Someone installed a plugin that did the same as another plugin, and those 2 plugins were fighting and nobody knew what was causing the weird issue.&lt;/li&gt;
+  &lt;li&gt;More people installed more plugins and the site got slower.&lt;/li&gt;
+  &lt;li&gt;Some of those plugins were not being maintained and were &lt;strong&gt;out of date&lt;/strong&gt; and a security risk.&lt;/li&gt;
+  &lt;li&gt;One out of date plugin caused the website to be injected with hidden keywords like (BRAND NAME glasses / clothes), which in this case, did not break the website, but &lt;strong&gt;lowered&lt;/strong&gt; it’s search ranking.
+&lt;a href=&quot;https://developers.google.com/web/fundamentals/security/hacked/&quot;&gt;Google penalizes hacked sites&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;3 years later, everyone got sick of the website and a new website had to be made from scratch, again, with Wordpress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Will your website still be online in 5 years? What about 10-20 years? With Github Pages there are no server fees nor updates needed.
+As long as Github (owned by Microsoft) is still running, chances are your site also will. If not, you can easily move it to Gitlab or Netlify by a simple &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;When using a static page on Github, anyone can &lt;strong&gt;clone&lt;/strong&gt; (or download) your repository and get &lt;strong&gt;all&lt;/strong&gt; the data. No need to ask the maintainer for the SQL database dump.
+This means that anyone can backup the whole website easily.&lt;/p&gt;
+
+&lt;p&gt;With static websites, we get all the benefits of &lt;a href=&quot;https://en.wikipedia.org/wiki/Git&quot;&gt;git version control&lt;/a&gt;, applied to the &lt;strong&gt;whole&lt;/strong&gt; website.&lt;/p&gt;
+
+&lt;p&gt;Who removed line nr 5 in that article and when? Who edited that word in that line? Can we put it back? - Yes. This is all possible when using &lt;strong&gt;Git&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A study revealed that 98% of WordPress blogs being run were exploitable because they were running outdated and unsupported versions of the software.&lt;/p&gt;
+
+&lt;p&gt;Read more about &lt;a href=&quot;https://en.wikipedia.org/wiki/WordPress#Vulnerabilities&quot;&gt;Wordpress Vulnerabilities&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;terminology&quot;&gt;Terminology&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A static website&lt;/strong&gt; contains Web pages with fixed content. Each page is coded in HTML and displays the same information to every visitor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dynamic websites&lt;/strong&gt; contain Web pages that are generated in real-time. They might need to query a database (like MySQL) and then render the data. This is slow.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+        <link>http://viktorsmari.github.io/2019/07/14/github-pages-vs-wordpress.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/2019/07/14/github-pages-vs-wordpress.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Auto deploy commits from Travis to Github pages</title>
+        <description>&lt;h2 id=&quot;auto-deploy-from-travis-to-github&quot;&gt;Auto deploy from Travis to Github&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a key and save it to a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;deploy_rsa&lt;/code&gt;&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh-keygen -t rsa -b 4096 -C 'build@travis-ci.org' -f ./deploy_rsa&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add the key, encrypted, to Travis&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;travis encrypt-file deploy_rsa --add&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add the encrypted key to git&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add deploy_rsa.enc&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to the repository settings/deploy keys page on Github and add a new Deploy Key. Add the output of the following command + check Allow write&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cat deploy_rsa.pub&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Remove the actual key file so it won’t be commited to the repo by accident&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm deploy_rsa deploy_rsa.pub&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.travis-deploy.sh&lt;/code&gt; script:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;
+  
+  &lt;span class=&quot;c&quot;&gt;# setup ssh-agent and provide the GitHub deploy key&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;ssh-agent &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;600 deploy_rsa
+  ssh-add deploy_rsa
+  
+  &lt;span class=&quot;c&quot;&gt;# This method depends on how you build your project.&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# This is a node.js example:&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# commit the assets in build/ to the gh-pages branch and push to GitHub using SSH&lt;/span&gt;
+  ./node_modules/.bin/gh-pages &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; dist/ &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; gh-pages &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; git@github.com:&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;TRAVIS_REPO_SLUG&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;.git
+  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Make the script runnable&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod +x .travis-deploy.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Call the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.travis-deploy.sh&lt;/code&gt; script in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.travis.yml&lt;/code&gt; file&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  deploy:
+  - provider: script
+    skip_cleanup: &lt;span class=&quot;nb&quot;&gt;true
+    &lt;/span&gt;script: &lt;span class=&quot;s2&quot;&gt;&quot;./.travis-deploy.sh&quot;&lt;/span&gt;
+    on:
+      branch: master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 23 Jan 2019 11:35:17 +0000</pubDate>
+        <link>http://viktorsmari.github.io/linux/2019/01/23/travis-github-auto-deploy.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/linux/2019/01/23/travis-github-auto-deploy.html</guid>
+        
+        
+        <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Bicycling in Barcelona</title>
+        <description>&lt;p&gt;Barcelona has done a great job adding Bicycle lanes around the city from 2015-2018, making the city more liveable and fun.&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;
+  &lt;img src=&quot;/assets/2-girls-biking.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;2 riders side by side on Passeig de Pujades on Bicing bicycles&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From Barcelona’s manifesto:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Barcelona City Council aims to provide 308 km of cycle lanes by 2018, which would mean an increase of 165% on the figure quoted in the 2015 Strategic Bicycle Measure (a network of 116 kilometres). This means that by 2018, 95% of the city’s population would have a cycle lane within 300 metres of their home.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-going-well&quot;&gt;What is going well?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A lot of new bike paths are being added.&lt;/li&gt;
+  &lt;li&gt;Bicing is growing in popularity. This is a result of more available bike paths.&lt;/li&gt;
+  &lt;li&gt;Some existing bicycle paths are being made wider.
+    &lt;ul&gt;
+      &lt;li&gt;For example, a part of Diputació close to Passeig de Gracia has been made wider.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The introduction of &lt;a href=&quot;https://www.youtube.com/watch?v=ZORzsubQA_M&quot;&gt;Superilla&lt;/a&gt;, a 3x3 block with reduced car traffic.
+    &lt;ul&gt;
+      &lt;li&gt;I bike through a Superilla in Poblenou everyday and that is the favorite part of my ride.&lt;/li&gt;
+      &lt;li&gt;The bicycle lanes could have a better marking, but it is an evolving project.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-can-be-improved&quot;&gt;What can be improved?&lt;/h3&gt;
+
+&lt;p&gt;Having lived in two of the most bicycle friendly cities in the world, Amsterdam and Copenhagen, here is my list of things that can be improved:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Stop&lt;/strong&gt; putting bicycles lanes in the &lt;strong&gt;middle&lt;/strong&gt;, between car lanes! This is both unsafe and &lt;strong&gt;unpractical&lt;/strong&gt;!
+    &lt;ul&gt;
+      &lt;li&gt;Ideally put a one way bike line &lt;strong&gt;always on the right side of the cars&lt;/strong&gt;. (Just like on Diputació or Consell de Cent)&lt;/li&gt;
+      &lt;li&gt;This means that the car drivers are used to always look in the right mirror to see if there is a bicycle near.&lt;/li&gt;
+      &lt;li&gt;In Barcelona, sometimes there are double bike lines, sometimes single ones, and sometimes on the right and sometimes on the left.&lt;/li&gt;
+      &lt;li&gt;In &lt;a href=&quot;https://en.wikipedia.org/wiki/Cycling_in_Copenhagen&quot;&gt;Copenhagen&lt;/a&gt; they are almost always on the right.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make the bicycle paths wider
+    &lt;ul&gt;
+      &lt;li&gt;Ideally make them wide enough for a cargo bike to pass another cargo bike&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Stop using the barriers between the bike lanes and raise the street instead (Copenhagen standard).
+    &lt;ul&gt;
+      &lt;li&gt;This costs a lot of money compared to the barriers (but less maintenence), and therefore a lower priority&lt;/li&gt;
+      &lt;li&gt;However this could be introduced in new streets / reforms.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;1-what-is-wrong-with-bicycle-paths-in-the-middle&quot;&gt;1. What is wrong with Bicycle paths in the middle?&lt;/h4&gt;
+
+&lt;p&gt;If I want to make a left turn here and need to wait for the light for 20sec, where should I wait?
+&lt;img src=&quot;/assets/no-space.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What if there are 5 more people with me who also want to turn left? Where should they wait?&lt;/p&gt;
+
+&lt;p&gt;Here is a car deciding to turn left, having to wait, and &lt;strong&gt;blocking&lt;/strong&gt; bicycles from &lt;strong&gt;both&lt;/strong&gt; directions!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/bicyclist-annoyed.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Have the bicycle lane on the right side&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is clearly a design fail which could have been avoided if the bicycle lane whould be on the right side of the car traffic.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+
+&lt;p&gt;Here is a youtube video of a single ride which all the examples below occured:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Kh54TW2QBhY&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Some of them are not related to infrastructure, but rather a lack of ‘tradition’ or culture, or lack of more bike riders.&lt;/p&gt;
+
+&lt;p&gt;More riders on the bicycle lanes = more visibility and more safety and awareness by car drivers.&lt;/p&gt;
+
+&lt;h4 id=&quot;cars-blocking-traffic&quot;&gt;Cars blocking traffic&lt;/h4&gt;
+
+&lt;p&gt;Sometimes cars don’t want to miss the next ‘wave’ of green light jamming the bicycle path.
+&lt;img src=&quot;/assets/cars-blocking.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;: Painting the bike lane red might help. But the cars did not move until they saw more bicycles approaching.&lt;/p&gt;
+
+&lt;p&gt;Taxi stopping to let out passengers on the middle of a double bike path.
+&lt;img src=&quot;/assets/taxi-woman.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;trucks-or-vans-unloading&quot;&gt;Trucks or vans unloading&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/truck2-block.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid mx-auto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/van-blocking.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid mx-auto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pedestrian on an e-scooter stopping after the waiting line, and a van almost backing up into him.
+&lt;img src=&quot;/assets/van2-blocking.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid mx-auto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here on the right side is a warehouse with big trucks often driving into the bicycle lane when backing up to the port.
+During that, they often hit the small separator barriers, breaking them, and creating danger for bicyclists.
+&lt;img src=&quot;/assets/bikelane-broken-barrier.png&quot; alt=&quot;bike&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All of these pictures were taken on the &lt;a href=&quot;https://www.youtube.com/watch?v=Kh54TW2QBhY&amp;amp;feature=youtu.be&quot;&gt;same ride&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Useful info:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://w33.bcn.cat/planolBCN/en/guia/act/bike-lane-K023,green-ring-road-K025,30-km/h-zones-K027,cycle-paths-K026,bike-lane-under-construction-K028,bicing-stations-K013,bycicle-parks-K021,car-parks-with-places-for-bycicles-K024/&quot;&gt;Interactive map with Bicing stations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ajuntament.barcelona.cat/bicicleta/sites/default/files/Mapa_Carrils_Bici.pdf&quot;&gt;PDF map&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ajuntament.barcelona.cat/bicicleta/en&quot;&gt;Ajuntament de Barcelona - bicicleta (English)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Oct 2018 20:26:40 +0000</pubDate>
+        <link>http://viktorsmari.github.io/barcelona/bicycling/2018/10/04/bicycling-in-barcelona.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/barcelona/bicycling/2018/10/04/bicycling-in-barcelona.html</guid>
+        
+        
+        <category>barcelona</category>
+        
+        <category>bicycling</category>
+        
+      </item>
+    
+      <item>
+        <title>Adding signature to a PDF in Linux, Ubuntu</title>
+        <description>&lt;p&gt;How to annotate a PDF on Linux, Ubuntu?&lt;/p&gt;
+
+&lt;p&gt;Do you want to add your &lt;strong&gt;signature&lt;/strong&gt; in Linux, Ubuntu, just like in Preview on MacOS?&lt;/p&gt;
+
+&lt;p&gt;You can do so easily with the Xournal tool, and Google Drawings.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-the-signature-as-a-svg&quot;&gt;Create the signature as a SVG&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open &lt;a href=&quot;http://drive.google.com/&quot; target=&quot;_blank&quot;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click &lt;strong&gt;New&lt;/strong&gt; (maybe you need to click &lt;strong&gt;More&lt;/strong&gt;) and &lt;strong&gt;Google Drawings&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the &lt;em&gt;line with 2 dots&lt;/em&gt; next to the &lt;em&gt;Arrow&lt;/em&gt; and select &lt;strong&gt;Scribble&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;/assets/googledraw.png&quot; alt=&quot;Google Draw&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create your signature and click &lt;strong&gt;File&lt;/strong&gt; and &lt;strong&gt;Download as&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.svg&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If we use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.svg&lt;/code&gt;, then the signature won’t loose quality when scaling. Feel free to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.jpg&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;install-xournal-for-linux&quot;&gt;Install Xournal for Linux&lt;/h3&gt;
+
+&lt;p&gt;To add the signature we just created, to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.pdf&lt;/code&gt;, we will use the free software &lt;a href=&quot;http://xournal.sourceforge.net/&quot;&gt;Xournal&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Xournal&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apt-get install xournal&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open Xournal and select &lt;strong&gt;File&lt;/strong&gt; menu -&amp;gt; &lt;strong&gt;Annotate PDF&lt;/strong&gt; and choose your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.pdf&lt;/code&gt; file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Click &lt;strong&gt;Tools&lt;/strong&gt; menu -&amp;gt; &lt;strong&gt;Image&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Or click the &lt;strong&gt;Image&lt;/strong&gt;, (icon of a person) &lt;img src=&quot;/assets/xournal.png&quot; alt=&quot;Xournal&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;File&lt;/strong&gt; menu -&amp;gt; &lt;strong&gt;Export to PDF&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is based on this &lt;a href=&quot;https://unix.stackexchange.com/questions/85873/how-can-i-add-a-signature-png-to-a-pdf-in-linux&quot;&gt;stackexchange answer&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Aug 2018 17:36:47 +0000</pubDate>
+        <link>http://viktorsmari.github.io/linux/pdf/2018/08/23/annotate-pdf-linux.html</link>
+        <guid isPermaLink="true">http://viktorsmari.github.io/linux/pdf/2018/08/23/annotate-pdf-linux.html</guid>
+        
+        
+        <category>linux</category>
+        
+        <category>pdf</category>
+        
+      </item>
+    
+  </channel>
+</rss>
