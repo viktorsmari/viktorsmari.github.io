@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Padelmót fjölskyldunnar 2025 - Forskráning hafin!" />
@@ -20,78 +23,136 @@
         width: 90%;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
       }
-      h2 {
-        margin-top: 1.5em;
+      h1 {
+        font: 2.5em 'Lexend Exa', system-ui, sans-serif;
+        color: #e73f7aff;
+        text-transform: uppercase;
       }
-      .image-gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+      h2 {
+        font: 2em 'Lexend Exa', system-ui, sans-serif;
+        text-align: center;
+      }
+      a {
+        color: var(--midnight-green);
+        text-decoration: none;
       }
       .img {
         max-width: 100%;
         height: auto;
       }
+      @media (min-width: 600px) {
+        .img {
+          width: calc(25% - 10px);
+        }
+      }
+      .bannertop {
+        background-color: #074f57ff;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .umsagnir {
+        background-color: #59344fff;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        padding-bottom: 60px;
+      }
+      .content {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      .card {
+        background-color: var(--cambridge-blue);
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex: 1 1 calc(33% - 20px);
+        box-sizing: border-box;
+        min-width: 250px;
+      }
    </style>
   </head>
   <body>
-    <h1>
-      <span style="color: var(--claret)">Padel</span>
-      <span style="color: var(--midnight-green)">jólamót</span>
-      <span style="color: var(--cambridge-blue)">Orihuela</span>
-      <span style="color: var(--rose-quartz)">Costa</span>
-      <span style="color: var(--violet-jtc)">2025</span>
-    </h1>
+    <div class="bannertop">
+      <h1>
+      Hið árlega Padel jólamót Fjölskyldu og Vina 2025
+      </h1>
+    </div>
+    <div class="content">
+      <p>
+      Góðir hálsar, þá er komið að því, <b style="color: var(--claret)">skráning er hafin</b> á hið árlega Padel jólamót sem haldið er í Orihuela Costa!
+      </p>
 
-    <p>
-    Jæja kæru hálsar, þá er komið að því, <b>forskráning er hafin</b> í Padelmót Orihuela Costa í september 2025!
-    </p>
+      <p>
+      Á síðasta ári var gríðarleg ásókn og því komust færri að en vildu!
+      </p>
+      <p>
+      Eins og venjulega mun mótið fara fram milli jóla og nýárs, nánar tiltekið 27-30. desember 2025.
+      </p>
+      <p>
+      Það er því ekki til setunnar boðið að skrá sig strax, því þetta er fyrstur kemur fyrstur fær!
+      </p>
 
-    <p>
-    Uppselt var á síðasta ári og færri komust að en vildu!
-    </p>
+      <p>
+      Þetta mót inniheldur allt saman:<br>
+      Ættarmót, Padelmót, Jólamót, Áramót, you name it!
+      </p>
 
-    <p>
-    Þetta mót inniheldur allt saman:<br>
-    Ættarmót, Padelmót, Jólamót, Áramót, you name it!
-    </p>
-
-    <p>
-    Þetta mót mun einnig innihalda mikið gaman, mikið Padel og mikið verðlaun.
-    </p>
-
-    <h2 style="color: var(--midnight-green)">Umsagnir síðasta árs</h2>
-    <div style="margin-top: 1em;">
-      <q>Vá hvað þetta var gaman</q> - <strong>Sóley</strong>, 19 ára
+      <p>
+      Líkt og áður munu verðlaun vera veitt fyrir bestu frammistöðu, skemmtun og liðsheild, jafnt og aðra eftirtektarverða frammistöðu.
+      </p>
+      <p>Í tilefni <a href="https://www.arnastofnun.is/is/utgafa-og-gagnasofn/pistlar/brandajol" target="_blank">Stóru-Brandajóla</a> er tilvarið að nýta þessi einstaklega hentugu fríjól og skrá sig núna!</p>
     </div>
 
-    <div style="margin-top: 1em;">
-      <q>Geggjað</q> - <strong>Gunnar</strong>, aðeins eldri
-    </div>
+    <div class="umsagnir">
+      <h2 style="color: var(--cambridge-blue)">UMSAGNIR SÍÐASTA ÁRS</h2>
+      <div style="margin-top: 1em;">
+        <q>Vá hvað þetta var gaman</q> - <strong>Sóley</strong>, 19 ára
+      </div>
 
-    <div style="margin-top: 1em;">
-      <q>DJÖFULL ER GAMAN AÐ SPILA VIÐ FÓLK Á SÍNU LEVELI</q> - <strong>Fanney Þóra</strong>, mjög peppuð
-    </div>
+      <div style="margin-top: 1em;">
+        <q>Geggjað</q> - <strong>Gunnar</strong>, aðeins eldri
+      </div>
 
-    <div style="margin-top: 1em;">
-      <q>Var þetta ekki bara gaman?</q> - <strong>Jón Ari</strong>, sigurvegari síðasta árs
-    </div>
+      <div style="margin-top: 1em;">
+        <q>DJÖFULL ER GAMAN AÐ SPILA VIÐ FÓLK Á SÍNU LEVELI</q> - <strong>Fanney Þóra</strong>, mjög peppuð
+      </div>
 
-    <h2 style="color: var(--cambridge-blue)">Heyrt á vellinum</h2>
-    <div style="margin-top: 1em;">
-      <q>Frábært mót og mótshaldarar eru alveg til fyrirmyndar</q> - Einhver.. vonandi
-    </div>
+      <div style="margin-top: 1em;">
+        <q>Mjög fínt</q> - <strong>Dagbjört</strong>, minna peppuð
+      </div>
 
-    <div style="margin-top: 1em;">
-      <q>Hvað eiga þau eiginlega marga padel spaða? Nóg til að lána öllum hérna..</q>
+      <div style="margin-top: 1em;">
+        <q>Var þetta ekki bara gaman?</q> - <strong>Jón Ari</strong>, sigurvegari síðasta árs
+      </div>
     </div>
 
     <h2 style="color: var(--claret)">Myndir síðasta árs</h2>
-    <div class="image-gallery">
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOnaDwqGCxMW0TlZi37UloXup7tB4T6Zmj2iG4PzbdrkENY9T5wxAKwpjv7KL6iG_G2Wn6twJZOXdx_0dEDUBhBWBdAPUxdAmIW2hdpPZpSCSZOWxEe0duAFIY0P4usrJlHg7L1aYuQvYejWtbFs0pZFw=w2880-h2160-s-no-gm?authuser=0" alt="Mynd 1 frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOnaDwqGCxMW0TlZi37UloXup7tB4T6Zmj2iG4PzbdrkENY9T5wxAKwpjv7KL6iG_G2Wn6twJZOXdx_0dEDUBhBWBdAPUxdAmIW2hdpPZpSCSZOWxEe0duAFIY0P4usrJlHg7L1aYuQvYejWtbFs0pZFw=w2880-h2160-s-no-gm?authuser=0" alt="Mynd 1 frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOnaDwqGCxMW0TlZi37UloXup7tB4T6Zmj2iG4PzbdrkENY9T5wxAKwpjv7KL6iG_G2Wn6twJZOXdx_0dEDUBhBWBdAPUxdAmIW2hdpPZpSCSZOWxEe0duAFIY0P4usrJlHg7L1aYuQvYejWtbFs0pZFw=w2880-h2160-s-no-gm?authuser=0" alt="Mynd 1 frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOnaDwqGCxMW0TlZi37UloXup7tB4T6Zmj2iG4PzbdrkENY9T5wxAKwpjv7KL6iG_G2Wn6twJZOXdx_0dEDUBhBWBdAPUxdAmIW2hdpPZpSCSZOWxEe0duAFIY0P4usrJlHg7L1aYuQvYejWtbFs0pZFw=w2880-h2160-s-no-gm?authuser=0" alt="Mynd 1 frá Padelmóti 2024" />
+    <p>Smellið á myndirnar til að skoða allt albúmið á Google Photos</p>
+    <a href="https://photos.google.com/share/AF1QipNhQFVpkqN6dKxIZ1eW-lIUC1wTfztJdgNPRQ7IP-NJtvXaftyoBURR8ZfvXPGBmQ?key=VmgyNWx3YWhUb0lDc3NSbE1NWG5NMDl3Y0JIMEVB" target="_blank" rel="noopener noreferrer">
+      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOXhAZWOtdHoP1q9KFkob50n-PgkMPzbhwQ8c46Xh6ho2nzhdwm-l15TvJg6tymcS5GwQoiGuv3gC2NuuDAhOBeYlfBF99tR3exUX5Qw__cGdVRI0yGdLsQ3tQinCDu_5LDyX2GN-zskpBE7wdgabSjYg=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczMoOVb7c6vTIJ3OpQTm1W0kLios93FvE-HC-7S1muuZRwVIQca7z7sCKiOe8WpsTLfIuaVl-oaJvogpqs6OjFRKjONZfIc6MqZU9BAEIO_yFpd0jJcXG5nSY1xqnaC3XM02Jme_I9-e09huQDkDwX0mQw=w1620-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczMqFHA4TSGDCgI4d42nx803i6cxo9kVGHlfyH1s0Jmkd7c_3rHJB7JoTUsW_zYHpGnavU3AlJP891BwnZVwDMc5TezfubEkUr-IyN1_OECIotl7rP_pL5dM6frvZRxSLF704s-3EqSyczZLBjh8HEjfjQ=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczNQgCo0coYKwl65y8mww6xvdr-XQ2P8AQ91T_ApYMak6GDXODIo76tZNXGCKwboapCEuzvbs919HqfoSQqS0vhT_utkKuCaQ3oqJQqZJAiUvi-vY5eLw3ooL1F41rixyDz3QJJpfcXrJLRaiSXO8Ktm0g=w2880-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+    </a>
+
+    <h2 style="color: var(--cambridge-blue)">Heyrt á vellinum...</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 40px; margin-top: 20px; text-align: center;">
+      <div class="card">
+        <q>Ég kem pottþétt aftur á næsta ári!</q>
+      </div>
+      <div class="card">
+        <q>Frábært mót og mótshaldarar eru alveg til fyrirmyndar</q> - Einhver.. vonandi
+      </div>
+      <div class="card">
+        <q>Hvað eiga þau eiginlega marga padel spaða? Nóg til að lána öllum hérna..</q>
+      </div>
     </div>
   </body>
 </html>
