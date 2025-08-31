@@ -36,13 +36,20 @@
         color: var(--midnight-green);
         text-decoration: none;
       }
-      .img {
-        max-width: 100%;
+      .gallery{
+        display: flex;
+        gap: 10px;
+      }
+      .gallery a {
+        flex: 1;
+      }
+      .img-fluid {
+        width: 100%;
         height: auto;
       }
-      @media (min-width: 600px) {
-        .img {
-          width: calc(25% - 10px);
+      @media (max-width: 600px) {
+        .gallery {
+          flex-direction: column;
         }
       }
       .bannertop {
@@ -135,11 +142,20 @@
 
     <h2 style="color: var(--claret)">Myndir síðasta árs</h2>
     <p>Smellið á myndirnar til að skoða allt albúmið á Google Photos</p>
+    <div class="gallery">
+      <a href="https://photos.google.com/share/AF1QipNhQFVpkqN6dKxIZ1eW-lIUC1wTfztJdgNPRQ7IP-NJtvXaftyoBURR8ZfvXPGBmQ?key=VmgyNWx3YWhUb0lDc3NSbE1NWG5NMDl3Y0JIMEVB" target="_blank" rel="noopener noreferrer">
+        <img class="img-fluid" src="https://lh3.googleusercontent.com/pw/AP1GczOXhAZWOtdHoP1q9KFkob50n-PgkMPzbhwQ8c46Xh6ho2nzhdwm-l15TvJg6tymcS5GwQoiGuv3gC2NuuDAhOBeYlfBF99tR3exUX5Qw__cGdVRI0yGdLsQ3tQinCDu_5LDyX2GN-zskpBE7wdgabSjYg=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      </a>
+      <a href="https://photos.google.com/share/AF1QipNhQFVpkqN6dKxIZ1eW-lIUC1wTfztJdgNPRQ7IP-NJtvXaftyoBURR8ZfvXPGBmQ?key=VmgyNWx3YWhUb0lDc3NSbE1NWG5NMDl3Y0JIMEVB" target="_blank" rel="noopener noreferrer">
+        <img class="img-fluid" src="https://lh3.googleusercontent.com/pw/AP1GczMoOVb7c6vTIJ3OpQTm1W0kLios93FvE-HC-7S1muuZRwVIQca7z7sCKiOe8WpsTLfIuaVl-oaJvogpqs6OjFRKjONZfIc6MqZU9BAEIO_yFpd0jJcXG5nSY1xqnaC3XM02Jme_I9-e09huQDkDwX0mQw=w1620-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      </a>
+      <a href="https://photos.google.com/share/AF1QipNhQFVpkqN6dKxIZ1eW-lIUC1wTfztJdgNPRQ7IP-NJtvXaftyoBURR8ZfvXPGBmQ?key=VmgyNWx3YWhUb0lDc3NSbE1NWG5NMDl3Y0JIMEVB" target="_blank" rel="noopener noreferrer">
+        <img class="img-fluid" src="https://lh3.googleusercontent.com/pw/AP1GczMqFHA4TSGDCgI4d42nx803i6cxo9kVGHlfyH1s0Jmkd7c_3rHJB7JoTUsW_zYHpGnavU3AlJP891BwnZVwDMc5TezfubEkUr-IyN1_OECIotl7rP_pL5dM6frvZRxSLF704s-3EqSyczZLBjh8HEjfjQ=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      </a>
+    </div>
+
     <a href="https://photos.google.com/share/AF1QipNhQFVpkqN6dKxIZ1eW-lIUC1wTfztJdgNPRQ7IP-NJtvXaftyoBURR8ZfvXPGBmQ?key=VmgyNWx3YWhUb0lDc3NSbE1NWG5NMDl3Y0JIMEVB" target="_blank" rel="noopener noreferrer">
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczOXhAZWOtdHoP1q9KFkob50n-PgkMPzbhwQ8c46Xh6ho2nzhdwm-l15TvJg6tymcS5GwQoiGuv3gC2NuuDAhOBeYlfBF99tR3exUX5Qw__cGdVRI0yGdLsQ3tQinCDu_5LDyX2GN-zskpBE7wdgabSjYg=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczMoOVb7c6vTIJ3OpQTm1W0kLios93FvE-HC-7S1muuZRwVIQca7z7sCKiOe8WpsTLfIuaVl-oaJvogpqs6OjFRKjONZfIc6MqZU9BAEIO_yFpd0jJcXG5nSY1xqnaC3XM02Jme_I9-e09huQDkDwX0mQw=w1620-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczMqFHA4TSGDCgI4d42nx803i6cxo9kVGHlfyH1s0Jmkd7c_3rHJB7JoTUsW_zYHpGnavU3AlJP891BwnZVwDMc5TezfubEkUr-IyN1_OECIotl7rP_pL5dM6frvZRxSLF704s-3EqSyczZLBjh8HEjfjQ=w1473-h1964-s-no-gm" alt="Mynd frá Padelmóti 2024" />
-      <img class="img" src="https://lh3.googleusercontent.com/pw/AP1GczNQgCo0coYKwl65y8mww6xvdr-XQ2P8AQ91T_ApYMak6GDXODIo76tZNXGCKwboapCEuzvbs919HqfoSQqS0vhT_utkKuCaQ3oqJQqZJAiUvi-vY5eLw3ooL1F41rixyDz3QJJpfcXrJLRaiSXO8Ktm0g=w2880-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
+      <img style="width:100%; margin-top:10px;" src="https://lh3.googleusercontent.com/pw/AP1GczNQgCo0coYKwl65y8mww6xvdr-XQ2P8AQ91T_ApYMak6GDXODIo76tZNXGCKwboapCEuzvbs919HqfoSQqS0vhT_utkKuCaQ3oqJQqZJAiUvi-vY5eLw3ooL1F41rixyDz3QJJpfcXrJLRaiSXO8Ktm0g=w2880-h2160-s-no-gm" alt="Mynd frá Padelmóti 2024" />
     </a>
 
     <h2 style="color: var(--cambridge-blue)">Heyrt á vellinum...</h2>
