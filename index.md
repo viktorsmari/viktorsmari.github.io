@@ -17,8 +17,7 @@ I enjoy:
 * Playing padel or beach volleyball.
 
 I want to help make cities more liveable by improving bicycle infrastructure and adding more green spaces.
-
-Now I am focusing on [Orihuela Costa bike lanes](/orihuela) - Mejorar [Orihuela Costa carril bici](orihuela).
+- While living in Orihuela Costa I wrote [Orihuela Costa bike lanes](/orihuela) and suggested those improvements to the city council.
 
 Here are some [causes](/causes) I care about, and my [hobbies](/hobby).
 
