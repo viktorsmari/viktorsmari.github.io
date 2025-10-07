@@ -8,6 +8,7 @@ Here are some causes I care about:
 
 #### Basic Income
 * Give everyone a basic salary so they have a safety net, and can follow their passion.
+* **EDIT 2025**: Not so sure about this one anymore, but I feel strongly about free education and healthcare.
 
 #### Bicycle infrastructure (and public transport)
 * Give people the opportunity to not having to own a car, but still travel fast and securely.
