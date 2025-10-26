@@ -2,8 +2,8 @@
 title: Copenhagen housing prices
 date: 2016-10-12 18:36:47 Z
 categories:
-- Denmark
-- Copenhagen
+- denmark
+- copenhagen
 layout: post
 ---
 

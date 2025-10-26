@@ -11,6 +11,7 @@ layout: default
       <time class="text-muted" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
+        {% include categories.html %}
       </time>
       {%- if page.author -%}
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="" itemprop="name">{{ page.author }}</span></span>
@@ -38,17 +39,7 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
         <i class="small">{{ post.content | strip_html | truncatewords:13}}</i><br>
 
-        <div class="post-categories">
-          {% if post %}
-          {% assign categories = post.categories %}
-          {% else %}
-          {% assign categories = page.categories %}
-          {% endif %}
-          {% for category in categories %}
-            <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="badge border">{{category}}</a>
-          {% unless forloop.last %}&nbsp;{% endunless %}
-          {% endfor %}
-        </div>
+        {% include categories.html %}
       </li>
       {% endfor %}
     </ul>

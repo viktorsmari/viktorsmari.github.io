@@ -2,7 +2,7 @@
 title: Grafana running on Raspberry Pi 1
 date: 2016-06-06 14:15:15 Z
 categories:
-- Raspberry
+- raspberry
 - iot
 layout: post
 ---

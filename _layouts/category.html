@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ page.title | default: page.type | capitalize }}</h1>
+    <ul>
+      {% for post in page.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-md-4">
+    <a href="{{ '/categories/' | relative_url }}">
+      <h2 class="fs-4">All Categories</h2>
+    </a>
+
+    <ul>
+      {% for category in site.categories %}
+        <li>
+          <a href="{{ '/category'}}{{category[0] | slugify | relative_url }}">{{ category[0] }}</a> ({{ category[1].size }})
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -4,7 +4,6 @@ title: Simple overnight chia pudding and oatmeal recipe
 date: 2025-10-24 11:31 +0000
 categories:
 - recipes
-- food
 ---
 
 Simple overnight chia pudding and oatmeal recipe.
