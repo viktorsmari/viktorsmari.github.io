@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Torrevieja 7-day Weather Dash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Chivo+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <style>
+    :root {
+      --ink: #111827;
+      --panel: #ffffff;
+      --border: #e4e7ec;
+      --accent: #1d9bf0;
+      --sun: #f59e0b;
+      --sky: #93c5fd;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --card: #f8fafc;
+      --grid: rgba(17, 24, 39, 0.07);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+      min-height: 100vh;
+      padding: 28px;
+    }
+    .shell {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      display: grid;
+      gap: 18px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(29,155,240,0.12);
+      color: var(--accent);
+      width: fit-content;
+      letter-spacing: 0.01em;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    h1 {
+      font-size: clamp(12px, 3.4vw, 20px);
+      margin: 5px 0px 0px;
+      letter-spacing: -0.01em;
+    }
+    .lede {
+      margin: 0;
+      color: var(--muted);
+      max-width: 760px;
+      line-height: 1.4;
+      font-size: 14px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-top: 2px;
+    }
+    input[type="text"] {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: var(--text);
+      width: 300px;
+    }
+    button {
+      background: linear-gradient(135deg, var(--accent), #4bb1ff);
+      color: #0b1a2d;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      padding: 10px 14px;
+      cursor: pointer;
+      letter-spacing: 0.01em;
+      transition: transform 120ms ease, box-shadow 120ms ease;
+      box-shadow: 0 8px 16px rgba(29,155,240,0.2);
+    }
+    button.secondary {
+      background: var(--card);
+      color: var(--text);
+      box-shadow: none;
+      border: 1px solid var(--border);
+    }
+    button:hover { transform: translateY(-1px); }
+    .status {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .chart-stack {
+      display: grid;
+      gap: 0;
+    }
+    .chart-panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 0;
+      padding: 12px 12px 8px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    }
+    .chart-panel + .chart-panel {
+      border-top: none;
+    }
+    .chart-panel:first-child {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+    .chart-panel:last-child {
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+    .chart-panel h2 {
+      margin: 0 0 4px;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    canvas {
+      width: 100%;
+      max-height: 220px;
+    }
+    #tempChart {
+      max-height: 260px;
+    }
+    .tag {
+      display: inline-flex;
+      padding: 3px 8px;
+      background: rgba(70,195,198,0.12);
+      border-radius: 999px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    @media (max-width: 640px) {
+      body { padding: 16px; }
+      .controls { flex-direction: column; align-items: flex-start; }
+      input[type="text"] { width: 100%; }
+      button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="controls">
+        <input id="locationInput" type="text" placeholder="Search another place (optional)" aria-label="Search location">
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn" class="secondary">Torrevieja</button>
+        <button id="lpaBtn" class="secondary">Las Palmas</button>
+        <span class="status" id="status">Loading…</span>
+      </div>
+      <h1>7-day weather for <span id="locationLabel">Torrevieja, Alicante</span></h1>
+    </header>
+
+    <section class="chart-stack">
+      <div class="chart-panel">
+        <h2>Temperature & Feels-like (°C)</h2>
+        <canvas id="tempChart" height="260"></canvas>
+      </div>
+      <div class="chart-panel">
+        <h2>Precipitation (mm)</h2>
+        <canvas id="precipChart" height="180"></canvas>
+      </div>
+      <div class="chart-panel">
+        <h2>Wind Speed (km/h)</h2>
+        <canvas id="windChart" height="200"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      const defaultLocation = {
+        name: 'Torrevieja, Alicante, Spain',
+        lat: 37.9779,
+        lon: -0.6833
+      };
+      const lpaLocation = {
+        name: 'Las Palmas de Gran Canaria, Spain',
+        lat: 28.1235,
+        lon: -15.4363
+      };
+
+      const nowLinePlugin = {
+        id: 'nowLine',
+        afterDraw(chart, args, opts = {}) {
+          const xScale = chart.scales.x;
+          if (!xScale) return;
+          const now = opts.now ?? Date.now();
+          if (now < xScale.min || now > xScale.max) return;
+          const x = xScale.getPixelForValue(now);
+          const { top, bottom } = chart.chartArea;
+          const ctx = chart.ctx;
+          ctx.save();
+          ctx.strokeStyle = opts.color || '#e9f2ff';
+          ctx.lineWidth = opts.lineWidth || 1;
+          ctx.setLineDash(opts.lineDash || [4, 4]);
+          ctx.beginPath();
+          ctx.moveTo(x, top);
+          ctx.lineTo(x, bottom);
+          ctx.stroke();
+          if (opts.labelText) {
+            ctx.setLineDash([]);
+            ctx.fillStyle = opts.labelColor || ctx.strokeStyle;
+            ctx.font = '11px "Space Grotesk", sans-serif';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(opts.labelText, x + 6, top + 12);
+          }
+          ctx.restore();
+        }
+      };
+      const eventLinesPlugin = {
+        id: 'eventLines',
+        afterDraw(chart, args, opts = {}) {
+          const xScale = chart.scales.x;
+          if (!xScale || !opts?.events?.length) return;
+          const { top, bottom } = chart.chartArea;
+          const ctx = chart.ctx;
+          ctx.save();
+          opts.events.forEach((evt) => {
+            if (!evt?.time) return;
+            const x = xScale.getPixelForValue(evt.time);
+            ctx.strokeStyle = evt.color || '#e9f2ff';
+            ctx.lineWidth = evt.lineWidth || 1;
+            ctx.setLineDash(evt.lineDash || []);
+            ctx.beginPath();
+            ctx.moveTo(x, top);
+            ctx.lineTo(x, bottom);
+            ctx.stroke();
+          });
+          ctx.restore();
+        }
+      };
+      const nightBandsPlugin = {
+        id: 'nightBands',
+        beforeDatasetsDraw(chart, args, opts = {}) {
+          const xScale = chart.scales.x;
+          if (!xScale || !opts?.bands?.length) return;
+          const { top, bottom } = chart.chartArea;
+          const ctx = chart.ctx;
+          ctx.save();
+          ctx.fillStyle = opts.color || 'rgba(17, 24, 39, 0.05)';
+          opts.bands.forEach((band) => {
+            if (!band?.start || !band?.end) return;
+            const startX = xScale.getPixelForValue(band.start);
+            const endX = xScale.getPixelForValue(band.end);
+            const x = Math.min(startX, endX);
+            const width = Math.abs(endX - startX);
+            if (width > 0) ctx.fillRect(x, top, width, bottom - top);
+          });
+          ctx.restore();
+        }
+      };
+      Chart.register(nowLinePlugin, eventLinesPlugin, nightBandsPlugin);
+
+      const hourlyParams = [
+        'temperature_2m',
+        'apparent_temperature',
+        'precipitation_probability',
+        'precipitation',
+        'pressure_msl',
+        'wind_speed_10m',
+        'wind_gusts_10m',
+        'cloud_cover'
+      ];
+      const dailyParams = [
+        'sunrise',
+        'sunset'
+      ];
+
+      const charts = { temp: null, precip: null, wind: null };
+      const els = {
+        label: document.getElementById('locationLabel'),
+        status: document.getElementById('status'),
+        input: document.getElementById('locationInput'),
+        searchBtn: document.getElementById('searchBtn'),
+        resetBtn: document.getElementById('resetBtn'),
+        lpaBtn: document.getElementById('lpaBtn'),
+      };
+
+      const number = (val, digits = 0) => Number.parseFloat(val).toFixed(digits);
+      const formatDayTick = (value) => {
+        const date = new Date(value);
+        return new Intl.DateTimeFormat('en-GB', {
+          weekday: 'short',
+          day: 'numeric',
+          month: 'short',
+        }).format(date).replace(',', '');
+      };
+
+      const setStatus = (msg) => { els.status.textContent = msg; };
+
+      async function geocode(query) {
+        const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=1&language=en&format=json`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Geocoding failed');
+        const data = await res.json();
+        const hit = data?.results?.[0];
+        if (!hit) throw new Error('No matches found');
+        return { name: `${hit.name}, ${hit.country}`, lat: hit.latitude, lon: hit.longitude };
+      }
+
+      async function fetchWeather(location, timezone = 'auto') {
+        const params = hourlyParams.join(',');
+        const daily = dailyParams.join(',');
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${location.lat}&longitude=${location.lon}&hourly=${params}&daily=${daily}&forecast_days=7&timezone=${encodeURIComponent(timezone)}`;
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Weather request failed');
+        return res.json();
+      }
+
+      function buildHourlyPayload(data) {
+        const { hourly } = data;
+        return hourly.time.map((time, idx) => ({
+          time: new Date(time),
+          temp: hourly.temperature_2m[idx],
+          feels: hourly.apparent_temperature[idx],
+          precip: hourly.precipitation[idx],
+          precipProb: hourly.precipitation_probability?.[idx] ?? 0,
+          pressure: hourly.pressure_msl[idx],
+          wind: hourly.wind_speed_10m[idx],
+          gust: hourly.wind_gusts_10m?.[idx] ?? null,
+          cloud: hourly.cloud_cover?.[idx] ?? null,
+        }));
+      }
+
+      function buildDailyEvents(data) {
+        const daily = data?.daily;
+        if (!daily?.sunrise || !daily?.sunset) return [];
+        const events = [];
+        daily.sunrise.forEach((time) => {
+          events.push({
+            time: new Date(time),
+            color: 'rgba(255,214,153,0.7)',
+            lineWidth: 1,
+          });
+        });
+        daily.sunset.forEach((time) => {
+          events.push({
+            time: new Date(time),
+            color: 'rgba(255,150,120,0.7)',
+            lineWidth: 1,
+          });
+        });
+        return events;
+      }
+
+      function buildNightBands(data) {
+        const daily = data?.daily;
+        if (!daily?.sunrise || !daily?.sunset) return [];
+        const bands = [];
+        for (let i = 0; i < daily.sunset.length; i += 1) {
+          const sunset = new Date(daily.sunset[i]);
+          const nextSunrise = daily.sunrise[i + 1] ? new Date(daily.sunrise[i + 1]) : null;
+          if (nextSunrise) {
+            bands.push({ start: sunset, end: nextSunrise });
+          }
+        }
+        return bands;
+      }
+
+      function buildChartConfig(hours, events, nowTime, nightBands, comparison = null) {
+        const labels = hours.map((h) => h.time);
+        const xRange = { min: labels[0], max: labels[labels.length - 1] };
+        const gridColor = 'rgba(17,24,39,0.08)';
+        const tickColor = '#6b7280';
+        const labelColor = '#111827';
+        const axisWidth = 44;
+        const axisRightWidth = 36;
+        const tempDatasets = [
+          {
+            label: 'Temperature (°C)',
+            data: hours.map((h) => h.temp),
+            borderColor: '#ef4444',
+            backgroundColor: 'rgba(239,68,68,0.15)',
+            tension: 0.3,
+            pointRadius: 0,
+            borderWidth: 2,
+            yAxisID: 'y',
+          },
+          {
+            label: 'Feels like (°C)',
+            data: hours.map((h) => h.feels),
+            borderColor: '#8b5cf6',
+            backgroundColor: 'rgba(139,92,246,0.12)',
+            tension: 0.25,
+            pointRadius: 0,
+            borderWidth: 2,
+            borderDash: [6, 4],
+            yAxisID: 'y',
+          },
+        ];
+
+        if (comparison?.label && comparison?.hours?.length) {
+          tempDatasets.push({
+            label: comparison.label,
+            data: comparison.hours.map((h) => ({ x: h.time, y: h.temp })),
+            borderColor: '#16a34a',
+            backgroundColor: 'rgba(22,163,74,0.12)',
+            tension: 0.3,
+            pointRadius: 0,
+            borderWidth: 2,
+            yAxisID: 'y',
+          });
+        }
+
+        tempDatasets.push({
+          label: 'Cloud cover (%)',
+          data: hours.map((h) => h.cloud ?? 0),
+          borderColor: '#9ca3af',
+          backgroundColor: 'rgba(156,163,175,0.3)',
+          tension: 0.25,
+          pointRadius: 0,
+          borderWidth: 1,
+          fill: true,
+          yAxisID: 'y1',
+        });
+
+        const temp = {
+          type: 'line',
+          data: {
+            labels,
+            datasets: tempDatasets
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                type: 'time',
+                position: 'top',
+                min: xRange.min,
+                max: xRange.max,
+                time: { unit: 'day', tooltipFormat: 'EEE HH:mm' },
+                grid: { color: gridColor },
+                ticks: {
+                  color: tickColor,
+                  callback: (val) => formatDayTick(val),
+                  maxRotation: 0,
+                  autoSkipPadding: 8,
+                },
+              },
+              y: {
+                position: 'left',
+                grid: { color: gridColor },
+                ticks: { color: tickColor },
+                title: { display: true, text: '°C', color: labelColor },
+                afterFit: (scale) => {
+                  scale.width = axisWidth;
+                },
+              },
+              y1: {
+                position: 'right',
+                grid: { drawOnChartArea: false },
+                min: 0,
+                max: 100,
+                ticks: { color: tickColor },
+                title: { display: true, text: '%', color: labelColor },
+                afterFit: (scale) => {
+                  scale.width = axisRightWidth;
+                },
+              },
+            },
+            plugins: {
+              legend: { position: 'top', labels: { color: labelColor } },
+              nowLine: { labelText: 'Now', color: labelColor, now: nowTime },
+              eventLines: { events },
+              nightBands: { bands: nightBands },
+              tooltip: { mode: 'index', intersect: false },
+            },
+            interaction: { intersect: false, mode: 'index' },
+          }
+        };
+
+        const precip = {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Hourly precip (mm)',
+                data: hours.map((h) => h.precip),
+                backgroundColor: 'rgba(59,130,246,0.25)',
+                borderColor: 'rgba(59,130,246,0.9)',
+                borderWidth: 1,
+              },
+              {
+                type: 'line',
+                label: 'Rain chance (%)',
+                data: hours.map((h) => h.precipProb),
+                borderColor: '#0ea5e9',
+                backgroundColor: 'rgba(14,165,233,0.2)',
+                tension: 0.25,
+                pointRadius: 0,
+                yAxisID: 'y1',
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                type: 'time',
+                position: 'top',
+                min: xRange.min,
+                max: xRange.max,
+                time: { unit: 'day', tooltipFormat: 'EEE HH:mm' },
+                grid: { color: gridColor },
+                ticks: { color: tickColor },
+              },
+              y: {
+                position: 'left',
+                grid: { color: gridColor },
+                ticks: { color: tickColor },
+                title: { display: true, text: 'mm', color: labelColor },
+                afterFit: (scale) => {
+                  scale.width = axisWidth;
+                },
+              },
+              y1: {
+                position: 'right',
+                min: 0,
+                max: 100,
+                grid: { drawOnChartArea: false },
+                ticks: { color: tickColor },
+                title: { display: true, text: '%', color: labelColor },
+                afterFit: (scale) => {
+                  scale.width = axisRightWidth;
+                },
+              }
+            },
+            plugins: {
+              legend: { position: 'top', labels: { color: labelColor } },
+              nowLine: { labelText: 'Now', color: labelColor, now: nowTime },
+              eventLines: { events },
+              nightBands: { bands: nightBands },
+              tooltip: { mode: 'index', intersect: false },
+            },
+            interaction: { intersect: false, mode: 'index' },
+          }
+        };
+
+        const wind = {
+          type: 'line',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Wind speed (km/h)',
+                data: hours.map((h) => h.wind),
+                borderColor: '#2563eb',
+                backgroundColor: 'rgba(37,99,235,0.18)',
+                tension: 0.25,
+                pointRadius: 0,
+                yAxisID: 'y',
+              },
+              {
+                label: 'Wind gusts (km/h)',
+                data: hours.map((h) => h.gust),
+                borderColor: '#f59e0b',
+                backgroundColor: 'rgba(245,158,11,0.2)',
+                tension: 0.25,
+                pointRadius: 0,
+                borderDash: [6, 4],
+                yAxisID: 'y',
+              },
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                type: 'time',
+                position: 'top',
+                min: xRange.min,
+                max: xRange.max,
+                time: { unit: 'day', tooltipFormat: 'EEE HH:mm' },
+                grid: { color: gridColor },
+                ticks: { color: tickColor },
+              },
+              y: {
+                position: 'left',
+                ticks: { color: tickColor },
+                grid: { color: gridColor },
+                title: { display: true, text: 'km/h', color: labelColor },
+                afterFit: (scale) => {
+                  scale.width = axisWidth;
+                },
+              },
+              y1: {
+                position: 'right',
+                display: false,
+                grid: { drawOnChartArea: false },
+                afterFit: (scale) => {
+                  scale.width = axisRightWidth;
+                },
+              },
+            },
+            plugins: {
+              legend: { position: 'top', labels: { color: labelColor } },
+              nowLine: { labelText: 'Now', color: labelColor, now: nowTime },
+              eventLines: { events },
+              nightBands: { bands: nightBands },
+              tooltip: { mode: 'index', intersect: false },
+            },
+            interaction: { intersect: false, mode: 'index' },
+          }
+        };
+
+        return { temp, precip, wind };
+      }
+
+      function renderCharts(hours, events, nowTime, nightBands, comparison = null) {
+        const cfg = buildChartConfig(hours, events, nowTime, nightBands, comparison);
+
+        if (charts.temp) charts.temp.destroy();
+        charts.temp = new Chart(document.getElementById('tempChart').getContext('2d'), cfg.temp);
+
+        if (charts.precip) charts.precip.destroy();
+        charts.precip = new Chart(document.getElementById('precipChart').getContext('2d'), cfg.precip);
+
+        if (charts.wind) charts.wind.destroy();
+        charts.wind = new Chart(document.getElementById('windChart').getContext('2d'), cfg.wind);
+      }
+
+      async function load(location) {
+        try {
+          setStatus('Loading forecast…');
+          const data = await fetchWeather(location);
+          let comparison = null;
+          if (location === defaultLocation) {
+            const lpaData = await fetchWeather(lpaLocation, data.timezone || 'Europe/Madrid');
+            comparison = {
+              label: 'Las Palmas temperature (°C)',
+              hours: buildHourlyPayload(lpaData),
+            };
+          }
+          const hourly = buildHourlyPayload(data);
+          const events = buildDailyEvents(data);
+          const nightBands = buildNightBands(data);
+          const nowTime = data.current_weather?.time
+            ? new Date(data.current_weather.time).getTime()
+            : Date.now();
+          els.label.textContent = location.name;
+          renderCharts(hourly, events, nowTime, nightBands, comparison);
+          const timeString = new Date(data.current_weather?.time || Date.now())
+            .toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+          setStatus(`Updated • ${timeString}`);
+        } catch (err) {
+          console.error(err);
+          setStatus(err.message || 'Something went wrong');
+        }
+      }
+
+      els.searchBtn.addEventListener('click', async () => {
+        const query = els.input.value.trim();
+        if (!query) {
+          setStatus('Type a place to search');
+          return;
+        }
+        try {
+          setStatus('Searching…');
+          const loc = await geocode(query);
+          await load(loc);
+        } catch (err) {
+          console.error(err);
+          setStatus(err.message || 'Search failed');
+        }
+      });
+
+      els.resetBtn.addEventListener('click', () => load(defaultLocation));
+      els.lpaBtn.addEventListener('click', () => load(lpaLocation));
+      els.input.addEventListener('keyup', (ev) => {
+        if (ev.key === 'Enter') {
+          els.searchBtn.click();
+        }
+      });
+
+      load(defaultLocation);
+    })();
+  </script>
+</body>
+</html>
