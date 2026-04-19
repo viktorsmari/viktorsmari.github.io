@@ -211,12 +211,10 @@ permalink: /padel.html
       <div class="card padel-card mb-2">
         <div class="card-body">
           <div class="compact-head d-flex justify-content-between align-items-center">
+            <h2 class="h5 mb-0">Matches</h2>
             <div class="d-flex align-items-center">
-              <h2 class="h5 mb-0 mr-2">Matches</h2>
-              <button id="new-match-btn" type="button" class="btn btn-primary mini-btn">New</button>
-            </div>
-            <div class="text-right">
               <input id="current-match-name" type="text" class="form-control form-control-sm compact-input current-match-input" value="" aria-label="Current match name">
+              <button id="new-match-btn" type="button" class="btn btn-primary mini-btn ml-2">New</button>
             </div>
           </div>
 
@@ -239,7 +237,9 @@ permalink: /padel.html
             </div>
           </div>
 
-          <div class="row">
+          <div id="players-container" class="row"></div>
+
+          <div class="row mt-1">
             <div class="col-md-6">
               <div class="team-banner team-a">
                 <div class="compact-label text-white-50">Team A</div>
@@ -281,8 +281,6 @@ permalink: /padel.html
               </div>
             </div>
           </div>
-
-          <div id="players-container" class="row"></div>
         </div>
       </div>
 
