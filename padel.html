@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta property="og:image" content="https://viktorsmari.github.io/assets/selfie_bike_bw.jpg"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Padel Match Tracker | Viktor Smári Ágústuson</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Padel Match Tracker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Viktor Smári Ágústuson, Computer Scientist." />
+<meta property="og:description" content="Viktor Smári Ágústuson, Computer Scientist." />
+<link rel="canonical" href="http://viktorsmari.github.io/padel.html" />
+<meta property="og:url" content="http://viktorsmari.github.io/padel.html" />
+<meta property="og:site_name" content="Viktor Smári Ágústuson" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Padel Match Tracker" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Viktor Smári Ágústuson, Computer Scientist.","headline":"Padel Match Tracker","url":"http://viktorsmari.github.io/padel.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/assets/viktor.css">
+  <link rel="stylesheet" href="/assets/syntax.css"><link type="application/atom+xml" rel="alternate" href="http://viktorsmari.github.io/feed.xml" title="Viktor Smári Ágústuson" /><!-- GA --><!-- GA Enabled --><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QX2216P06E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QX2216P06E');
+</script>
+</head>
+<body><nav class="navbar navbar-expand-md sticky-top navbar-light bg-light border-bottom"><a class="navbar-brand" rel="author" href="/">
+    Viktor Smári Ágústuson
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form class="form-inline ml-auto">
+      <div class="gcse-search"></div>
+    </form>
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link d-flex mr-3" href="https://github.com/viktorsmari/viktorsmari.github.io/blob/master/padel.html" target="_blank">
+            <img class="mx-1" src="/assets/github.svg" alt="GH logo" style="max-width:20px;"/>
+            <span> GitHub </span>
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="/cv ">
+          CV
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="/posts ">
+          Posts
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="/causes ">
+          Causes
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="/hobby ">
+          Hobby
+        </a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="/music ">
+          Music
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+<main class="container" aria-label="Content">
+      <style>
+  .padel-shell {
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .padel-card {
+    border: 1px solid #e9ecef;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+    background: transparent;
+  }
+
+  .team-banner {
+    border-radius: 0;
+    color: #fff;
+    padding: 0.65rem 0.8rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .team-a {
+    background: linear-gradient(135deg, #005f73 0%, #0a9396 100%);
+  }
+
+  .team-b {
+    background: linear-gradient(135deg, #9b2226 0%, #ee9b00 100%);
+  }
+
+  .player-card {
+    border: 1px solid #e9ecef;
+    border-radius: 0;
+    padding: 0.65rem;
+    background: transparent;
+    height: 100%;
+  }
+
+  .player-name-input {
+    font-weight: 600;
+    height: calc(1.5em + 0.6rem + 2px);
+    padding: 0.3rem 0.55rem;
+  }
+
+  .compact-input {
+    height: calc(1.5em + 0.45rem + 2px);
+    padding: 0.2rem 0.45rem;
+    font-size: 0.92rem;
+  }
+
+  .current-match-input {
+    width: 10rem;
+    text-align: right;
+    font-weight: 700;
+    border: 1px solid #ced4da;
+    border-radius: 0.3rem;
+    background: #fff;
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+
+  .stat-pill {
+    background: #f8f9fa;
+    border-radius: 0;
+    padding: 0.4rem 0.25rem;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .stat-count {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .stat-pill-winner {
+    background: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+
+  .stat-pill-unforced {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+  }
+
+  .stat-pill-error {
+    background: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+
+  .match-list {
+    max-height: 16rem;
+    overflow: auto;
+  }
+
+  .match-list .list-group-item.active {
+    background-color: #153243;
+    border-color: #153243;
+  }
+
+  .match-list .list-group-item {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .history-log {
+    max-height: 10rem;
+    overflow: auto;
+  }
+
+  .summary-table td,
+  .summary-table th {
+    vertical-align: middle;
+    padding: 0.35rem;
+  }
+
+  .compact-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    color: #6c757d;
+  }
+
+  .compact-head {
+    margin-bottom: 0.5rem;
+  }
+
+  .player-heading {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+  }
+
+  .mini-btn {
+    padding: 0.3rem 0.45rem;
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+
+  .match-meta {
+    font-size: 0.78rem;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  @media (max-width: 767.98px) {
+    .padel-shell {
+      padding-top: 0.35rem;
+      padding-bottom: 0.35rem;
+    }
+
+    .padel-card .card-body {
+      padding: 0.5rem;
+    }
+
+    .stat-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .player-card {
+      padding: 0.65rem;
+    }
+
+    .team-banner {
+      margin-bottom: 0.5rem;
+    }
+
+    .history-log,
+    .desktop-only {
+      display: none;
+    }
+
+    .match-list {
+      max-height: 12rem;
+    }
+
+    .match-meta {
+      font-size: 0.72rem;
+    }
+
+    .mobile-stack {
+      flex-direction: column;
+      align-items: stretch !important;
+    }
+  }
+</style>
+
+<div class="padel-shell">
+  <div class="row">
+    <div class="col-lg-4 mb-3">
+      <div class="card padel-card mb-2">
+        <div class="card-body">
+          <div class="compact-head d-flex justify-content-between align-items-center">
+            <h2 class="h5 mb-0">Matches</h2>
+            <div class="d-flex align-items-center">
+              <input id="current-match-name" type="text" class="form-control form-control-sm compact-input current-match-input" value="" aria-label="Current match name">
+              <button id="new-match-btn" type="button" class="btn btn-primary mini-btn ml-2">New</button>
+            </div>
+          </div>
+
+          <div class="match-list list-group mb-2" id="match-list"></div>
+
+          <div class="alert alert-light border mb-0 small" id="empty-matches-note">
+            No saved matches yet.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card padel-card mb-1">
+        <div class="card-body">
+          <div class="d-flex justify-content-end align-items-center mb-1 mobile-stack">
+            <div class="d-flex align-items-center">
+              <button id="undo-btn" class="btn btn-outline-secondary mini-btn mr-2">Undo</button>
+              <button id="reset-match-btn" class="btn btn-outline-danger mini-btn">Reset</button>
+            </div>
+          </div>
+
+          <div id="players-container" class="row"></div>
+
+          <div class="row mt-1">
+            <div class="col-md-6">
+              <div class="team-banner team-a">
+                <div class="compact-label text-white-50">Team A</div>
+                <div class="h5 mb-1" id="team-a-name">Player 1 + Player 2</div>
+                <div class="row text-center">
+                  <div class="col-4">
+                    <div class="small">W</div>
+                    <div class="h5 mb-0" id="team-a-winner">0</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="small">UE</div>
+                    <div class="h5 mb-0" id="team-a-unforced">0</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="small">E</div>
+                    <div class="h5 mb-0" id="team-a-error">0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="team-banner team-b">
+                <div class="compact-label text-white-50">Team B</div>
+                <div class="h5 mb-1" id="team-b-name">Player 3 + Player 4</div>
+                <div class="row text-center">
+                  <div class="col-4">
+                    <div class="small">W</div>
+                    <div class="h5 mb-0" id="team-b-winner">0</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="small">UE</div>
+                    <div class="h5 mb-0" id="team-b-unforced">0</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="small">E</div>
+                    <div class="h5 mb-0" id="team-b-error">0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card padel-card mb-2 desktop-only">
+        <div class="card-body">
+          <h2 class="h6 mb-2">Summary</h2>
+          <div class="table-responsive">
+            <table class="table table-sm summary-table mb-0">
+              <thead class="thead-light">
+                <tr>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Winner</th>
+                  <th>Unforced error</th>
+                  <th>Error</th>
+                </tr>
+              </thead>
+              <tbody id="summary-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card padel-card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <h2 class="h6 mb-0">Log</h2>
+            <span class="text-muted small" id="log-count">0 actions</span>
+          </div>
+          <div class="history-log list-group list-group-flush" id="history-log"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const STORAGE_KEY = 'padelTrackerStateV1';
+    const STAT_KEYS = ['winner', 'unforcedError', 'error'];
+    const STAT_LABELS = {
+      winner: 'Winner',
+      unforcedError: 'Unforced error',
+      error: 'Error'
+    };
+    const TEAM_LABELS = ['Team A', 'Team B'];
+
+    const els = {
+      newMatchBtn: document.getElementById('new-match-btn'),
+      matchList: document.getElementById('match-list'),
+      emptyMatchesNote: document.getElementById('empty-matches-note'),
+      currentMatchName: document.getElementById('current-match-name'),
+      undoBtn: document.getElementById('undo-btn'),
+      resetMatchBtn: document.getElementById('reset-match-btn'),
+      playersContainer: document.getElementById('players-container'),
+      summaryBody: document.getElementById('summary-body'),
+      historyLog: document.getElementById('history-log'),
+      logCount: document.getElementById('log-count'),
+      teamAName: document.getElementById('team-a-name'),
+      teamBName: document.getElementById('team-b-name'),
+      teamAWinner: document.getElementById('team-a-winner'),
+      teamAUnforced: document.getElementById('team-a-unforced'),
+      teamAError: document.getElementById('team-a-error'),
+      teamBWinner: document.getElementById('team-b-winner'),
+      teamBUnforced: document.getElementById('team-b-unforced'),
+      teamBError: document.getElementById('team-b-error')
+    };
+
+    function buildPlayer(index, team) {
+      return {
+        id: `player-${index + 1}`,
+        name: `Player ${index + 1}`,
+        team,
+        stats: {
+          winner: 0,
+          unforcedError: 0,
+          error: 0
+        }
+      };
+    }
+
+    function createMatch(name) {
+      const timestamp = new Date().toISOString();
+      return {
+        id: `match-${Date.now()}-${Math.random().toString(16).slice(2, 8)}`,
+        name: name && name.trim() ? name.trim() : `Match ${new Date().toLocaleString()}`,
+        createdAt: timestamp,
+        updatedAt: timestamp,
+        players: [
+          buildPlayer(0, 0),
+          buildPlayer(1, 0),
+          buildPlayer(2, 1),
+          buildPlayer(3, 1)
+        ],
+        history: []
+      };
+    }
+
+    function defaultState() {
+      const firstMatch = createMatch('Match 1');
+      return {
+        matches: [firstMatch],
+        currentMatchId: firstMatch.id
+      };
+    }
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return defaultState();
+        const parsed = JSON.parse(raw);
+        if (!parsed || !Array.isArray(parsed.matches) || parsed.matches.length === 0) {
+          return defaultState();
+        }
+        if (!parsed.currentMatchId || !parsed.matches.some((match) => match.id === parsed.currentMatchId)) {
+          parsed.currentMatchId = parsed.matches[0].id;
+        }
+        return parsed;
+      } catch (error) {
+        return defaultState();
+      }
+    }
+
+    let state = loadState();
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function getCurrentMatch() {
+      return state.matches.find((match) => match.id === state.currentMatchId) || null;
+    }
+
+    function touchMatch(match) {
+      match.updatedAt = new Date().toISOString();
+    }
+
+    function teamPlayers(match, teamIndex) {
+      return match.players.filter((player) => player.team === teamIndex);
+    }
+
+    function teamTotals(match, teamIndex) {
+      return teamPlayers(match, teamIndex).reduce((totals, player) => {
+        STAT_KEYS.forEach((key) => {
+          totals[key] += player.stats[key];
+        });
+        return totals;
+      }, { winner: 0, unforcedError: 0, error: 0 });
+    }
+
+    function formatDate(isoString) {
+      return new Date(isoString).toLocaleString();
+    }
+
+    function incrementStat(playerId, statKey) {
+      const match = getCurrentMatch();
+      if (!match) return;
+      const player = match.players.find((entry) => entry.id === playerId);
+      if (!player) return;
+
+      player.stats[statKey] += 1;
+      match.history.unshift({
+        id: `event-${Date.now()}-${Math.random().toString(16).slice(2, 8)}`,
+        playerId,
+        playerName: player.name,
+        statKey,
+        createdAt: new Date().toISOString()
+      });
+      touchMatch(match);
+      saveState();
+      render();
+    }
+
+    function undoLastAction() {
+      const match = getCurrentMatch();
+      if (!match || match.history.length === 0) return;
+
+      const lastAction = match.history.shift();
+      const player = match.players.find((entry) => entry.id === lastAction.playerId);
+      if (player && player.stats[lastAction.statKey] > 0) {
+        player.stats[lastAction.statKey] -= 1;
+      }
+      touchMatch(match);
+      saveState();
+      render();
+    }
+
+    function resetCurrentMatch() {
+      const match = getCurrentMatch();
+      if (!match) return;
+      const confirmed = window.confirm(`Reset all stats for "${match.name}"?`);
+      if (!confirmed) return;
+
+      match.players.forEach((player) => {
+        STAT_KEYS.forEach((key) => {
+          player.stats[key] = 0;
+        });
+      });
+      match.history = [];
+      touchMatch(match);
+      saveState();
+      render();
+    }
+
+    function createNewMatch() {
+      const newMatch = createMatch('');
+      state.matches.unshift(newMatch);
+      state.currentMatchId = newMatch.id;
+      saveState();
+      window.location.reload();
+    }
+
+    function selectMatch(matchId) {
+      state.currentMatchId = matchId;
+      saveState();
+      render();
+    }
+
+    function deleteMatch(matchId) {
+      const match = state.matches.find((entry) => entry.id === matchId);
+      if (!match) return;
+      const confirmed = window.confirm(`Delete "${match.name}"? This cannot be undone.`);
+      if (!confirmed) return;
+
+      state.matches = state.matches.filter((entry) => entry.id !== matchId);
+      if (state.matches.length === 0) {
+        const freshMatch = createMatch('Match 1');
+        state.matches = [freshMatch];
+        state.currentMatchId = freshMatch.id;
+      } else if (state.currentMatchId === matchId) {
+        state.currentMatchId = state.matches[0].id;
+      }
+      saveState();
+      render();
+    }
+
+    function updatePlayerName(playerId, value) {
+      const match = getCurrentMatch();
+      if (!match) return;
+      const player = match.players.find((entry) => entry.id === playerId);
+      if (!player) return;
+      player.name = value.trim() || player.name;
+      touchMatch(match);
+      saveState();
+      render();
+    }
+
+    function updateCurrentMatchName() {
+      const match = getCurrentMatch();
+      if (!match) return;
+      const trimmedName = els.currentMatchName.value.trim();
+      if (!trimmedName || trimmedName === match.name) {
+        els.currentMatchName.value = match.name;
+        return;
+      }
+      match.name = trimmedName;
+      touchMatch(match);
+      saveState();
+      render();
+    }
+
+    function renderMatches() {
+      const currentMatch = getCurrentMatch();
+      els.matchList.innerHTML = '';
+      els.emptyMatchesNote.style.display = state.matches.length ? 'none' : 'block';
+
+      state.matches
+        .slice()
+        .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+        .forEach((match) => {
+          const item = document.createElement('div');
+          item.className = `list-group-item list-group-item-action ${currentMatch && currentMatch.id === match.id ? 'active' : ''}`;
+
+          const topRow = document.createElement('div');
+          topRow.className = 'd-flex w-100 justify-content-between align-items-start';
+
+          const titleWrap = document.createElement('div');
+          titleWrap.className = 'pr-3';
+
+          const title = document.createElement('div');
+          title.className = 'font-weight-bold';
+          title.textContent = match.name;
+
+          const meta = document.createElement('div');
+          meta.className = `match-meta ${currentMatch && currentMatch.id === match.id ? 'text-white-50' : 'text-muted'}`;
+          meta.textContent = formatDate(match.updatedAt);
+
+          titleWrap.appendChild(title);
+          titleWrap.appendChild(meta);
+
+          const buttonGroup = document.createElement('div');
+          buttonGroup.className = 'btn-group btn-group-sm';
+
+          const openBtn = document.createElement('button');
+          openBtn.type = 'button';
+          openBtn.className = `btn ${currentMatch && currentMatch.id === match.id ? 'btn-light' : 'btn-outline-primary'}`;
+          openBtn.textContent = 'Open';
+          openBtn.addEventListener('click', () => selectMatch(match.id));
+
+          const deleteBtn = document.createElement('button');
+          deleteBtn.type = 'button';
+          deleteBtn.className = `btn ${currentMatch && currentMatch.id === match.id ? 'btn-light' : 'btn-outline-danger'}`;
+          deleteBtn.textContent = 'Delete';
+          deleteBtn.addEventListener('click', () => deleteMatch(match.id));
+
+          buttonGroup.appendChild(openBtn);
+          buttonGroup.appendChild(deleteBtn);
+          topRow.appendChild(titleWrap);
+          topRow.appendChild(buttonGroup);
+          item.appendChild(topRow);
+          els.matchList.appendChild(item);
+        });
+    }
+
+    function renderPlayers(match) {
+      els.playersContainer.innerHTML = '';
+
+      match.players.forEach((player, index) => {
+        const column = document.createElement('div');
+        column.className = 'col-md-6 mb-3';
+
+        const card = document.createElement('div');
+        card.className = 'player-card';
+
+        const nameGroup = document.createElement('div');
+        nameGroup.className = 'form-group mb-2';
+
+        const nameLabel = document.createElement('label');
+        nameLabel.className = 'player-heading';
+        nameLabel.textContent = `Player ${index + 1} (${TEAM_LABELS[player.team]})`;
+        nameLabel.setAttribute('for', `name-${player.id}`);
+
+        const nameInput = document.createElement('input');
+        nameInput.id = `name-${player.id}`;
+        nameInput.type = 'text';
+        nameInput.className = 'form-control player-name-input';
+        nameInput.value = player.name;
+        nameInput.addEventListener('change', (event) => updatePlayerName(player.id, event.target.value));
+
+        nameGroup.appendChild(nameLabel);
+        nameGroup.appendChild(nameInput);
+
+        const statGrid = document.createElement('div');
+        statGrid.className = 'stat-grid mb-2';
+
+        STAT_KEYS.forEach((statKey) => {
+          const pill = document.createElement('div');
+          const shortLabel = statKey === 'winner' ? 'W' : statKey === 'unforcedError' ? 'UE' : 'E';
+          const pillClass = statKey === 'winner'
+            ? 'stat-pill-winner'
+            : statKey === 'unforcedError'
+              ? 'stat-pill-unforced'
+              : 'stat-pill-error';
+          pill.className = `stat-pill ${pillClass}`;
+          pill.setAttribute('role', 'button');
+          pill.setAttribute('tabindex', '0');
+          pill.setAttribute('aria-label', `Add ${STAT_LABELS[statKey]} for ${player.name}`);
+          pill.innerHTML = `<div class="small">${shortLabel}</div><div class="stat-count">${player.stats[statKey]}</div>`;
+          pill.addEventListener('click', () => incrementStat(player.id, statKey));
+          pill.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              incrementStat(player.id, statKey);
+            }
+          });
+          statGrid.appendChild(pill);
+        });
+
+        card.appendChild(nameGroup);
+        card.appendChild(statGrid);
+        column.appendChild(card);
+        els.playersContainer.appendChild(column);
+      });
+    }
+
+    function renderSummary(match) {
+      els.summaryBody.innerHTML = '';
+      match.players.forEach((player) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${player.name}</td>
+          <td>${TEAM_LABELS[player.team]}</td>
+          <td>${player.stats.winner}</td>
+          <td>${player.stats.unforcedError}</td>
+          <td>${player.stats.error}</td>
+        `;
+        els.summaryBody.appendChild(row);
+      });
+    }
+
+    function renderHistory(match) {
+      els.historyLog.innerHTML = '';
+      els.logCount.textContent = `${match.history.length} action${match.history.length === 1 ? '' : 's'}`;
+
+      if (match.history.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'list-group-item text-muted';
+        empty.textContent = 'No actions recorded yet.';
+        els.historyLog.appendChild(empty);
+        return;
+      }
+
+      match.history.forEach((entry) => {
+        const row = document.createElement('div');
+        row.className = 'list-group-item';
+        row.innerHTML = `
+          <div class="d-flex justify-content-between align-items-start">
+            <div>
+              <strong>${entry.playerName}</strong> recorded <strong>${STAT_LABELS[entry.statKey]}</strong>
+            </div>
+            <small class="text-muted ml-3">${formatDate(entry.createdAt)}</small>
+          </div>
+        `;
+        els.historyLog.appendChild(row);
+      });
+    }
+
+    function renderTeamBanners(match) {
+      const teamAPlayers = teamPlayers(match, 0).map((player) => player.name).join(' + ');
+      const teamBPlayers = teamPlayers(match, 1).map((player) => player.name).join(' + ');
+      const teamAStats = teamTotals(match, 0);
+      const teamBStats = teamTotals(match, 1);
+
+      els.teamAName.textContent = teamAPlayers;
+      els.teamBName.textContent = teamBPlayers;
+      els.teamAWinner.textContent = teamAStats.winner;
+      els.teamAUnforced.textContent = teamAStats.unforcedError;
+      els.teamAError.textContent = teamAStats.error;
+      els.teamBWinner.textContent = teamBStats.winner;
+      els.teamBUnforced.textContent = teamBStats.unforcedError;
+      els.teamBError.textContent = teamBStats.error;
+    }
+
+    function render() {
+      const match = getCurrentMatch();
+      renderMatches();
+
+      if (!match) return;
+
+      els.currentMatchName.value = match.name;
+      els.undoBtn.disabled = match.history.length === 0;
+      renderTeamBanners(match);
+      renderPlayers(match);
+      renderSummary(match);
+      renderHistory(match);
+    }
+
+    els.newMatchBtn.addEventListener('click', createNewMatch);
+    els.currentMatchName.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        els.currentMatchName.blur();
+      }
+    });
+    els.currentMatchName.addEventListener('blur', updateCurrentMatchName);
+    els.undoBtn.addEventListener('click', undoLastAction);
+    els.resetMatchBtn.addEventListener('click', resetCurrentMatch);
+
+    render();
+  })();
+</script>
+
+    </main><footer class="container-fluid border-top d-print-none">
+  <div class="row">
+
+    <div class="col-12 p-3">
+
+      <ul class="list-unstyled">
+        <li class="">Viktor Smári Ágústuson</li><li><a class="u-email" href="mailto:viktorsmari@gmail.com">viktorsmari@gmail.com</a></li></ul>
+
+      <div class="social"><ul class="list-unstyled"><li><a href="https://github.com/viktorsmari"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">viktorsmari</span></a></li><li><a href="https://www.linkedin.com/in/viktorsmari"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">viktorsmari</span></a></li><li><a href="https://www.twitter.com/viktorsmar"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">viktorsmar</span></a></li><li><a href="https://youtube.com/viktorsmari"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#youtube"></use></svg> <span class="username">viktorsmari</span></a></li><li><a href="https://repero.me" target="_blank" title="Software for repair shops">I am working on software for repair shops: Repero.me</a></li>
+</ul>
+</div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Search -->
+    <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+    <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=011461112018472943390:cdj0rjwsfbe"></script>
+
+  </body>
+
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="http://viktorsmari.github.io{url}">{title}</a></li>'
+    })
+  </script>
+
+</html>
